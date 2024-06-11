@@ -1,0 +1,39 @@
+{
+    "store.custom#formas-de-pagamento": {
+      "blocks": ["flex-layout.row#formas-de-pagamento"],
+      "props":{
+        "blockClass": "formas-de-pagamento"
+      }
+    },
+
+    "flex-layout.row#formas-de-pagamento":{
+
+      "children": [ "flex-layout.col#formas-de-pagamento"],
+      "props":{
+        "blockClass": "formas-de-pagamento-conteudo"
+      }
+    },
+
+    "flex-layout.col#formas-de-pagamento":{
+
+        "children": [ "rich-text#formas-de-pagamento-titulo","rich-text#formas-de-pagamento-texto"]
+    },
+
+ 
+
+    "rich-text#formas-de-pagamento-titulo": {
+        "props": {
+          "text": "## FORMAS DE PAGAMENTO"
+        }
+      },
+
+
+ 
+
+    "rich-text#formas-de-pagamento-texto": {
+        "props": {
+          "text": "**Posso pagar com boleto?** \n \n O boleto bancário só deverá ser utilizado nas compras à vista. \n \n Após a concretização de sua compra em nosso portal, você deverá imprimir o seu boleto para efetuar o pagamento em qualquer agência bancária. Na impossibilidade de imprimir, faça o pagamento do boleto pelo Home Banking de seu banco. Para isso, utilize o código de barras localizado na parte superior esquerda da ficha de compensação do boleto até data do vencimento. O prazo de entrega passará a vigorar após a confirmação do seu pagamento, que acontece em 03 dias úteis, no caso de pagamento em dinheiro, em até 02 dias úteis. \n \n **Cartões de Crédito** \n \n Se preferir, você pode parcelar suas compras no cartão de crédito. Nossa loja virtual aceita os cartões Mastercard, Visa, Dinners, Hipercard, Amex, Elo. A partir da constatação da aprovação de crédito pela sua operadora, o prazo de entrega passa a vigorar. Essa é a forma mais rápida de processar o seu pedido. \n \n Na hora de optar pelo pagamento parcelado no cartão, você deve levar em consideração o valor total da compra e não somente o valor da parcela. Este valor deve estar dentro do limite total de seu cartão de crédito., \n \n Aceitamos pagamento parcelado em até 10X sem juros nos cartões de crédito para parcelas acima de R$10,00."
+        }
+      }
+
+}

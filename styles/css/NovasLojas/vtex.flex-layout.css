@@ -1,0 +1,25 @@
+.flexRow--Ns-Container{
+    max-width: 1044px;
+    width: 100%;
+    margin: 0 auto;
+}
+.flexRow--NS-ImageContainer{
+    max-width: 1044px;
+}
+.flexRowContent--NS-Desc{
+    background-color: white;
+    justify-content: space-around;
+    align-items: start;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.flexRowContent--NS-Desc .stretchChildrenWidth{
+    width: fit-content !important;
+}
+.flexRow--NS-TitleContainer .flexColChild{
+    width: fit-content !important;
+}
+.flexRow--NS-TitleContainer .flexCol{
+    align-items: center;
+    justify-content: center;
+}

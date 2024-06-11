@@ -1,0 +1,606 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop",
+      "EditDataLayer",
+      "sticky-layout#5-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "sticky-layout#5-desktop": {
+    "props": {
+      "blockClass": "sticky-header-menu"
+    },
+    "children": [
+      "flex-layout.row#5-desktop"
+    ]
+  },
+  "flex-layout.row#5-desktop": {
+    "props": {
+      "blockClass": "main-header-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logotipo-io.png",
+      "width": "174",
+      "height": "25"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "EditDataLayer",
+      "search-bar"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "rich-text#menumobile",
+      "vtex.menu@2.x:menu#todas-categorias-mobile",
+      "vtex.menu@2.x:menu#audio-mobile",
+      "vtex.menu@2.x:menu#instrumentos-de-cordas-mobile",
+      "vtex.menu@2.x:menu#estudio-mobile",
+      "vtex.menu@2.x:menu#Home-Theater",
+      "vtex.menu@2.x:menu#instrumentos-de-percussao-mobile",
+      "vtex.menu@2.x:menu#instrumentos-de-sopro-mobile",
+      "vtex.menu@2.x:menu#instrumentos-de-teclas-mobile",
+      "vtex.menu@2.x:menu#som-ambiente-mobile",
+      // "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#category-nossas-lojas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#menumobile": {
+    "props": {
+      "text": "Menu",
+      "blockClass": "titulo-menu-mobile"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logotipo-io.png",
+      "width": "115",
+      "height": "17"
+    }
+  },
+  "vtex.menu@2.x:menu#todas-categorias-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-todas-categorias-mobile"
+    },
+    "children": [
+      "menu-item#todas-categorias-mobile"
+    ]
+  },
+  "menu-item#todas-categorias-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Todas Categorias teste",
+        "text": "Todas Categorias"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#todas-categorias"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#todas-categorias": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-todas-categorias-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-todas-categorias-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-geral-audio",
+      "menu-item#category-geral-cordas",
+      "menu-item#category-geral-estudio",
+      "menu-item#category-geral-home-theater",
+      "menu-item#category-geral-home-percussao",
+      "menu-item#category-geral-home-som-ambiente",
+      "menu-item#category-geral-home-sopro",
+      "menu-item#category-geral-home-teclas",
+      "menu-item#category-geral-home-video",
+      "menu-item#category-geral-home-promocoes"
+    ]
+  },
+  "vtex.menu@2.x:menu#audio-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-audio-mobile"
+    },
+    "children": [
+      "menu-item#audio-mobile"
+    ]
+  },
+  "menu-item#audio-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Áudio",
+        "text": "Áudio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#audio"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#audio": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-audio-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-audio-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-audio",
+      "menu-item#category-audio-acessorios",
+      "menu-item#category-audio-alto-falantes",
+      "menu-item#category-audio-amplificadores",
+      "menu-item#category-audio-caixas-acusticas",
+      "menu-item#category-audio-directbox",
+      "menu-item#category-audio-energia",
+      "menu-item#category-audio-equipamentos-dj",
+      "menu-item#category-audio-fones-de-ouvido",
+      "menu-item#category-audio-mesas-de-som",
+      "menu-item#category-audio-microfones",
+      "menu-item#category-audio-monitores-sem-fio",
+      "menu-item#category-audio-phantom-power",
+      "menu-item#category-audio-processadores-de-sinal",
+      "menu-item#audiovertodosmobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#som-ambiente-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-audio-mobile"
+    },
+    "children": [
+      "menu-item#som-ambiente-mobile"
+    ]
+  },
+  "menu-item#som-ambiente-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Som Ambiente",
+        "text": "Som Ambiente"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#som-ambiente-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#som-ambiente-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#ssom-ambiente-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#ssom-ambiente-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-principal-som-ambiente",
+      "menu-item#category-principal-som-auto-falantes",
+      "menu-item#category-principal-som-ambiente-amplificadores",
+      "menu-item#category-principal-som-ambiente-base-de-microfones",
+      "menu-item#category-principal-som-ambiente-cabos",
+      "menu-item#category-principal-som-ambiente-caixas-acusticas",
+      "menu-item#category-principal-som-ambiente-cornetas",
+      "menu-item#category-principal-som-ambiente-megafones",
+      "menu-item#category-principal-som-ambiente-microfones",
+      "menu-item#category-principal-som-ambiente-potenciometros",
+      "menu-item#category-principal-som-ambiente-pre-amplificadores",
+      "menu-item#category-principal-som-ambiente-seletores",
+      "menu-item#category-principal-som-ambiente-suportes",
+      "menu-item#category-principal-som-transformadores"
+    ]
+  },
+  "vtex.menu@2.x:menu#instrumentos-de-cordas-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-instrumentos-de-cordas-mobile"
+    },
+    "children": [
+      "menu-item#instrumentos-cordas-mobile"
+    ]
+  },
+  "menu-item#instrumentos-cordas-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Cordas",
+        "text": "Cordas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#instrumentos-de-cordas"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#instrumentos-de-cordas": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-instrumentos-de-cordas-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-instrumentos-de-cordas-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-cordas",
+      "menu-item#category-instrumentos-cordas-acessorios",
+      "menu-item#category-instrumentos-cordas-amplificadores",
+      "menu-item#category-instrumentos-cordas-baixoloes",
+      "menu-item#category-instrumentos-cordas-bandolins",
+      "menu-item#category-instrumentos-cordas-banjos",
+      "menu-item#category-instrumentos-cordas-cavaquinhoa",
+      "menu-item#category-instrumentos-cordas-contrabaixos",
+      "menu-item#category-instrumentos-cordas-guitarras",
+      "menu-item#category-instrumentos-cordas-interfaces",
+      "menu-item#category-instrumentos-cordas-pedais",
+      "menu-item#category-instrumentos-cordas-pedaleiras",
+      "menu-item#category-instrumentos-cordas-ukuleles",
+      "menu-item#category-instrumentos-cordas-viola-de-arco",
+      "menu-item#category-instrumentos-cordas-violas",
+      "menu-item#category-instrumentos-cordas-violinos",
+      "menu-item#category-instrumentos-cordas-violoes",
+      "menu-item#category-instrumentos-cordas-violoncelos",
+      "menu-item#cordasvertodosmobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#instrumentos-de-percussao-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-instrumentos-de-percussao-mobile"
+    },
+    "children": [
+      "menu-item#instrumentos-percussao-mobile"
+    ]
+  },
+  "menu-item#instrumentos-percussao-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Percussão",
+        "text": "Percussão"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#instrumentos-de-percussao"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#instrumentos-de-percussao": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-instrumentos-de-percussao-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-instrumentos-de-percussao-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-percussao",
+      "menu-item#category-instrumentos-percussao-acessorios",
+      "menu-item#category-instrumentos-percussao-afuche",
+      "menu-item#category-instrumentos-percussao-agogo",
+      "menu-item#category-instrumentos-percussao-atabaque",
+      "menu-item#category-instrumentos-percussao-baterias",
+      "menu-item#category-instrumentos-percussao-bateron",
+      "menu-item#category-instrumentos-percussao-bloco-sonoro",
+      "menu-item#category-instrumentos-percussao-bongo",
+      "menu-item#category-instrumentos-percussao-cajon",
+      "menu-item#category-instrumentos-percussao-carrilhao",
+      "menu-item#category-instrumentos-percussao-caxixi",
+      "menu-item#category-instrumentos-percussao-conga",
+      "menu-item#category-instrumentos-percussao-cowbell",
+      "menu-item#category-instrumentos-percussao-cuica",
+      "menu-item#category-instrumentos-percussao-djembe",
+      "menu-item#category-instrumentos-percussao-ganza",
+      "menu-item#category-instrumentos-percussao-malacacheta",
+      "menu-item#category-instrumentos-percussao-maracas",
+      "menu-item#category-instrumentos-percussao-modulo",
+      "menu-item#category-instrumentos-percussao-ovinho",
+      "menu-item#category-instrumentos-percussao-pandeiro",
+      "menu-item#category-instrumentos-percussao-queixada",
+      "menu-item#category-instrumentos-percussao-rebolo",
+      "menu-item#category-instrumentos-percussao-reco-reco",
+      "menu-item#category-instrumentos-percussao-repinique",
+      "menu-item#category-instrumentos-percussao-repique",
+      "menu-item#category-instrumentos-percussao-surdo",
+      "menu-item#category-instrumentos-percussao-tamborim",
+      "menu-item#category-instrumentos-percussao-tantam",
+      "menu-item#category-instrumentos-percussao-tarol",
+      "menu-item#category-instrumentos-percussao-timba",
+      "menu-item#category-instrumentos-percussao-timbal",
+      "menu-item#category-instrumentos-percussao-timbales",
+      "menu-item#category-instrumentos-percussao-tiangulo",
+      "menu-item#category-instrumentos-percussao-washboard",
+      "menu-item#category-instrumentos-percussao-zabumba",
+      "menu-item#percussaosvertodosmobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#instrumentos-de-sopro-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-instrumentos-de-sopro-mobile"
+    },
+    "children": [
+      "menu-item#instrumentos-sopro-mobile"
+    ]
+  },
+  "menu-item#instrumentos-sopro-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sopro",
+        "text": "Sopro"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#instrumentos-de-sopro"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#instrumentos-de-sopro": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-instrumentos-de-sopro-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-instrumentos-de-sopro-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-sopro",
+      "menu-item#category-instrumentos-sopro-acessorios",
+      "menu-item#category-instrumentos-sopro-bombardinos",
+      "menu-item#category-instrumentos-sopro-clarinetas",
+      "menu-item#category-instrumentos-sopro-escaletas",
+      "menu-item#category-instrumentos-sopro-flautas",
+      "menu-item#category-instrumentos-sopro-gaitas",
+      "menu-item#category-instrumentos-sopro-kazdos",
+      "menu-item#category-instrumentos-sopro-saxofones",
+      "menu-item#category-instrumentos-sopro-trombones",
+      "menu-item#category-instrumentos-sopro-trompetes",
+      "menu-item#soprosvertodosmobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#instrumentos-de-teclas-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-instrumentos-de-teclas-mobile"
+    },
+    "children": [
+      "menu-item#instrumentos-teclas-mobile"
+    ]
+  },
+  "menu-item#instrumentos-teclas-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Teclas",
+        "text": "Teclas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#instrumentos-de-teclas"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#instrumentos-de-teclas": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-instrumentos-de-teclas-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-instrumentos-de-teclas-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-teclas",
+      "menu-item#category-instrumentos-teclas-acessorios",
+      "menu-item#category-instrumentos-teclas-acordeons",
+      "menu-item#category-instrumentos-teclas-amplificadores",
+      "menu-item#category-instrumentos-teclas-controladores",
+      "menu-item#category-instrumentos-teclas-pianos",
+      "menu-item#category-instrumentos-teclas-sintetizadores",
+      "menu-item#category-instrumentos-teclados",
+      "menu-item#teclasvertodosmobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#Home-Theater": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-Home-Theater"
+    },
+    "children": [
+      "menu-item#Home-Theater"
+    ]
+  },
+  "vtex.menu@2.x:menu#estudio-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-estudio-mobile"
+    },
+    "children": [
+      "menu-item#estudio-mobile"
+    ]
+  },
+  "menu-item#estudio-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Estúdio",
+        "text": "Estúdio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#estudio"
+    ]
+  },
+  "menu-item#Home-Theater": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Home Theater",
+        "text": "Home Theater"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#Home-Theater"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#Home-Theater": {
+    "children": [
+      "vtex.menu@2.x:menu#category-home-theater"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#estudio": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-estudio-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-estudio-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-estudio-acessorios",
+      "menu-item#category-estudio-controladores",
+      "menu-item#category-estudio-conversores-de-audio",
+      "menu-item#category-estudio-fones-de-ouvido",
+      "menu-item#category-estudio-gravadores",
+      "menu-item#category-estudio-interfaces-de-audio",
+      "menu-item#category-estudio-mesas-de-som",
+      "menu-item#category-estudio-microfones",
+      "menu-item#category-estudio-mixer-de-video",
+      "menu-item#category-estudio-monitores",
+      "menu-item#category-estudio-pre-amplificadores",
+      "menu-item#category-estudio-software-e-plugins",
+      "menu-item#category-estudio-subwoofers",
+      "menu-item#category-estudio-vara-de-boom",
+      "menu-item#estudiovertodosmobile"
+    ]
+  }
+}

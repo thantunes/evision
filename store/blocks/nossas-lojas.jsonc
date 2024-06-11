@@ -1,0 +1,936 @@
+{
+    "store.custom#nossas-lojas": {
+      "blocks": [
+        "flex-layout.row#nossas-lojas-banner", 
+        "flex-layout.row#nossas-lojas-bloco",
+        "flex-layout.row#nossas-lojas-bloco2",
+        "flex-layout.row#nossas-lojas-bloco3",
+        "flex-layout.row#nossas-lojas-bloco4",
+        "flex-layout.row#nossas-lojas-bloco5",
+        "flex-layout.row#nossas-lojas-bloco6"
+      
+      ]
+    },
+
+    "flex-layout.row#nossas-lojas-banner":{
+      "children": [ "flex-layout.col#nossas-lojas-banner-1","flex-layout.col#nossas-lojas-banner-2"],
+      "props":{
+        "blockClass": "nossas-lojas-banner"
+      }
+    },
+
+    "flex-layout.col#nossas-lojas-banner-1":{
+      "children": ["rich-text#nossas-lojas-banner-title"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#nossas-lojas-banner-2":{
+      "children": ["rich-text#nossas-lojas-banner-subtitle"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-subtitle"
+      }
+
+    },
+
+    "rich-text#nossas-lojas-banner-title": {
+      "props": {
+        "text": "## NINJA SOM"
+      }
+    },
+
+    "rich-text#nossas-lojas-banner-subtitle": {
+      "props": {
+        "text": "# NOSSAS LOJAS"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-bloco": {
+      "children": ["flex-layout.row#nnossas-lojas-bloco1", "flex-layout.row#nnossas-lojas-bloco2"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-bloco1": {
+      "children": ["image#nossas-lojas", "flex-layout.col#text-nossas-lojas"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas": {
+      "children": [
+        "rich-text#nossas-lojas-title", 
+        "rich-text#nossas-lojas-end",
+        "rich-text#nossas-lojas-end-cont",
+        "rich-text#nossas-lojas-end-cep",
+        "rich-text#nossas-lojas-end-telefone-loja",
+        "rich-text#nossas-lojas-end-como-chegar",
+        "rich-text#nossas-lojas-televendas-todo-brasil",
+        "rich-text#nossas-lojas-whatsapp",
+        "rich-text#nossas-lojas-0-800",
+        "rich-text#nossas-lojas-email"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title": {
+      "props": {
+        "text": "#### MATRIZ - SP",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end": {
+      "props": {
+        "text": "Rua Santa Ifigênia, 562",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont": {
+      "props": {
+        "text": "Santa Efigênia - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep": {
+      "props": {
+        "text": "CEP: 01207-000",
+        "blockClass": "cep"
+      }
+    },
+    "rich-text#nossas-lojas-end-telefone-loja": {
+      "props": {
+        "text": "(11) 3362-8000",
+        "blockClass": "telefone-fixo"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-como-chegar": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com.br/maps/dir//Ninja%20Pr%C3%83%C2%B3%20%C3%83%C2%81udio%20-%20R.%20dos%20Andradas,%20n%C3%82%C2%B0%20392%20-%20Santa%20Ifig%C3%83%C2%AAnia,%20S%C3%83%C2%A3o%20Paulo%20-%20SP,%2001208-000/@-23.5369292,-46.64112,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5972b2b40155:0x29c8abda6c582deb!2m2!1d-46.6389313!2d-23.5369341)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+    "rich-text#nossas-lojas-televendas-todo-brasil": {
+      "props": {
+        "text": "TELEVENDAS - (TODO BRASIL)",
+        "blockClass": "titulo-televendas-nossas-lojas"
+      }
+    },
+
+    "rich-text#nossas-lojas-whatsapp": {
+      "props": {
+        "text": "[(11) 3224-2699](https://whts.co/ninja-tele-0800?)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-800": {
+      "props": {
+        "text": "0800 777 2690",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-email": {
+      "props": {
+        "text": "vendas@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas": {
+      "props": {
+        "src": "/arquivos/loja-matriz.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-bloco2": {
+      "children": ["image#nossas-lojas2", "flex-layout.col#text-nossas-lojas2"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas2": {
+      "children": [
+        "rich-text#nossas-lojas-title2", 
+        "rich-text#nossas-lojas-end2",
+        "rich-text#nossas-lojas-end-cont2",
+        "rich-text#nossas-lojas-end-cep2",
+        "rich-text#nossas-lojas-end-como-chegar2",
+        "rich-text#nossas-lojas-whatsapp2",
+        "rich-text#nossas-lojas-0-8002",
+        "rich-text#nossas-lojas-email2"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title2": {
+      "props": {
+        "text": "#### SANTA IFIGÊNIA - SP",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end2": {
+      "props": {
+        "text": "Rua Santa Ifigênia, 226",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont2": {
+      "props": {
+        "text": "Santa Efigênia - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep2": {
+      "props": {
+        "text": "CEP: 01207-000",
+        "blockClass": "cep"
+      }
+    },
+ 
+
+    "rich-text#nossas-lojas-end-como-chegar2": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20Filial-SP%20-%20R.%20Santa%20Ifig%C3%83%C2%AAnia,%20226%20-%20Santa%20Ifig%C3%83%C2%AAnia,%20S%C3%83%C2%A3o%20Paulo%20-%20SP,%2001207-000/@-23.5395763,-46.6421265,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5910fc42c875:0x6d4691912c6b62d!2m2!1d-46.6381478!2d-23.5397539)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+
+    
+    "rich-text#nossas-lojas-whatsapp2": {
+      "props": {
+        "text": "[(11) 3334-2444](https://whts.co/ninjasom-filial)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8002": {
+      "props": {
+        "text": "(11) 3334-2444",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-email2": {
+      "props": {
+        "text": "filialsp@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas2": {
+      "props": {
+        "src": "/arquivos/loja-sta-ifigenia.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+
+    "flex-layout.row#nossas-lojas-bloco2": {
+      "children": ["flex-layout.row#nnossas-lojas-bloco3", "flex-layout.row#nnossas-lojas-bloco4"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-bloco3": {
+      "children": ["image#nossas-lojas3", "flex-layout.col#text-nossas-lojas3"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas3": {
+      "children": [
+        "rich-text#nossas-lojas-title3", 
+        "rich-text#nossas-lojas-end3",
+        "rich-text#nossas-lojas-end-cont3",
+        "rich-text#nossas-lojas-end-cep3",
+        "rich-text#nossas-lojas-end-como-chegar3",
+        "rich-text#nossas-lojas-whatsapp3",
+        "rich-text#nossas-lojas-0-8003",
+        "rich-text#nossas-lojas-email3"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title3": {
+      "props": {
+        "text": "#### NINJA PRO AUDIO",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end3": {
+      "props": {
+        "text": "Rua dos Andradas, 392",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont3": {
+      "props": {
+        "text": "Santa Efigênia - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep3": {
+      "props": {
+        "text": "CEP: 01208-000",
+        "blockClass": "cep"
+      }
+    },
+ 
+
+    "rich-text#nossas-lojas-end-como-chegar3": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com.br/maps/dir//Ninja%20Pr%C3%83%C2%B3%20%C3%83%C2%81udio%20-%20R.%20dos%20Andradas,%20n%C3%82%C2%B0%20392%20-%20Santa%20Ifig%C3%83%C2%AAnia,%20S%C3%83%C2%A3o%20Paulo%20-%20SP,%2001208-000/@-23.5369292,-46.64112,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5972b2b40155:0x29c8abda6c582deb!2m2!1d-46.6389313!2d-23.5369341)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-whatsapp3": {
+      "props": {
+        "text": "[(11) 3150-3822](https://whts.co/ninjasom-andradas)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8003": {
+      "props": {
+        "text": "(11) 3150-3822",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+  
+    "rich-text#nossas-lojas-email3": {
+      "props": {
+        "text": "vendas@ninjaproaudio.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas3": {
+      "props": {
+        "src": "/arquivos/loja-andradas.png",
+        "maxHeight": "265px"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-bloco4": {
+      "children": ["image#nossas-lojas4", "flex-layout.col#text-nossas-lojas4"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas4": {
+      "children": [
+        "rich-text#nossas-lojas-title4", 
+        "rich-text#nossas-lojas-end4",
+        "rich-text#nossas-lojas-end-cont4",
+        "rich-text#nossas-lojas-end-cep4",
+        "rich-text#nossas-lojas-end-como-chegar4",
+        "rich-text#nossas-lojas-whatsapp4",
+        "rich-text#nossas-lojas-0-8004",
+        "rich-text#nossas-lojas-email4"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title4": {
+      "props": {
+        "text": "#### PINHEIROS",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end4": {
+      "props": {
+        "text": "Rua Teodoro Sampaio, 725",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont4": {
+      "props": {
+        "text": "Pinheiros - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep4": {
+      "props": {
+        "text": "CEP: 05405-050",
+        "blockClass": "cep"
+      }
+    },
+ 
+    "rich-text#nossas-lojas-end-como-chegar4": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20-%20Musical%20-%20R.%20Teodoro%20Sampaio,%20725%20-%20Jardim%20Paulista,%20S%C3%83%C2%A3o%20Paulo%20-%20SP,%2005405-050/@-23.5575392,-46.6794558,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5784650111d7:0xc9c92a03bacc091e!2m2!1d-46.677279!2d-23.5575276)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+    "rich-text#nossas-lojas-whatsapp4": {
+      "props": {
+        "text": "[(11) 3550-9999](https://whts.co/ninjasom-teodoro)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8004": {
+      "props": {
+        "text": "(11) 3550-9999",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+    
+    "rich-text#nossas-lojas-email4": {
+      "props": {
+        "text": "vendas@ninjamusical.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas4": {
+      "props": {
+        "src": "/arquivos/loja-pinheiros.png",
+        "maxHeight": "265px"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-bloco3": {
+      "children": ["flex-layout.row#nnossas-lojas-bloco5", "flex-layout.row#nnossas-lojas-bloco6"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-bloco5": {
+      "children": ["image#nossas-lojas5", "flex-layout.col#text-nossas-lojas5"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas5": {
+      "children": [
+        "rich-text#nossas-lojas-title5", 
+        "rich-text#nossas-lojas-end5",
+        "rich-text#nossas-lojas-end-cont5",
+        "rich-text#nossas-lojas-end-cep5",
+        "rich-text#nossas-lojas-end-como-chegar5",
+        "rich-text#nossas-lojas-whatsapp5",
+        "rich-text#nossas-lojas-0-8005",
+        "rich-text#nossas-lojas-email5" 
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title5": {
+      "props": {
+        "text": "#### SANTO ANDRÉ - ABC",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end5": {
+      "props": {
+        "text": "Avenida Portugal, 702",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont5": {
+      "props": {
+        "text": "Centro - Santo André",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep5": {
+      "props": {
+        "text": "CEP: 09040-001",
+        "blockClass": "cep"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-como-chegar5": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20ABC%20-%20Av.%20Portugal,%20702%20-%20Centro,%20Santo%20Andr%C3%83%C2%A9%20-%20SP,%2009040-001/@-23.6618927,-46.53538,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce43289241c93f:0x3ed29fb039d81533!2m2!1d-46.5331913!2d-23.6618976)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+    "rich-text#nossas-lojas-whatsapp5": {
+      "props": {
+        "text": "[(11) 4438-6166](https://whts.co/ninjasom-abc)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8005": {
+      "props": {
+        "text": "(11) 4438-6166",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+
+    "rich-text#nossas-lojas-email5": {
+      "props": {
+        "text": "vendasabc@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas5": {
+      "props": {
+        "src": "/arquivos/loja-santo-andre.png",
+        "maxHeight": "265px"
+      }
+    },
+ 
+    "flex-layout.row#nnossas-lojas-bloco6": {
+      "children": ["image#nossas-lojas6", "flex-layout.col#text-nossas-lojas6"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas6": {
+      "children": [
+        "rich-text#nossas-lojas-title6", 
+        "rich-text#nossas-lojas-end6",
+        "rich-text#nossas-lojas-end-cont6",
+        "rich-text#nossas-lojas-end-cep6",
+        "rich-text#nossas-lojas-end-como-chegar6",
+        "rich-text#nossas-lojas-whatsapp6",
+        "rich-text#nossas-lojas-0-8006",
+        "rich-text#nossas-lojas-email6"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title6": {
+      "props": {
+        "text": "#### CAMPINAS",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end6": {
+      "props": {
+        "text": "Avenida Brasil, 1285",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont6": {
+      "props": {
+        "text": "Jardim Guanabara - Campinas",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep6": {
+      "props": {
+        "text": "CEP: 13073-148",
+        "blockClass": "cep"
+      }
+    },
+ 
+
+    "rich-text#nossas-lojas-end-como-chegar6": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com.br/maps/dir//Ninja%20Som%20Campinas%20-%20%C3%83%C2%81udio%20e%20Instrumentos%20Musicais%20-%20Av.%20Brasil,%20n%C3%82%C2%BA1163%20-%20Jardim%20Guanabara,%20Campinas%20-%20SP,%2013073-148/@-22.8861679,-47.070701,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94c8c703abee307f:0x39635e5b81b22880!2m2!1d-47.0685123!2d-22.8861729)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+
+    "rich-text#nossas-lojas-whatsapp6": {
+      "props": {
+        "text": "[(19) 3307-1935](https://whts.co/ninjasom-campinas)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8006": {
+      "props": {
+        "text": "(19) 3307-1935",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    
+    "rich-text#nossas-lojas-email6": {
+      "props": {
+        "text": "campinas@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas6": {
+      "props": {
+        "src": "/arquivos/loja-campinas.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nossas-lojas-bloco4": {
+      "children": ["flex-layout.row#nnossas-lojas-bloco7", "flex-layout.row#nnossas-lojas-bloco8"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-bloco7": {
+      "children": ["flex-layout.col#image-nossas-lojas7", "flex-layout.col#text-nossas-lojas7"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas7": {
+      "children": [
+        "rich-text#nossas-lojas-title7", 
+        "rich-text#nossas-lojas-end7",
+        "rich-text#nossas-lojas-end-cont7",
+        "rich-text#nossas-lojas-end-cep7",
+        "rich-text#nossas-lojas-end-como-chegar7",
+        "rich-text#nossas-lojas-whatsapp7",
+        "rich-text#nossas-lojas-0-8007",
+        "rich-text#nossas-lojas-email7",
+        "image#logo-shopping-sjc-mobile",
+        "rich-text#conveniosjc"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+
+
+    "flex-layout.col#image-nossas-lojas7": {
+      "children": ["image#nossas-lojas7","image#logo-shopping-sjc"]
+
+    },
+
+
+
+
+
+    "rich-text#nossas-lojas-title7": {
+      "props": {
+        "text": "#### SÃO JOSE DOS CAMPOS",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end7": {
+      "props": {
+        "text": "Rua Rubião Júnior, 279",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont7": {
+      "props": {
+        "text": "Centro - São José dos Campos",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep7": {
+      "props": {
+        "text": "CEP: 12210-180",
+        "blockClass": "cep"
+      }
+    },
+ 
+    "rich-text#nossas-lojas-end-como-chegar7": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/place/R.%20Rubi%C3%83%C2%A3o%20J%C3%83%C2%BAnior,%20279%20-%20Centro,%20S%C3%83%C2%A3o%20Jos%C3%83%C2%A9%20dos%20Campos%20-%20SP,%2012210-180/@-23.1839434,-45.8861622,17z/data=!4m6!3m5!1s0x94cc4a3d41be0803:0xa8430449fe97c836!8m2!3d-23.1836671!4d-45.883975!16s/g/11c4lxvk7p)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+    "rich-text#nossas-lojas-whatsapp7": {
+      "props": {
+        "text": "[(12) 3513-0363](https://whts.co/ninjasom-sjc)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8007": {
+      "props": {
+        "text": "(12) 3513-0363",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-email7": {
+      "props": {
+        "text": "vendassjc@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#logo-shopping-sjc": {
+      "props": {
+        "src": "/arquivos/logo-shopping-sjc.png",
+        "maxWidth": "230px",
+        "blockClass": "nossas-lojas-logo-estacionamento-sjc"
+      }
+    },
+
+    "image#logo-shopping-sjc-mobile": {
+      "props": {
+        "src": "/arquivos/logo-shopping-sjc.png",
+        "maxWidth": "230px",
+        "blockClass": "nossas-lojas-logo-estacionamento-sjc-mobile"
+      }
+    },
+
+    "rich-text#conveniosjc": {
+      "props": {
+        "text": "**Convênio com o estacionamento do Mont Mall Shopping** \n Rua Rubião Junior número 290 - Centro",
+        "blockClass": "nossas-lojas-estacionamento-sjc"
+      }
+    },
+
+
+
+
+    "image#nossas-lojas7": {
+      "props": {
+        "src": "/arquivos/loja-sap-jose-dos-campos.png",
+        "maxHeight": "265px"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-bloco8": {
+      "children": ["image#nossas-lojas8", "flex-layout.col#text-nossas-lojas8"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas8": {
+      "children": [
+        "rich-text#nossas-lojas-title8", 
+        "rich-text#nossas-lojas-end8",
+        "rich-text#nossas-lojas-end-cont8",
+        "rich-text#nossas-lojas-end-cep8",
+        "rich-text#nossas-lojas-end-como-chegar8",
+        "rich-text#nossas-lojas-whatsapp8",
+        "rich-text#nossas-lojas-0-8008",
+        "rich-text#nossas-lojas-email8"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title8": {
+      "props": {
+        "text": "#### BELO HORIZONTE",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end8": {
+      "props": {
+        "text": "Avenida Olegário Maciel, 131",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont8": {
+      "props": {
+        "text": "Centro - Belo Horizonte",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep8": {
+      "props": {
+        "text": "CEP: 30180-110",
+        "blockClass": "cep"
+      }
+    },
+ 
+
+    "rich-text#nossas-lojas-end-como-chegar8": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20BH%20-%20Av.%20Oleg%C3%83%C2%A1rio%20Maciel,%20131%20-%20Centro,%20Belo%20Horizonte%20-%20MG,%2030180-110/@-19.9158792,-43.9451972,17z/data=!4m16!1m6!3m5!1s0xa6996955b5613b:0x3e8f107403b1a67b!2sNinja%20Som%20BH!8m2!3d-19.9158792!4d-43.9430085!4m8!1m0!1m5!1m1!1s0xa6996955b5613b:0x3e8f107403b1a67b!2m2!1d-43.9430085!2d-19.9158792!3e2?hl=pt)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+    "rich-text#nossas-lojas-whatsapp8": {
+      "props": {
+        "text": "[(31) 3654-4276](https://whts.co/ninjasom-bh)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8008": {
+      "props": {
+        "text": "(31) 3654-4276",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+ 
+    "rich-text#nossas-lojas-email8": {
+      "props": {
+        "text": "vendasbh@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas8": {
+      "props": {
+        "src": "/arquivos/loja-belo-horizonte.png",
+        "maxHeight": "265px"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-bloco5": {
+      "children": ["flex-layout.row#nnossas-lojas-bloco9","flex-layout.row#nnossas-lojas-bloco10"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-bloco9": {
+      "children": ["image#nossas-lojas9", "flex-layout.col#text-nossas-lojas9"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-lojas9": {
+      "children": [
+        "rich-text#nossas-lojas-title9", 
+        "rich-text#nossas-lojas-end9",
+        "rich-text#nossas-lojas-end-cont9",
+        "rich-text#nossas-lojas-end-cep9",
+        "rich-text#nossas-lojas-end-como-chegar9",
+        "rich-text#nossas-lojas-whatsapp9",
+        "rich-text#nossas-lojas-0-8009",
+        "rich-text#nossas-lojas-email9"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-title9": {
+      "props": {
+        "text": "#### PORTO ALEGRE",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end9": {
+      "props": {
+        "text": "Rua Coronel Vicente, 434",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-end-cont9": {
+      "props": {
+        "text": "Centro - Porto Alegre",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-end-cep9": {
+      "props": {
+        "text": "CEP: 90030-040",
+        "blockClass": "cep"
+      }
+    },
+ 
+
+    "rich-text#nossas-lojas-end-como-chegar9": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com.br/maps/place/R.+Cel.+Vicente,+434+-+Centro+Hist%C3%B3rico,+Porto+Alegre+-+RS,+90030-040/@-30.0273991,-51.2230002,17z/data=!3m1!4b1!4m5!3m4!1s0x951979a7f339591f:0xa5c346e7e2087c01!8m2!3d-30.0274038!4d-51.2208115)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-whatsapp9": {
+      "props": {
+        "text": "[(51) 4066-4700](https://whts.co/ninjasom-poa)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-0-8009": {
+      "props": {
+        "text": "(51) 4066-4700",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    
+    "rich-text#nossas-lojas-email9": {
+      "props": {
+        "text": "vendaspoa@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas9": {
+      "props": {
+        "src": "/arquivos/loja-porto-alegre.png",
+        "maxHeight": "265px"
+      }
+    },
+    "flex-layout.row#nnossas-lojas-bloco10": {
+
+    },
+
+
+ 
+
+    "flex-layout.row#nossas-lojas-bloco6":{
+
+      "children": [ "flex-layout.col#lojas-bloco6"],
+      "props":{
+        "blockClass": "sobre-nos-nossas-lojas"
+      }
+    },
+
+    "flex-layout.col#lojas-bloco6":{
+
+        "children": [ "rich-text#sobre-nos-nossas-lojas-titulo","rich-text#sobre-nos-nossas-lojas-texto"]
+    },
+
+
+    "rich-text#sobre-nos-nossas-lojas-titulo": {
+        "props": {
+          "text": "## SOBRE NÓS"
+        }
+      },
+
+    "rich-text#sobre-nos-nossas-lojas-texto": {
+        "props": {
+          "text": "Hoje a Ninja Som tem uma posição de destaque no mercado brasileiro de áudio profissional e instrumentos musicais no papel como revendedora das melhores marcas nacionais e importadas, trabalhamos com as melhores marcas do meio musical, como, AKG, AMPHENOL, ÁUDIO-TÉCNICA, BEHRINGER, BOSS, BSA, CASIO, CICLOTRON, CRAFTER, CROWN, CSR, D.A.S ÁUDIO, DBX, FENDER, FOCUSRITE, FRAHM, GIANNINI, GOPE, JBL, KORG, KRK, LABGRUPPEN, LESON, MACKIE, MARSHALL, METEORO, NAGANO, NEUTRIK, NEXT PRO, NOVATION, NXA, RCF, REAN BY NEUTRIK, REFERENCE, RMV, ROLAND, SAMSON, SENNHEISER,SHURE, SOUNDCAST, SOUNDCRAFT, STANER, STAY, SUPERLUX, TAGIMA, TASCAM, TSI, UPSAI, VOX, WHIRLWIND, WLS, YAMAHA, YOGA, ZOOM. Disponibilizamos atendimento especial a Instituições de ensino, Igrejas, Órgãos Governamentais, Militares, Agremiações esportivas e Músicos."
+        }
+      }
+
+
+
+
+  }

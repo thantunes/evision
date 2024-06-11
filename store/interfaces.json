@@ -1,0 +1,20 @@
+{
+    "Price-discount-Component":{
+        "component":"PriceDiscount"
+    },
+    "ProductBadge":{
+        "component":"ProductHigh"
+    },
+    "Price-discount-Component-Summary":{
+        "component":"PriceDiscountSummary"
+    },
+    "NossasLojas-Component":{
+        "component":"NossasLojas-Component"
+    },
+    "WWU-form-Component":{
+        "component":"formwwu"
+    },
+    "EditDataLayer":{
+        "component": "datalayerEdit"
+    }
+}

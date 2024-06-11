@@ -1,0 +1,197 @@
+{
+    "store.custom#nossas-lojas-pinheiros": {
+      "blocks": [
+        "flex-layout.row#nossas-lojas-pinheiros-banner", 
+        "flex-layout.row#nossas-lojas-pinheiros-bloco",
+       
+        "flex-layout.row#nossas-lojas-pinheiros-bloco6"
+      
+      ]
+    },
+
+    "flex-layout.row#nossas-lojas-pinheiros-banner":{
+      "children": [ "flex-layout.col#nossas-lojas-pinheiros-banner-1","flex-layout.col#nossas-lojas-pinheiros-banner-2"],
+      "props":{
+        "blockClass": "nossas-lojas-banner"
+      }
+    },
+
+    "flex-layout.col#nossas-lojas-pinheiros-banner-1":{
+      "children": ["rich-text#nossas-lojas-pinheiros-banner-title"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#nossas-lojas-pinheiros-banner-2":{
+      "children": ["rich-text#nossas-lojas-banner-pinheiros-subtitle"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-subtitle"
+      }
+
+    },
+
+    "rich-text#nossas-lojas-pinheiros-banner-title": {
+      "props": {
+        "text": "## PINHEIROS"
+      }
+    },
+
+    "rich-text#nossas-lojas-banner-pinheiros-subtitle": {
+      "props": {
+        "text": "# Rua Teodoro Sampaio, 725"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-pinheiros-bloco": {
+      "children": ["flex-layout.row#nnossas-lojas-pinheiros-bloco1", "flex-layout.row#nnossas-lojas-pinheiros-bloco2"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-pinheiros-bloco1": {
+      "children": ["image#nossas-lojas-pinheiros", "flex-layout.col#text-nossas-pinheiros-lojas"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-pinheiros-lojas": {
+      "children": [
+        "rich-text#nossas-lojas-pinheiros-title", 
+        "rich-text#nossas-lojas-pinheiros-end",
+        "rich-text#nossas-lojas-pinheiros-end-cont",
+        "rich-text#nossas-lojas-pinheiros-end-cep",
+       
+        "rich-text#nossas-lojas-pinheiros-end-como-chegar",
+       
+
+        "rich-text#nossas-lojas-pinheiros-whatsapp",
+        "rich-text#nossas-lojas-pinheiros-0-800",
+        "rich-text#nossas-lojas-pinheiros-email"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-pinheiros-title": {
+      "props": {
+        "text": "####  PINHEIROS",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-pinheiros-end": {
+      "props": {
+        "text": "Rua Teodoro Sampaio, 725",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-pinheiros-end-cont": {
+      "props": {
+        "text": "Pinheiros - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-pinheiros-end-cep": {
+      "props": {
+        "text": "CEP: 05405-050",
+        "blockClass": "cep"
+      }
+    },
+   
+
+    "rich-text#nossas-lojas-pinheiros-end-como-chegar": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja+Som+-+Musical+-+R.+Teodoro+Sampaio,+725+-+Jardim+Paulista,+S%C3%83%C2%A3o+Paulo+-+SP,+05405-050/@-23.5575392,-46.6794558,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5784650111d7:0xc9c92a03bacc091e!2m2!1d-46.6772753!2d-23.5575321?entry=ttu)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+   
+
+    "rich-text#nossas-lojas-pinheiros-whatsapp": {
+      "props": {
+        "text": "[(11) 3550-9999](https://whts.co/ninjasom-teodoro)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-pinheiros-0-800": {
+      "props": {
+        "text": "(11) 3550-9999",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-pinheiros-email": {
+      "props": {
+        "text": "vendas@ninjamusical.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas-pinheiros": {
+      "props": {
+        "src": "/arquivos/loja-pinheiros.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-pinheiros-bloco2": {
+      "children": ["rich-text#textopinheiros"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+   
+
+    "rich-text#textopinheiros": {
+        "props": {
+      
+          "text": "",
+        
+          "blockClass": "fonte-nossas-lojas-internas"
+        }
+      },
+    
+
+
+    
+
+
+
+    
+    "flex-layout.row#nossas-lojas-pinheiros-bloco6":{
+
+      "children": [ "flex-layout.col#lojas-bloco6"],
+      "props":{
+        "blockClass": "sobre-nos-nossas-lojas"
+      }
+    },
+
+    "flex-layout.col#lojas-bloco6":{
+
+        "children": [ "rich-text#sobre-nos-nossas-lojas-titulo","rich-text#sobre-nos-nossas-lojas-texto"]
+    },
+
+
+    "rich-text#sobre-nos-nossas-lojas-titulo": {
+        "props": {
+          "text": "## SOBRE NÓS"
+        }
+      },
+
+    "rich-text#sobre-nos-nossas-lojas-texto": {
+        "props": {
+          "text": "Hoje a Ninja Som tem uma posição de destaque no mercado brasileiro de áudio profissional e instrumentos musicais no papel como revendedora das melhores marcas nacionais e importadas, trabalhamos com as melhores marcas do meio musical, como, AKG, AMPHENOL, ÁUDIO-TÉCNICA, BEHRINGER, BOSS, BSA, CASIO, CICLOTRON, CRAFTER, CROWN, CSR, D.A.S ÁUDIO, DBX, FENDER, FOCUSRITE, FRAHM, GIANNINI, GOPE, JBL, KORG, KRK, LABGRUPPEN, LESON, MACKIE, MARSHALL, METEORO, NAGANO, NEUTRIK, NEXT PRO, NOVATION, NXA, RCF, REAN BY NEUTRIK, REFERENCE, RMV, ROLAND, SAMSON, SENNHEISER,SHURE, SOUNDCAST, SOUNDCRAFT, STANER, STAY, SUPERLUX, TAGIMA, TASCAM, TSI, UPSAI, VOX, WHIRLWIND, WLS, YAMAHA, YOGA, ZOOM. Disponibilizamos atendimento especial a Instituições de ensino, Igrejas, Órgãos Governamentais, Militares, Agremiações esportivas e Músicos."
+        }
+      }
+
+
+
+
+  }

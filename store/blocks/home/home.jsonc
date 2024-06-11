@@ -1,0 +1,1065 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+     // "flex-layout.row#deals",
+   //   "__fold__",
+      "flex-layout.row#infocards-categorias",
+      "flex-layout.row#infocards-categorias-2",
+
+/*teste slider*/
+      "slider-layout#mobileinfocards-home-categorias",
+/*end - teste slider*/
+
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#banners-home",
+      "rich-text#melhor-dos-seguimentos",
+      "tab-layout#colecoes-home",
+      "flex-layout.row#banner-home",
+  //    "rich-text#grandes-descontos",
+   //   "flex-layout.row#shelfprateleiragrandesdescontoshome",
+      "slider-layout#slider-de-marcas",
+   //   "info-card#home",
+   //   "rich-text#question",
+   //   "rich-text#link",
+       //"newsletter",
+        "flex-layout.row#newsletter"
+    ]
+  },
+
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/banner-principal-io.jpg",
+          "mobileImage": "/arquivos/banner-principal-io-mobile.png"
+        },
+        {
+          "image": "/arquivos/banner-principal-io.jpg",
+          "mobileImage": "/arquivos/banner-principal-io-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+
+
+  "flex-layout.row#infocards-categorias":{
+    "children": [
+      "flex-layout.col#infocards-categorias-guitarras",
+      "flex-layout.col#infocards-categorias-bateria",
+      "flex-layout.col#infocards-categorias-teclado"
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhome"
+    }
+
+  },
+
+  "flex-layout.col#infocards-categorias-guitarras":{
+    "children": [
+      "rich-text#infocards-guitarras",
+      "rich-text#infocards-guitarras-eletricas",
+      "rich-text#infocards-guitarras-acusticas",
+      "rich-text#infocards-baixo",
+      "rich-text#infocards-guitarras-amplificadores",
+      "rich-text#infocards-guitarras-pedais-de-efeito"
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhomeguitarras"
+    }
+
+  },
+
+  "rich-text#infocards-guitarras": {
+    "props": {
+      "text": "### Guitarras",
+      "blockClass": "infocardhometitle"
+    }
+  },
+
+  "rich-text#infocards-guitarras-eletricas": {
+    "props": {
+      "text": "[Elétricas](/cordas/guitarras)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  
+  "rich-text#infocards-guitarras-acusticas": {
+    "props": {
+      "text": "[Semi-acústicas](/cordas/guitarras/semi-acustica)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  "rich-text#infocards-baixo": {
+    "props": {
+      "text": "[Baixo](/baixo-4-cordas-woodstock-tw-73-bk-c-mg---tagima/p)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  "rich-text#infocards-guitarras-amplificadores": {
+    "props": {
+      "text": "[Amplificadores](/cordas/amplificadores/guitarra)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  "rich-text#infocards-guitarras-pedais-de-efeito": {
+    "props": {
+      "text": "[Pedais de Efeitos](/cordas/pedais/guitarra)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  "flex-layout.col#infocards-categorias-bateria":{
+    "children": [
+      "rich-text#infocards-bateria",
+      "rich-text#infocards-bateria-eletronica",
+      "rich-text#infocards-bateria-kits-acusticos",
+      "rich-text#infocards-bateria-pratos",
+      "rich-text#infocards-bateria-bateria",
+      "rich-text#infocardsbateria-percussao"
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhomebateria"
+    }
+
+  },
+
+  "rich-text#infocards-bateria": {
+    "props": {
+      "text": "### Bateria",
+      "blockClass": "infocardhometitle"
+    }
+  },
+
+  "rich-text#infocards-bateria-eletronica": {
+    "props": {
+      "text": "[Bateria Eletrônica](/percussao/baterias/eletronica)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  "rich-text#infocards-bateria-kits-acusticos": {
+    "props": {
+      "text": "[Kits acústicos](//percussao/acessorios)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+ 
+  "rich-text#infocards-bateria-pratos": {
+    "props": {
+      "text": "[Pratos](/percussao/acessorios/prato)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+  "rich-text#infocards-bateria-bateria": {
+    "props": {
+      "text": "[Acústica](/percussao/baterias/acustica)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  "rich-text#infocardsbateria-percussao": {
+    "props": {
+      "text": "[Percussão](/percussao)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+
+
+
+
+
+  "flex-layout.col#infocards-categorias-teclado":{
+    "children": [
+      "rich-text#infocards-teclado",
+      "rich-text#infocards-teclado-pianos-digitais",
+      "rich-text#infocards-teclado-teclados",
+      "rich-text#infocards-teclado-sintetizadores",
+      "rich-text#infocards-teclado-controladores-midi",
+      "rich-text#infocards-teclado-amplificadores"
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhometeclado"
+    }
+
+  },
+
+  "rich-text#infocards-teclado": {
+    "props": {
+      "text": "### Teclado",
+      "blockClass": "infocardhometitle"
+    }
+  },
+
+  "rich-text#infocards-teclado-pianos-digitais": {
+    "props": {
+      "text": "[Pianos digitais](/teclas/pianos)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+  "rich-text#infocards-teclado-teclados": {
+    "props": {
+      "text": "[Teclados](/teclas/teclado-musical)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  "rich-text#infocards-teclado-sintetizadores": {
+    "props": {
+      "text": "[Sintetizadores](/teclas/sintetizadores)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  
+
+  
+
+  "rich-text#infocards-teclado-controladores-midi": {
+    "props": {
+      "text": "[Controladores MIDI](/teclas/controladores)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  
+
+  "rich-text#infocards-teclado-amplificadores": {
+    "props": {
+      "text": "[Amplificadores](/teclas/amplificadores)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#infocards-categorias-2":{
+    "children": [
+      "flex-layout.col#infocards-categorias-microfones",
+      "flex-layout.col#infocards-categorias-mesas-de-som",
+      "flex-layout.col#infocards-categorias-violao"
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhome"
+    }
+
+  },
+
+  "flex-layout.col#infocards-categorias-microfones":{
+    "children": [
+      "rich-text#infocards-microfones",
+      "rich-text#infocards-microfones-com-fio",
+      "rich-text#infocards-microfones-com-fio-usb",
+      "rich-text#infocards-microfones-com-fio-instrumentos"
+
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhomemicrofone"
+    }
+
+  },
+
+  "rich-text#infocards-microfones": {
+    "props": {
+      "text": "### Microfones",
+      "blockClass": "infocardhometitle"
+    }
+  },
+
+  "rich-text#infocards-microfones-com-fio": {
+    "props": {
+      "text": "[Com Fio Estúdio](/audio-profissional/microfones/microfone-com-fio)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  "rich-text#infocards-microfones-com-fio-usb": {
+    "props": {
+      "text": "[Com Fio USB](https://devninja--ninjasom.myvtex.com/estudio/microfones/usb?initialMap=c,c&initialQuery=estudio/microfones&map=category-1,category-2,category-4)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  "rich-text#infocards-microfones-com-fio-instrumentos": {
+    "props": {
+      "text": "[Com Fio Instrumentos](/audio-profissional/microfones/microfone-com-fio/instrumentos)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+
+  "flex-layout.col#infocards-categorias-mesas-de-som":{
+    "children": [
+      "rich-text#infocards-mesas-de-som",
+      "rich-text#infocards-mesas-de-som-analogica",
+      "rich-text#infocards-mesas-de-som-amplificada",
+      "rich-text#infocards-mesas-de-som-digital",
+      "rich-text#infocards-mesas-de-som-usb",
+      "rich-text#infocards-mesas-de-som-acessorios",
+      "rich-text#infocards-mesas-de-som-smartphones"
+
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhomemesadesom"
+    }
+
+  },
+
+  "rich-text#infocards-mesas-de-som": {
+    "props": {
+      "text": "### Mesas de Som",
+      "blockClass": "infocardhometitle"
+    }
+  },
+
+  "rich-text#infocards-mesas-de-som-analogica": {
+    "props": {
+      "text": "[Mesa Analógica](/audio-profissional/mesas-de-som/mesa-analogica)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  
+  "rich-text#infocards-mesas-de-som-amplificada": {
+    "props": {
+      "text": "[Mesa Amplificada](/audio-profissional/mesas-de-som/mesa-amplificada)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+
+  "rich-text#infocards-mesas-de-som-digital": {
+    "props": {
+      "text": "[Mesa Digital](/audio-profissional/mesas-de-som/mesa-digital)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+
+  "rich-text#infocards-mesas-de-som-usb": {
+    "props": {
+      "text": "[Mesa com USB](/mesa-com-usb/mesa%20com%20usb?_q=Mesa%20com%20usb&fuzzy=0&initialMap=ft&initialQuery=mesa%20com%20usb&map=category-3,ft&operator=and)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  
+  "rich-text#infocards-mesas-de-som-acessorios": {
+    "props": {
+      "text": "[Acessórios](/audio-profissional/mesas-de-som/acessorios)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+  
+
+  
+
+  "rich-text#infocards-mesas-de-som-smartphones": {
+    "props": {
+      "text": "[Smartphones](/audio-profissional/mesas-de-som/smartphones)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  "flex-layout.col#infocards-categorias-violao":{
+    "children": [
+      "rich-text#infocards-violao",
+      "rich-text#infocards-violao-acustico",
+      "rich-text#infocards-violao-canhoto",
+      "rich-text#infocards-violao-classico",
+      "rich-text#infocards-violao-cutway",
+      "rich-text#infocards-violao-eletrico",
+      "rich-text#infocards-violao-flat",
+      "rich-text#infocards-violao-folk",
+      "rich-text#infocards-violao-infantil",
+      "rich-text#infocards-violao-jumbo"
+
+    ],
+    "props": {
+      "blockClass": "blocoinfocardhomeviolao"
+    }
+
+  },
+
+  "rich-text#infocards-violao": {
+    "props": {
+      "text": "### Violão",
+      "blockClass": "infocardhometitle"
+    }
+  },
+
+  "rich-text#infocards-violao-acustico": {
+    "props": {
+      "text": "[Acústico Aço / Nylon](/acustico-nylon/violão%20acustico?_q=violão%20acustico&fuzzy=0&initialMap=ft&initialQuery=violão%20acustico&map=category-3,ft&operator=and)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  
+  "rich-text#infocards-violao-canhoto": {
+    "props": {
+      "text": "[Canhoto](https://devninja--ninjasom.myvtex.com/cordas/violoes/canhoto?initialMap=c,c&initialQuery=cordas/violoes&map=category-1,category-2,category-3)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+  
+  "rich-text#infocards-violao-classico": {
+    "props": {
+      "text": "[Classico](/cordas/violoes/classico)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+
+ 
+  "rich-text#infocards-violao-cutway": {
+    "props": {
+      "text": "[Cutway](/cordas/violoes/cutway?initialMap=c,c&initialQuery=cordas/violoes&map=category-1,category-2,category-3)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+  "rich-text#infocards-violao-eletrico": {
+    "props": {
+      "text": "[Elétrico](/cordas/violoes/eletrico-nylon?initialMap=c,c&initialQuery=cordas/violoes&map=category-1,category-2,category-3)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+  "rich-text#infocards-violao-flat": {
+    "props": {
+      "text": "[Flat](/cordas/violoes/flat)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+  "rich-text#infocards-violao-folk": {
+    "props": {
+      "text": "[Folk](/cordas/violoes/folk)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+ 
+  "rich-text#infocards-violao-infantil": {
+    "props": {
+      "text": "[Infantil](/cordas/violoes/infantil)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+  
+
+  
+  "rich-text#infocards-violao-jumbo": {
+    "props": {
+      "text": "[Jumbo](/cordas/violoes/jumbo)",
+      "blockClass": "infocardhomelink"
+    }
+  },
+
+
+
+
+
+
+
+
+  "slider-layout#mobileinfocards-home-categorias": {
+    "props": {
+      
+//"centerMode":"to-the-left",
+//"centerModeSlidesGap":"50px",
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "blockClass": "carousel-home-categorias"
+    },
+    "children": [
+      "rich-text#mobileslidercategoriaguitarra",
+      "rich-text#mobileslidercategoriabateria",
+      "rich-text#mobileslidercategoriateclado",
+      "rich-text#mobileslidercategoriamicrofone",
+      "rich-text#mobileslidercategoriamesasom",
+      "rich-text#mobileslidercategoriamesaviolao"
+
+    ]
+  },
+
+
+
+
+  "rich-text#mobileslidercategoriaguitarra": {
+    "props": {
+      "text": "[Guitarras](/guitarra/)",
+      "blockClass": "mobileslidercategoriaguitarra"
+    }
+  },
+  "rich-text#mobileslidercategoriabateria": {
+    "props": {
+      "text": "[Bateria](/percussao/)",
+      "blockClass": "mobileslidercategoriabateria"
+    }
+  },
+  "rich-text#mobileslidercategoriateclado": {
+    "props": {
+      "text": "[Teclado](/teclado?map=ft)",
+      "blockClass": "mobileslidercategoriateclado"
+    }
+  },
+  "rich-text#mobileslidercategoriamicrofone": {
+    "props": {
+      "text": "[Microfones](/microfones?map=ft)",
+      "blockClass": "mobileslidercategoriamicrofone"
+    }
+  },
+
+  "rich-text#mobileslidercategoriamesasom": {
+    "props": {
+      "text": "[Mesas de som](/mesas%20de%20som?map=ft)",
+      "blockClass": "mobileslidercategoriamesasom"
+    }
+  },
+
+  "rich-text#mobileslidercategoriamesaviolao": {
+    "props": {
+      "text": "[Violão](/mesas%20de%20som?map=ft)",
+      "blockClass": "mobileslidercategoriamesaviolao"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "rich-text#melhor-dos-seguimentos": {
+    "props": {
+      "text": "## O MELHOR DO SEGUIMENTO",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "blockClass": "vitrine-home"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+  "flex-layout.row#banners-home":{
+    "children": [
+    "flex-layout.col#banners-home-01",
+    "flex-layout.col#banners-home-02"
+  
+  ],
+  "props": {
+    "blockClass": "banners-home"
+  }
+
+  },
+
+  "flex-layout.col#banners-home-01":{
+    "children": [
+      "image#banners-home-01"
+    ]
+
+  },
+
+  "image#banners-home-01":{
+     "props":{
+      "src": "/arquivos/BANNER-melhores-equipamentos-producao-musical.png"
+     }
+
+  },
+
+
+
+  "flex-layout.col#banners-home-02":{
+    "children": [
+      "image#banners-home-02"
+    ]
+
+  },
+
+  "image#banners-home-02":{
+     "props":{
+      "src": "/arquivos/novidades-audio-io-v2.png"
+     }
+
+  },
+
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Lançamentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+
+  "tab-layout#colecoes-home": {
+    "children": [
+      "tab-list#colecoes-home",
+      "tab-content#colecoes-home"
+    ]
+  },
+
+  "tab-list#colecoes-home": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4"
+      ]
+  },
+  "tab-content#colecoes-home": {
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4"
+      ]
+  },
+
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "Cordas",
+      "label": "Cordas",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "Percussao",
+      "label": "Percussão"
+    }
+  },
+
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "Sopro",
+      "label": "Sopro"
+    }
+  },
+
+  
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "Teclas",
+      "label": "Teclas"
+    }
+  },
+
+
+
+  "tab-content.item#1": {
+    "children": [
+      "flex-layout.row#shelfprateleiracordashome"
+    ],
+    "props": {
+      "tabId": "Cordas"
+    }
+  },
+  "tab-content.item#2": {
+    "children": [
+      "flex-layout.row#shelfprateleirapercusaohome"
+    ],
+    "props": {
+      "tabId": "Percussao"
+    }
+  },
+
+  "tab-content.item#3": {
+    "children": [
+      "flex-layout.row#shelfprateleirasoprohome"
+    ],
+    "props": {
+      "tabId": "Sopro"
+    }
+  },
+  "tab-content.item#4": {
+    "children": [
+      "flex-layout.row#shelfprateleirateclashome"
+    ],
+    "props": {
+      "tabId": "Teclas"
+    }
+  },
+
+
+  "flex-layout.row#banner-home":{
+    "children": [
+    "flex-layout.col#banner-home"
+  
+  ]
+
+  },
+
+  "flex-layout.col#banner-home":{
+    "children": [
+      "image#banners-home"
+    ],
+    "props": {
+      "blockClass": "banner-home"
+    }
+
+  },
+
+  "image#banners-home":{
+     "props":{
+      "src": "/arquivos/banner-melhores-equipamentos-io.png"
+     }
+
+  },
+
+
+  "rich-text#grandes-descontos": {
+    "props": {
+      "text": "## Grandes Descontos",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+
+  "flex-layout.row#shelfprateleiracordashome": {
+    "children": ["list-context.product-list#prateleiracordashome"],
+    "props": {
+      "blockClass": "prateleira-prateleiracordashome"}
+  },
+  "list-context.product-list#prateleiracordashome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiracordashome"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "148"
+    }
+  },
+  "slider-layout#prateleiracordashome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+  "flex-layout.row#shelfprateleirapercusaohome": {
+    "children": ["list-context.product-list#prateleirapercusaohome"],
+    "props": {
+      "blockClass": "prateleira-prateleirapercusaohome"}
+  },
+  "list-context.product-list#prateleirapercusaohome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleirapercusaohome"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "149"
+    }
+  },
+  "slider-layout#prateleirapercusaohome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+  "flex-layout.row#shelfprateleirasoprohome": {
+    "children": ["list-context.product-list#prateleirasoprohome"],
+    "props": {
+      "blockClass": "prateleira-prateleirasoprohome"}
+  },
+  "list-context.product-list#prateleirasoprohome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleirasoprohome"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "147"
+    }
+  },
+  "slider-layout#prateleirasoprohome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+  "flex-layout.row#shelfprateleirateclashome": {
+    "children": ["list-context.product-list#prateleirateclashome"],
+    "props": {
+      "blockClass": "prateleira-prateleirateclashome"}
+  },
+  "list-context.product-list#prateleirateclashome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleirateclashome"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "150"
+    }
+  },
+  "slider-layout#prateleirateclashome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+
+
+  "flex-layout.row#shelfprateleiragrandesdescontoshome": {
+    "children": ["list-context.product-list#prateleiragrandesdescontoshome"],
+    "props": {
+      "blockClass": "prateleira-prateleiragrandesdescontoshome"}
+  },
+  "list-context.product-list#prateleiragrandesdescontoshome": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiragrandesdescontoshome"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "138"
+    }
+  },
+  "slider-layout#prateleiragrandesdescontoshome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+  "slider-layout#slider-de-marcas": {
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6"
+    ],
+    "props": {
+      "blockClass": "carrousel-de-marcas",
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop":5,
+        "tablet": 4,
+        "phone": 3
+      }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "/arquivos/boss-logo-io.png"
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "/arquivos/casio-logo-io.png"
+    }
+  },
+  "image#brand3": {
+    "props": {
+      "src": "/arquivos/jbl-logo-io.png"
+    }
+  },
+  "image#brand4": {
+    "props": {
+      "src": "/arquivos/roland-logo-io.png"
+    }
+  },
+  "image#brand5": {
+    "props": {
+      "src": "/arquivos/tagima-logo-io.png"
+    }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "/arquivos/boss-logo-io.png"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

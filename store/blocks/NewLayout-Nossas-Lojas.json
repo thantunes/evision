@@ -1,0 +1,59 @@
+{
+    "store.custom#Nossas-Lojas-New-Layout":{
+        "blocks":["flex-layout.row#nossas-lojas-new","flex-layout.row#nossas-lojas-new-mobile","NossasLojas-Component"]
+    },
+
+    
+  "flex-layout.row#nossas-lojas-new":{
+    "children": [
+    "flex-layout.col#nossas-lojas-new"
+  
+  ]
+
+  },
+
+  "flex-layout.col#nossas-lojas-new":{
+    "children": [
+      "image#nossas-lojas-new"
+    ],
+    "props": {
+      "blockClass": "nossas-lojas-new"
+    }
+
+  },
+
+  "image#nossas-lojas-new":{
+     "props":{
+      "src": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/328444e8-8114-4c56-b1ab-e580feeedbe0___17aba075da0ba356c58dded79667c52f.png"
+      
+     }
+
+  },
+
+
+  "flex-layout.row#nossas-lojas-new-mobile":{
+    "children": [
+    "flex-layout.col#nossas-lojas-new-mobile"
+  
+  ]
+
+  },
+
+  "flex-layout.col#nossas-lojas-new-mobile":{
+    "children": [
+      "image#nossas-lojas-new-mobile"
+    ],
+    "props": {
+      "blockClass": "nossas-lojas-new-mobile"
+    }
+
+  },
+
+  "image#nossas-lojas-new-mobile":{
+     "props":{
+      "src": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/b8b2f865-fd0b-42d6-aec9-e11b916cde7f___95ca02a24b2bf43f81279a223ba35a25.png"
+      
+     }
+
+  }
+}

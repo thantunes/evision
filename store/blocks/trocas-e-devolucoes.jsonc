@@ -1,0 +1,35 @@
+{
+    "store.custom#trocas-e-devolucoes": {
+      "blocks": ["flex-layout.row#trocas-e-devolucoes"],
+      "props":{
+        "blockClass": "trocas-e-devolucoes"
+      }
+    },
+
+    "flex-layout.row#trocas-e-devolucoes":{
+
+      "children": [ "flex-layout.col#trocas-e-devolucoes"],
+      "props":{
+        "blockClass": "trocas-e-devolucoes-conteudo"
+      }
+    },
+
+    "flex-layout.col#trocas-e-devolucoes":{
+
+        "children": [ "rich-text#trocas-e-devolucoes-titulo","rich-text#trocas-e-devolucoes-texto"]
+    },
+
+
+    "rich-text#trocas-e-devolucoes-titulo": {
+        "props": {
+          "text": "## TROCAS E DEVOLUÇÕES"
+        }
+      },
+
+    "rich-text#trocas-e-devolucoes-texto": {
+        "props": {
+          "text": "A Ninja Som, em sua trajetória prioriza a excelência no atendimento com a máxima transparência, sempre se preocupando com a satisfação de nossos clientes. Abaixo estão as orientações em casos de trocas ou devoluções de produtos, sempre amparado pelo Código de Defesa do Consumidor. \n \n **Ressaltamos que** \n \n Ocorrências que envolvam a necessidade de troca ou devolução deverá seguir alguns procedimentos: \n \n * Deverá ser comunicadas ao nosso Serviço de Atendimento ao Cliente, para que o processo transcorra de maneira ágil e adequada; \n \n  * O retorno do produto deverá ser feito por uma das empresas contratadas pela Ninja Som no mesmo endereço da entrega do pedido, ocasionalmente podemos solicitar que o produto seja enviado via Correios, em todos os casos os valores de postagens são de responsabilidade da Ninja Som; \n \n * O prazo para desistência da compra do produto é de até sete dias corridos, a contar da data do recebimento. O produto deverá ser encaminhado, com prévia autorização da Ninja Som, acompanhado de nota fiscal, embalagem original, sem violação do lacre original do fabricante, com o manual e todos os seus acessórios. Caso seja verificado indícios de mau uso ou a ausência de algum dos itens citados o produto será devolvido ao endereço de coleta, sem a restituição do valor. \n \n * Restituímos os valores pagos utilizando a mesma forma de pagamento escolhida no processo de compras; \n \n * Produtos adquiridos pelo site, não poderão ser trocados na loja física; \n \n **Recebendo o produto** \n \n Atentem-se as informações abaixo na hora de receber o seu pedido: \n \n * Se a embalagem estiver aberta ou avariada \n \n * Se o produto estiver em desacordo com o pedido \n \n * Se estiver faltando acessórios \n \n Caso você receba o produto em alguma dessas situações, recuse o recebimento e entre em contato com o nosso Serviço de Atendimento ao Cliente imediatamente."
+        }
+      }
+
+}

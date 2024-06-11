@@ -1,0 +1,1163 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap');
+
+@media screen and (max-width: 992px) {
+:global(.render-route-store-product)
+:global(.vtex-stack-layout-0-x-stackContainer--product .vtex-stack-layout-0-x-stackItem--first){left: calc(100% - 160px);}
+}
+
+:global(.bg-base) {    background-color: #F3F3F3;}
+:global(.vtex-flex-layout-0-x-flexRowContent--blocoinfocardhome)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){background-color:#fff;margin: 10px; margin: 10px;}
+:global(.vtex-rich-text-0-x-wrapper--infocardhometitle){padding-left:20px;}
+:global(.vtex-rich-text-0-x-paragraph.vtex-rich-text-0-x-paragraph--infocardhomelink){padding: 0px; margin: 0px;}
+
+/*
+:global(.vtex-rich-text-0-x-link--infocardhomelink){    text-decoration: none;color: #000;padding-left: 20px;font-size: 16px;font-family: 'Alumni Sans', sans-serif;font-weight: 600;}
+*/
+/*alteração de fonte*/
+
+:global(.vtex-flex-layout-0-x-flexColChild--nossas-lojas-new)
+:global(.vtex-store-components-3-x-imageElement){    margin: auto;
+   display: block;}
+
+:global(.vtex-rich-text-0-x-link--infocardhomelink) {
+   text-decoration: none;
+   color: #000;
+   padding-left: 20px;
+   font-size: 12px;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: 500;
+}
+
+
+:global(span.t-action--small.vtex-login-2-x-oauthLabel.relative.normal) {
+   font-size: 14px;
+   text-transform: math-auto;
+}
+
+
+:global(.vtex-login-2-x-button .vtex-button) {
+
+   text-transform: math-auto;
+   background-color: #010449;
+   color: #fff;
+   font-size: 14px;
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--blocoinfocardhome)
+:global(.vtex-flex-layout-0-x-flexColChild){height:auto!important;}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-de-marcas){max-width: 1356px;margin: auto;padding-top: 55px;padding-bottom: 20px;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-2){    flex-direction: column;}
+:global(.vtex-store-components-3-x-newsletter){background-color: transparent!important;    position: relative;}
+:global(.vtex-store-components-3-x-newsletter)::after{    content: "";background-image: url(/arquivos/musico-newsletter-vtex-io.png);    background-size: cover;background-repeat: no-repeat;background-position: bottom left;display: block; position: absolute;width: 380px;height: 349px;bottom: 0;z-index: 99999;left: 0;}
+:global(.vtex-store-components-3-x-newsletter)
+:global(.vtex-store-components-3-x-container){background-color: #044FBF;    padding: 35px!important;margin-top: 120px;}
+:global(.vtex-flex-layout-0-x-flexCol--blocoinfocardhomeguitarras){    background-image: url(/arquivos/infocard-guitarra-v2.png);background-position: right top;    background-repeat: no-repeat;    margin-bottom: 15px;background-size: contain;}
+:global(.vtex-flex-layout-0-x-flexCol--blocoinfocardhomebateria){    background-image: url(/arquivos/infocardbateria-v2.png);background-position: right bottom;    background-repeat: no-repeat;    margin-bottom: 15px;background-size: contain;}
+:global(.vtex-flex-layout-0-x-flexCol--blocoinfocardhometeclado){    background-image: url(/arquivos/infocardteclado-v2.png); background-position: right bottom;    background-repeat: no-repeat;    margin-bottom: 15px;background-size: contain;}
+:global(.vtex-flex-layout-0-x-flexCol--blocoinfocardhomemicrofone){    background-image: url(/arquivos/info-card-microfone-v2.png);background-position: right bottom;    background-repeat: no-repeat;    margin-bottom: 15px;}
+:global(.vtex-flex-layout-0-x-flexCol--blocoinfocardhomemesadesom){    background-image: url(/arquivos/infocard-mesa-de-som-v2.png);background-position: right bottom;    background-repeat: no-repeat;    margin-bottom: 15px;}
+:global(.vtex-flex-layout-0-x-flexCol--blocoinfocardhomeviolao){    background-image: url(/arquivos/infocard-violao-v2.png);background-position: right top;    background-repeat: no-repeat;    margin-bottom: 15px;}
+
+/*
+:global(.vtex-rich-text-0-x-heading--infocardhometitle){    font-family: 'Alumni Sans',sans-serif;color: #000;font-size: 30px; padding-bottom: 0px; margin-bottom: 5px;    }
+*/
+/*alteração de fonte*/
+:global(.vtex-rich-text-0-x-heading--infocardhometitle) {
+   font-family: 'Montserrat',sans-serif;
+   color: #000;
+   font-size: 18px;
+   padding-bottom: 0px;
+   margin-bottom: 5px;
+}
+
+
+
+
+/*:global(.vtex-rich-text-0-x-headingLevel2--shelfTitle) {font-family: 'Alumni Sans'; font-style: normal;font-weight: 600!important;font-size: 52px;line-height: 62px; text-transform: uppercase; color: #010449;opacity: 0.8;}*/
+/*alteração de fonte*/
+
+:global(.vtex-rich-text-0-x-headingLevel2--shelfTitle) {
+   font-family: 'Montserrat',sans-serif;
+   font-style: normal;
+   font-weight: 600!important;
+   font-size: 38px;
+   line-height: 62px;
+   text-transform: uppercase;
+   color: #010449;
+   opacity: 0.8;
+}
+
+:global(a.vtex-rich-text-0-x-link.vtex-rich-text-0-x-link--NS-Conta) {
+   color: #000!important;
+}
+
+
+
+/*:global(.vtex-product-summary-2-x-brandName){    font-weight: 600;color: #000!important;font-family: 'Alumni Sans';font-style: normal; font-weight: 500!important;font-size: 24px!important; line-height: 29px; text-align: center;    display: block;    padding: 0px 10px;}*/
+/*alteração de fonte*/
+:global(.vtex-product-summary-2-x-brandName) {
+   font-weight: 600;
+   color: #000!important;
+   font-family: 'Montserrat',sans-serif;
+   font-style: normal;
+   font-weight: 500!important;
+   font-size: 18px!important;
+   line-height: 29px;
+   text-align: center;
+   display: block;
+   padding: 0px 10px;
+}
+
+
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) { background-color: #fff;}
+:global(.vtex-slider-layout-0-x-slide--shelf)
+:global(.b--action-primary){background-color: #009E06;border: none;}
+/*:global(.vtex-menu-2-x-styledLinkContent){    font-family: 'Alumni Sans';font-style: normal; font-weight: 500; font-size: 20px; line-height: 16px;color: #010349;}*/
+/*alteração de fonte*/
+:global(.vtex-menu-2-x-styledLinkContent) {
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 16px;
+   color: #010349;
+}
+
+
+:global(.ninjasom-theme-5-x-NJ-Container) a {
+   text-decoration: none;
+   color: #000!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link)
+:global(.vtex-menu-2-x-styledLinkContent){color:#fff!important;}
+
+/*
+:global(.vtex-sticky-layout-0-x-container--sticky-header.fixed)
+:global(.vtex-flex-layout-0-x-flexRow--main-header-menu){padding-top:65px;}
+
+thiago
+*/
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-menu){    z-index: 99999999;}
+
+:global(.vtex-sticky-layout-0-x-container.vtex-sticky-layout-0-x-container--sticky-header-menu.z-999.fixed.left-0.right-0){    top: 64px!important;background-color: #f0f0f0;}
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header.fixed)
+:global(.vtex-flex-layout-0-x-flexRow--main-header-menu)
+:global(.vtex-flex-layout-0-x-flexRowContent){background-color:#fff;}
+:global(.vtex-flex-layout-0-x-flexRow--banners-home)
+:global(.vtex-store-components-3-x-imageElement){margin: auto;display: block;}
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiragrandesdescontoshome),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiracordashome),
+:global(.vtex-flex-layout-0-x-flexRowContent--prateleira-prateleirapercusaohome),
+:global(.vtex-flex-layout-0-x-flexRowContent--prateleira-prateleirasoprohome),
+:global(.vtex-flex-layout-0-x-flexRowContent--prateleira-prateleirateclashome),
+:global(.vtex-flex-layout-0-x-flexRowContent--vitrine-home){max-width: 1372px;margin:auto;}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header){    max-width: 1256px;margin: auto;}
+:global(.vtex-flex-layout-0-x-flexRow--main-header){    background-color: #010449;}
+:global(label.vtex-checkbox__label.w-100.c-on-base.pointer) {font-family: 'Montserrat',ui-sans-serif;color: #000;font-size: 14px; }
+:global(.vtex-search-result-3-x-filterTitleSpan) { font-family: 'Montserrat',ui-sans-serif; color: #000; font-size: 18px;}
+:global(.vtex-search-result-3-x-galleryLayoutSwitcher){display:none;}
+:global(.vtex-flex-layout-0-x-flexRowContent--banners-home){    max-width: 1256px; margin: auto; margin-top: 45px;}
+:global(.vtex-flex-layout-0-x-flexCol--banner-home){    max-width: 1256px;    padding-top: 45px;}
+:global(.vtex-tab-layout-0-x-listContainer){padding-bottom: 20px;}
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){    margin-bottom: -0.5rem!important;}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck:not(:hover) .vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck:not(:hover) .vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {background: transparent!important;}
+:global(.vtex-tab-layout-0-x-listContainer)
+:global(.vtex-button){border:none;    font-family: 'Montserrat',sans-serif;}
+:global(.vtex-tab-layout-0-x-listContainer)
+:global(.bg-action-primary) { background-color: #0B55E2;    border-radius: 20px;}
+:global(.vtex-tab-layout-0-x-listContainer)
+:global(.c-action-primary) {color: #A3A3A3;border: 2px solid #A3A3A3!important; border-radius: 20px;}
+:global(.vtex-tab-layout-0-x-contentContainer.w-100){ min-height: 630px;}
+:global(.vtex-menu-2-x-styledLinkContainer--topo-menu-compra-segura){background-image: url(/arquivos/compra-segura-icon.png);background-repeat: no-repeat;background-position: center left; background-size: 16px;padding-left: 23px;font-family: 'Roboto', sans-serif;font-size: 16px;font-weight: 500;}
+:global(.vtex-menu-2-x-styledLinkContainer--topo-menu-retire-na-loja){background-image: url(/arquivos/retire-na-loja-icon.png); background-repeat: no-repeat; background-position: center left; background-size: 19px;padding-left: 27px;}
+:global(.vtex-menu-2-x-styledLinkContainer--topo-menu-parcelamento){background-image: url(/arquivos/parcelamento-icon.png); background-repeat: no-repeat;background-position: center left;background-size: 21px;padding-left: 26px;}
+:global(.vtex-menu-2-x-styledLinkContainer--topo-menu-entrega){background-image: url(/arquivos/entrega-icon.png);background-repeat: no-repeat;background-position: center left;background-size: 30px;padding-left: 37px;}
+:global(.vtex-menu-2-x-styledLinkContainer--topo-menu-central-de-atendimento){background-image: url(/arquivos/central-de-atendimento-icon.png); background-repeat: no-repeat; background-position: center left;background-size: 24px; padding-left: 28px;}
+:global(.vtex-store-components-3-x-logoContainer) {padding-left:0px;}
+:global(.vtex-menu-2-x-styledLinkContent--topo-menu-compra-segura),
+:global(.vtex-menu-2-x-styledLinkContent--topo-menu-retire-na-loja),
+:global(.vtex-menu-2-x-styledLinkContent--topo-menu-parcelamento),
+:global(.vtex-menu-2-x-styledLinkContent--topo-menu-entrega),
+:global(.vtex-menu-2-x-styledLinkContent--topo-menu-central-de-atendimento){ font-size: 16px;font-weight: 500;font-family: 'Montserrat',ui-sans-serif;}
+:global(.vtex-product-price-1-x-sellingPriceValue--summary){font-size: 24px!important;font-weight: 600; color: #010449!important;}
+:global(.vtex-product-price-1-x-installments){color: #525252;    font-family: 'Montserrat',ui-sans-serif;}
+:global(.vtex-product-price-1-x-installments--summary){margin: auto;padding-bottom: 0px;margin-bottom: 10px!important;}
+:global(.vtex-product-summary-2-x-containerNormal)
+:global(.vtex-flex-layout-0-x-flexRowContent){justify-content: center;}
+:global(.vtex-slider-layout-0-x-slide--shelf)
+:global(.b--action-primary) {background-color: #009E06;border: none; border-radius: 0px;max-width: 90%;margin: auto;}
+:global(.vtex-add-to-cart-button-0-x-buttonText){    font-family: 'Roboto',sans-serif; font-size: 14px;letter-spacing: 2px;}
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){background-image: url(/arquivos/palheta-hover-icon.png)!important;width: 41px;height: 36px; background-repeat: no-repeat!important;margin-left: 30px;transform: rotate(180deg);}
+:global(.vtex-slider-layout-0-x-sliderLeftArrow):hover{background-image: url(/arquivos/palheta-hover-icon.png)!important;transform: rotate(180deg);}
+:global(.vtex-slider-layout-0-x-sliderRightArrow){    background-image: url(/arquivos/palheta-hover-icon.png)!important;width: 41px; height: 36px;background-repeat: no-repeat!important;margin-right: 30px;transform: rotate(180deg);}
+:global(.vtex-slider-layout-0-x-sliderRightArrow):hover{background-image: url(/arquivos/palheta-hover-icon.png)!important;transform: rotate(0deg);}
+:global(.vtex-slider-layout-0-x-caretIcon--shelf),
+:global(.vtex-slider-layout-0-x-caretIcon--carousel),
+:global(.vtex-slider-layout-0-x-caretIcon--carrousel-de-marcas){opacity: 0;}
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf)
+:global(.vtex-button.bg-disabled){background-color: #000;color: #fff;}
+:global(.vtex-locale-switcher-0-x-container){display:none;}
+:global(.vtex-login-2-x-label) {font-family: 'Montserrat',sans-serif; color: #fff;font-size: 9px;max-width: 200px;display: block;    line-height: 12px;}
+:global(.vtex-login-2-x-container)
+:global(.vtex-button__label){    max-width: 169px; text-align: left;}
+:global(.vtex-login-2-x-profileIcon){color:#fff;width: 27px;height: 27px;}
+:global(.vtex-minicart-2-x-cartIcon){color:#fff;width: 27px;height: 27px;}
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-container){max-width: 1250px;}
+:global(.vtex-search-result-3-x-container--layout) {max-width: 1260px;}
+:global(.vtex-breadcrumb-1-x-container.pv3) {background-color: #010449;}
+:global(.vtex-breadcrumb-1-x-link){color:#fff;font-size: 12px;font-family: 'Montserrat',ui-sans-serif;}
+:global(.vtex-breadcrumb-1-x-homeLink)::after{content: "Home";font-size: 12px;margin-top: -3px;display: block;margin-left: 5px;}
+:global(.vtex-breadcrumb-1-x-homeIcon){display:none;}
+:global(.vtex-breadcrumb-1-x-caretIcon){color: #fff;}
+:global(.vtex-store-components-3-x-container){padding: 0px;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-1){margin-bottom: 25px;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-2){font-family: 'Montserrat',ui-sans-serif;background-color:#fff;padding: 25px;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-2) p {margin: 0px;margin-bottom: 12px;font-size:12px;color: #000;line-height: 18px;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-3) iframe {width: 100%;height: 353px;}
+:global(.filtros-descricao-departamento) {padding: 0px;    margin: 0;}
+:global(.filtros-descricao-departamento) li {float:left;list-style: none;}
+:global(.filtros-descricao-departamento) li a {background-color: #041E50;font-size: 16px; color: #fff;text-decoration: none; padding: 10px 35px;margin: 10px;    width: 150px;display: block;text-align: center;}
+:global(h5.vtex-search-result-3-x-filterMessage.t-heading-5.mv5){display:none;}
+:global(.vtex-product-summary-2-x-element) {background-color: #fff;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-4){    font-family: 'Montserrat',ui-sans-serif;background-color: #fff; padding: 20px;margin-top: 25px;margin-bottom: 25px;}
+:global(.vtex-search-2-x-searchBanner--Banner-area-4) p {    margin: 0px;margin-bottom: 12px;font-size: 12px;color: #000;line-height: 18px;}
+:global(.vtex-product-summary-2-x-container)
+:global(.vtex-button){background-color: #009E06;border: none;    border-radius: 0px;max-width: 85%;margin: auto;display: block;}
+:global(.vtex-search-result-3-x-buttonShowMore--layout){    margin-top: 20px;}
+:global(span.vtex-breadcrumb-1-x-term.ph2.c-on-base){    font-family: 'Montserrat',ui-sans-serif;color: #fff;font-size: 12px;}
+:global(.vtex-store-components-3-x-productNameContainer){color: #000;font-weight: bold;padding: 15px 30px 0px 30px!important;font-size: 22px!important;font-family: 'Montserrat',sans-serif;}
+:global(.vtex-store-components-3-x-productDescriptionContainer){    background-color: #ffff; padding: 30px;    font-family: 'Montserrat',sans-serif;color:#000;}
+:global(.vtex-store-components-3-x-productDescriptionTitle){ font-family: 'Montserrat',sans-serif;color:#000;    font-size: 32px;}
+:global(.vtex-store-components-3-x-productDescriptionContainer)
+:global(.vtex-store-components-3-x-content) {font-size: 16px; color: #000;    line-height: 23px;}
+:global(.render-route-store-product)
+:global(.vtex-rich-text-0-x-container.flex.tl.items-start.justify-start.t-body.c-on-base){display:none;}
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexCol--productSpecificationName){display:none;}
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{display:none;}
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{width:100%;}
+:global(.vtex-product-specifications-1-x-specificationValue){list-style: none;font-family: 'Montserrat',sans-serif;font-size:16px;padding:30px;line-height: 23px;   display: block;padding-top:0px;}
+:global(.vtex-product-price-1-x-sellingPrice){font-family: 'Montserrat',sans-serif;}
+:global(.vtex-product-price-1-x-installments){font-family: 'Montserrat',sans-serif;font-size: 11px!important;}
+:global(.vtex-store-components-3-x-shareContainer){display:none;}
+:global(.vtex-store-footer-2-x-footerLayout){    background-color: #010349; background-image:url(/arquivos/bg-ninja-footer-io.png);background-repeat: no-repeat;background-position: left top;}
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-menu-2-x-styledLinkContent){color:#fff!important;}
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-store-components-3-x-container){    max-width: 1255px;}
+:global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news){background-color: #044FBF;position: relative;padding-top: 30px;padding-bottom: 30px;margin-top: 180px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-nova-news){ background-color: transparent!important;   max-width: 1000px;margin: auto;padding-left: 70px;}
+:global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news)::before { content: ""; background-image: url(/arquivos/musico-newsletter-vtex-io.png);background-size: cover;background-repeat: no-repeat;background-position: bottom left;display: block; position: absolute; width: 380px; height: 349px;bottom: 0;z-index: 99999;left: 0;}
+:global(.vtex-rich-text-0-x-strong--texto-newsletter){font-family: 'Montserrat',sans-serif;font-size: 30px; color: #fff; font-weight: 400;}
+:global(.vtex-rich-text-0-x-paragraph--texto-newsletter){font-family: 'Montserrat',sans-serif;color: #fff; font-size: 18px; line-height: 28px; margin-top: 24px;}
+:global(.vtex-store-newsletter-1-x-nameInputContainer){float:left;width: 40%;    padding-right: 10px;}
+:global(.vtex-store-newsletter-1-x-nameInputContainer)
+:global(.vtex-input-prefix__group){border-radius:0px ;background-color: #fff;}
+:global(.vtex-store-newsletter-1-x-emailInputContainer){float:left;width: 40%;    padding-right: 10px;}
+:global(.vtex-store-newsletter-1-x-emailInputContainer)
+:global(.vtex-input-prefix__group){border-radius:0px ;background-color: #fff;}
+:global(.vtex-store-newsletter-1-x-formSubmitContainer){float:left;width: 20%;}
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+:global(.vtex-input-prefix__group){border-radius:0px ;background-color: #fff;}
+:global(.vtex-store-newsletter-1-x-newsletterForm){    padding-top: 35px; display: flex; flex-wrap: wrap;}
+:global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer) {margin-top: 15px;}
+:global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer .vtex-checkbox__label) {color: #fff !important}
+:global(.vtex-store-newsletter-1-x-formSubmitContainer)
+:global(.vtex-button){background-color: transparent;border-color: #fff;border-radius: 0;}
+:global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news)
+:global(.vtex-flex-layout-0-x-flexCol){background-color:transparent!important;}
+:global(.vtex-rich-text-0-x-paragraph--endereco-footer){font-family: 'Montserrat',sans-serif;color: #fff;font-size: 10px;max-width: 323px;}
+:global(.vtex-rich-text-0-x-paragraph--titulo-footer){font-family: 'Alumni Sans'; font-size: 18px!important;padding: 0px;margin: 0px;color: #fff;text-align: center;margin-left: 1.5rem;font-weight: 600;}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width: 45%!important;padding-right: 59px; margin-top: 78px;}
+:global(.vtex-flex-layout-0-x-flexColChild--logo-footer){margin:auto;}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-menu-2-x-styledLinkContent){font-size: 16px;font-weight: 400;}
+:global(.vtex-rich-text-0-x-paragraph--texto-footer),
+:global(.vtex-rich-text-0-x-link--texto-footer){font-family: 'Montserrat',sans-serif; font-style: normal;font-weight: 500;color: #fff;font-size: 16px;padding: 0px;margin: 0px;font-size: 16px;font-weight: 400;text-decoration:none;}
+:global(.vtex-rich-text-0-x-paragraph--titulo-footer-atendimento) {font-family: 'Alumni Sans';font-size: 18px!important;padding: 0px;margin: 0px;color: #fff;text-align: center;margin-left: 0;font-weight: 600;}
+:global(.vtex-rich-text-0-x-paragraph--titulo-footer-siga-nos) {font-family: 'Alumni Sans';font-size: 18px!important;padding: 0px;margin: 0px;color: #fff;text-align: center;margin-left: 0;font-weight: 600;margin-top:20px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-flexRowContent--redes-sociais-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){width: auto!important;padding-right: 15px!important;padding-left: 0!important;margin-top: 0!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-flexRowContent--seguranca-footer)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){width: auto!important;padding-right: 15px!important;padding-left: 0!important;margin-top: 0!important;}
+:global(.vtex-flex-layout-0-x-flexColChild.vtex-flex-layout-0-x-flexColChild--logo-footer.pb0) {height: 26%!important;padding: 0px;margin: 0 auto;}
+:global(.vtex-flex-layout-0-x-flexRowContent--pagamento){display:block;}
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-row-footer)
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-bandeiras)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){width: auto!important;padding-right: 15px!important;padding-left: 0!important;margin-top: 0!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-bandeiras){    margin-left: 1.5rem; margin-bottom: 10px;}
+:global(.vtex-rich-text-0-x-paragraph--titulo-footer-pagamentos) {font-family: 'Alumni Sans';font-size: 18px;padding: 0px;margin: 0px;color: #fff;text-align: center;margin-left: 1.5rem;font-weight: 600;    margin-top: 100px;}
+:global(.vtex-flex-layout-0-x-flexRow--credits){background-color:#fff;}
+:global(.vtex-rich-text-0-x-paragraph--footer){color: #A3A3A3;font-size: 10px;display: block;}
+:global(.vtex-flex-layout-0-x-flexRowContent--credits)
+:global(.vtex-flex-layout-0-x-flexCol){    flex-direction: inherit;justify-content: center;}
+:global(.vtex-store-components-3-x-imageElement--logo-evision){max-height: 13px; margin-top: 11px;margin-left: 6px;}
+:global(.vtex-store-components-3-x-imageElement--logo-vtex){    max-height: 24px; margin-top: 6px;margin-left: 9px;}
+:global(.vtex-flex-layout-0-x-flexCol--productRating){display:none;}
+:global(.vtex-product-price-1-x-savings--summary){display:none;}
+:global(.vtex-product-summary-2-x-containerNormal)
+:global(.vtex-flex-layout-0-x-flexRowContent){margin-bottom:0px;}
+:global(.vtex-product-summary-2-x-container){border-radius: 0px;}
+:global(.vtex-search-result-3-x-totalProducts--layout),
+:global(.vtex-search-result-3-x-filterPopupTitle) {font-family: 'Montserrat',ui-sans-serif;font-size: 14px;}
+:global(.vtex-search-result-3-x-orderByButton){    margin-top: -10px;}
+:global(.vtex__icon-check){background-color: #0B55E2;}
+:global(.vtex-search-result-3-x-buttonShowMore)
+:global(.vtex-button){    background-color: transparent;color: #010449;border-radius: 0;border-color: #010449;}
+:global(.vtex-search-result-3-x-buttonShowMore)
+:global(.vtex-button__label){font-size:11px;}
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-productNameContainer){font-weight: 500;}
+:global(.render-route-store-product)
+:global(.vtex-product-price-1-x-currencyContainer){font-family: 'Montserrat',sans-serif;font-style: normal;font-weight: 700;font-size: 24px;line-height: 28px;color: #010449;margin-left: 33px;}
+:global(.render-route-store-product)
+:global(.vtex-product-price-1-x-installments){font-family: 'Montserrat',sans-serif;font-style: normal;font-weight: 500; font-size: 16px!important; line-height: 19px;color: #525252; margin-left: 33px;}
+:global(.render-route-store-product)
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle){display:none;}
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-contador-bt-comprar)
+:global(.pr7.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex){width: 30%!important;margin-left: 30px;margin-top: 12px;}
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-contador-bt-comprar)
+:global(.pr0.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex){width: 90%!important;}
+:global(.vtex-flex-layout-0-x-flexCol--bloco-produtos-lado-direito){background-color:#fff;}
+:global(.render-route-store-product)
+:global(.vtex-product-price-1-x-installmentValue)
+:global(.vtex-product-price-1-x-currencyContainer) {font-family: 'Roboto';font-style: normal;font-weight: 500; font-size: 16px!important; line-height: 19px;color: #525252; margin-left: 0px;}
+:global(.vtex-search-result-3-x-buttonShowMore){padding-bottom: 20px;}
+:global(.vtex-store-components-3-x-shippingContainer){padding: 60px 30px; padding-bottom: 10px;}
+:global(.vtex-product-identifier-0-x-product-identifier--productReference){margin-top: 12px;display: block;margin-left: 30px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification){background-color:#fff;}
+:global(.vtex-product-specifications-1-x-groupName){font-size:0px!important;}
+:global(.vtex-product-specifications-1-x-groupName)::before {content: "Mais informações";font-size: 32px;font-family: 'Montserrat',sans-serif;margin-left: 13px; padding-top: 20px; display: block;}
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName){background-color:#fff!important;}
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-marca)
+:global(.vtex-store-components-3-x-productBrandName--summaryListDesktop)::before{content: "Marca: ";color: #727273;font-weight: normal;font-family: 'Montserrat',sans-serif;}
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-marca)
+:global(.vtex-store-components-3-x-productBrandName){    color: #000;margin-top: 16px; display: block;font-weight: bold;font-family:'Montserrat',sans-serif;font-size: 11px;margin-top: 17px;text-align:center;}
+:global(.vtex-store-components-3-x-swiperCaretPrev){background-image: url(/arquivos/palheta-icon.png)!important;    width: 41px;height: 36px;background-repeat: no-repeat!important;margin-left: 23px;padding: 0; margin-top: 16px;}
+:global(.vtex-store-components-3-x-swiperCaretPrev):hover{background-image: url(/arquivos/palheta-hover-icon.png)!important;padding: 0;transform: rotate(180deg);margin-top: -2px;}
+:global(.vtex-store-components-3-x-swiperCaretPrev)
+:global(.vtex-store-components-3-x-caretIcon){display:none;}
+:global(.vtex-store-components-3-x-swiperCaretNext){background-image: url(/arquivos/palheta-icon.png)!important;width: 41px;height: 36px;background-repeat: no-repeat!important;margin-right: 30px;transform: rotate(180deg);padding: 0;}
+:global(.vtex-store-components-3-x-swiperCaretNext):hover{background-image: url(/arquivos/palheta-hover-icon.png)!important;padding: 0;    transform: rotate(0deg)!important;    transform: rotate(0deg);}
+:global(.vtex-store-components-3-x-swiperCaretNext)
+:global(.vtex-store-components-3-x-caretIcon){display:none;}
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-produtos-lado-direito)
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-contador-bt-comprar)
+:global(.vtex-button){background-color: #009E06; border: none;border-radius: 0;}
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-produtos-lado-direito)
+:global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__input){height: 40px;border-radius: 0;}
+:global(.vtex-numeric-stepper__input){width: 45px;border-color:#A3A3A3;}
+:global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-numeric-stepper__plus-button) {width: 30px!important;    border: none;background-color:#A3A3A3;color:#fff;}
+:global(.vtex-numeric-stepper__minus-button):hover,
+:global(.vtex-numeric-stepper__plus-button):hover {background-color:#0B55E2;color:#fff;}
+:global(.vtex-address-form__postalCode)
+:global(.vtex-input__label) {font-size:0px!important;}
+:global(.vtex-address-form__postalCode)
+:global(.vtex-input__label)::before {content: 'Consulte prazo de entrega e frete:';font-size:11px;font-family: 'Montserrat',sans-serif;}
+:global(.vtex-product-identifier-0-x-product-identifier__label){font-family:'Montserrat',sans-serif;font-size: 11px;}
+:global(.vtex-product-identifier-0-x-product-identifier__value){font-family: 'Montserrat',sans-serif;font-size: 11px;font-weight: bold;color:#000;}
+:global(.vtex-product-price-1-x-sellerNameContainer--isDefaultSeller){font-family: 'Montserrat',sans-serif;font-size: 11px;color:#727273;    margin-top: 17px;display: block;}
+:global(.vtex-product-price-1-x-sellerName){font-family: 'Montserrat',sans-serif;font-size: 11px;font-weight: bold;color: #000;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-referencia-marca){margin-left: 32px; max-width: 87%;border-bottom: 1px solid #A3A3A3;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-referencia-marca)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){padding: 0px;}
+:global(.vtex-address-form-4-x-noAppearance){background-color: #fff;}
+:global(.vtex-address-form__postalCode)
+:global(.vtex-input-prefix__group){border-radius: 0px;border-color: #A3A3A3;}
+:global(.vtex-address-form__postalCode-forgottenURL)
+:global(.active-c-link){font-family: 'Roboto',sans-serif;font-size: 12px;color: #000;}
+:global(.vtex-store-components-3-x-shippingContainer)
+:global(.vtex-button__label){font-family: 'Roboto',sans-serif;border-radius: 0;color:#000;}
+:global(.vtex-store-components-3-x-shippingTableRadioBtn),
+:global(.vtex-store-components-3-x-shippingTableCellDeliveryEstimate),
+:global(.vtex-store-components-3-x-shippingTableCell) {font-family: 'Roboto',sans-serif;font-weight: 500;color: #000;}
+:global(.vtex-store-components-3-x-shippingTable){padding: 10px 10px;margin: 10px 30px;max-width: 87%;font-size: 12px;}
+
+:global(.vtex-product-price-1-x-savings--summary){display:none!important;}
+:global(.vtex-product-price-1-x-listPrice){text-align: center;}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-compre-por-departamento-megamenu){max-width: 1256px;}
+:global(.vtex-flex-layout-0-x-flexRow--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width:17%!important;padding:10px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width:17%!important;padding:10px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3){width:17%!important;padding:10px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(4){width:17%!important;padding:10px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(5){width:38%!important;padding:10px;}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){display:none;}
+
+:global(.vtex-store-components-3-x-imageElement--whatsapp-flutuante){    background-color: #fff;
+   border-radius: 50px;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--botao-whatsapp-flutuante){position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 9999;
+      display: block;
+      width: 55px;
+      height: 55px;}
+
+
+:global(.vtex-product-price-1-x-listPrice)::before {
+   content: "De";    margin-left: 33px;    font-size: 12px;
+   color: #525252;
+ }
+ :global(.vtex-product-price-1-x-listPrice)::after {
+   content: "por:";    font-size: 12px;
+   color: #525252;
+ }
+
+
+
+ :global(.render-route-store-product)
+ :global(.vtex-product-price-1-x-listPrice)
+ :global(.vtex-product-price-1-x-currencyContainer){    margin-left: 5px;font-size: 15px!important;
+   margin-right: 5px;}
+
+   :global(.render-route-store-product)
+   :global(.vtex-product-price-1-x-savings){    background-color: #000;
+      color: #fff;
+      padding-left: 13px;
+      font-size: 12px;
+      display: none;
+   }
+
+      :global(.render-route-store-product)
+      :global(.vtex-product-price-1-x-savings)
+      :global(.vtex-product-price-1-x-currencyContainer){margin-left: 0px;
+         color: #fff;
+         font-size: 14px;
+         padding-right: 10px;}
+
+/*megamenu audio*/
+
+
+:global(.vtex-menu-2-x-menuContainerNav--bloco-compre-por-departamento-audio-megamenu){max-width: 1256px;}
+
+:global(.vtex-menu-2-x-menuContainer--bloco-compre-por-departamento-audio-megamenu)
+:global(.vtex-flex-layout-0-x-flexCol--bloco-image-megamenu-1) {width:17%!important;padding:10px;}
+
+:global(.vtex-menu-2-x-menuContainer--bloco-compre-por-departamento-audio-megamenu)
+:global(.vtex-flex-layout-0-x-flexCol--bloco-image-megamenu-2) {width:17%!important;padding:10px;}
+
+:global(.vtex-menu-2-x-menuContainer--bloco-compre-por-departamento-audio-megamenu)
+:global(.vtex-flex-layout-0-x-flexCol--bloco-image-megamenu-3) {width:17%!important;padding:10px;}
+
+:global(.vtex-menu-2-x-menuContainer--bloco-compre-por-departamento-audio-megamenu)
+:global(.vtex-flex-layout-0-x-flexCol--bloco-image-megamenu-4) {width:17%!important;padding:10px;}
+
+:global(.vtex-menu-2-x-menuContainer--bloco-compre-por-departamento-audio-megamenu)
+:global(.vtex-flex-layout-0-x-flexCol--bloco-image-megamenu-5) {width:38%!important;padding:10px;}
+
+:global(.vtex-product-identifier-0-x-product-identifier__separator) {font-family: 'Montserrat',sans-serif; font-size: 11px;}
+
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.vtex-store-components-3-x-content){white-space: break-spaces;}
+
+:global(.vtex-flex-layout-0-x-flexRow--productSpecification)
+:global(.vtex-product-specifications-1-x-specificationValue){padding-bottom: 0px;}
+
+:global(.vtex-stack-layout-0-x-stackItem--product){min-height: inherit!important;    padding-bottom: initial!important;}
+
+:global(.vtex-product-price-1-x-sellingPrice)::after {
+   content:"  à vista";
+   font-size: 12px;
+
+}
+:global(.vtex-product-price-1-x-sellingPrice)
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu){background-color:#fff;}
+
+
+/*:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-menu-2-x-menuContainerNav){max-width: 130px;}*/
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-menu-2-x-styledLinkContainer){    margin-left: 0.4rem!important;
+   margin-right: 0.4rem!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){min-width: 155px;border-right:1px solid #EEEEEE;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){max-width: 120px;border-right:1px solid #EEEEEE;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(3){min-width: 130px;border-right:1px solid #EEEEEE;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(4){min-width: 185px;border-right:1px solid #EEEEEE;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(5){max-width: 110px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(6){max-width: 90px;border-right:1px solid #EEEEEE;padding-top:35px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(7){min-width: 150px;border-right:1px solid #EEEEEE;padding-top:10px;padding-left:10px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(8){min-width: 120px;border-right:1px solid #EEEEEE;padding-top:10px;padding-left:10px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(9){min-width: 130px;padding-top:10px;padding-left:10px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-menu-2-x-menuContainerNav)
+:global(.vtex-menu-2-x-styledLinkContent){font-size:12px!important;color:#010449;text-transform: capitalize;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-category-audio)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-category-cordas)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-category-estudio)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-principal-home-theater)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-category-instrumentos-percussao)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-principal-som-ambiente)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-category-sopro)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(#menu-item-category-teclas)
+:global(.vtex-menu-2-x-styledLinkContent){font-size:13px!important;color:#010449;font-weight: bold;}
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-compre-por-departamento-megamenu)
+:global(.vtex-menu-2-x-styledLinkContent):hover{color:#044FBF!important;}
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.vtex-store-components-3-x-container){height: auto!important;}
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.vtex-store-components-3-x-fadeBottom){background-image:none!important;}
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.vtex-store-components-3-x-pointerEventsAuto){display:none;}
+:global(.vtex-store-components-3-x-carouselContainer){    z-index: 0;}
+
+:global(.vtex-flex-layout-0-x-flexRow--quem-somos-topo){ background-color: #fff;    padding-top: 60px;}
+:global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-topo){max-width: 1265px;margin: auto;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-topo)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){ width: 30%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-topo)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){ width: 70%!important;padding: 0px 45px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--missao-visao-valores){ background-color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--missao-visao-valores){ max-width: 1265px; margin: auto;padding-top: 40px;    padding-bottom: 40px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--quem-somos-banner){    background-image: url(/arquivos/instituciona-banner-main.png);background-size: cover;height: 300px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-banner){flex-direction: column;    width: 100%;}
+:global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-banner)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){ width: 100%!important;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--quem-somos-banner-title)
+:global(.vtex-rich-text-0-x-container){text-align: center;margin: auto;display: block;color: #fff;padding-top: 40px; font-weight: normal;   font-family: 'Montserrat',sans-serif;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--quem-somos-banner-subtitle)
+:global(.vtex-rich-text-0-x-container){text-align: center;margin: auto;display: block;color: #fff;    font-family: 'Montserrat',sans-serif;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--quem-somos-banner-subtitle)
+:global(.vtex-rich-text-0-x-headingLevel1){margin-top: 0px;}
+
+:global(.vtex-rich-text-0-x-heading-level-2),
+:global(.vtex-rich-text-0-x-heading-level-3),
+:global(.vtex-rich-text-0-x-paragraph){font-family: 'Montserrat',sans-serif;}
+
+:global(.vtex-flex-layout-0-x-flexRow--formas-de-pagamento-conteudo){background-color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--formas-de-pagamento-conteudo){    max-width: 1250px; margin: auto;padding-top: 30px;padding-bottom: 30px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--politica-de-privacidade-conteudo){background-color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--politica-de-privacidade-conteudo){    max-width: 1250px; margin: auto;padding-top: 30px;padding-bottom: 30px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--trocas-e-devolucoes-conteudo){background-color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--trocas-e-devolucoes-conteudo){    max-width: 1250px; margin: auto;padding-top: 30px;padding-bottom: 30px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--prazo-de-entrega-conteudo){background-color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--prazo-de-entrega-conteudo){    max-width: 1250px; margin: auto;padding-top: 30px;padding-bottom: 30px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--faq){background-color:#fff;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq){max-width: 1250px!important;    padding-bottom: 30px;
+   padding-top: 20px;}
+
+   :global(#menu-item-category-home-promocoes)
+   :global(.vtex-menu-2-x-styledLinkContent){    color: #FF0000!important;}
+
+   :global(#menu-item-category-home-promocoes)
+   :global(.vtex-menu-2-x-styledLinkContent)::before{    content: ""; background: url(/arquivos/tag-promocoes.png); width: 18px;height: 18px;background-position: center;background-repeat: no-repeat;margin-right: 5px;margin-top: -1px;}
+
+
+   :global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-banner){background-image: url(/arquivos/banner-nossas-lojas-grupo-ninja-som.jpg);
+      height: 400px;
+      background-size: cover;
+
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-banner){flex-direction: column;}
+  :global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-banner)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){width:100%!important;}
+
+
+
+
+
+  :global(.vtex-flex-layout-0-x-flexColChild--nossas-lojas-banner-title)
+:global(.vtex-rich-text-0-x-container){text-align: center;margin: auto;display: block;color: #fff;padding-top: 40px; font-weight: normal;   font-family: 'Montserrat',sans-serif;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--nossas-lojas-banner-subtitle)
+:global(.vtex-rich-text-0-x-container){text-align: center;margin: auto;display: block;color: #fff;    font-family: 'Montserrat',sans-serif;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-bloco){background-color:#fff;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-bloco){max-width: 1250px;margin:auto;}
+
+:global(.vtex-rich-text-0-x-headingLevel4--titulo-loja){    color: #010349;
+   font-weight: bold;
+   padding-bottom: 0px;
+   margin-bottom: 0;
+   font-family: 'Montserrat',sans-serif;}
+
+   :global(.vtex-rich-text-0-x-paragraph--end-loja){margin: 5px 0px;
+      font-family: 'Montserrat',sans-serif;
+      color: #000;
+      font-size: 16px;}
+
+      :global(.vtex-rich-text-0-x-paragraph--end-bairro-loja){    margin: 0;
+         font-size: 12px;
+         color: #000;}
+
+         :global(.vtex-rich-text-0-x-paragraph--cep){    margin: 0;
+            font-size: 12px;
+            color: #000;}
+
+
+            :global(.vtex-rich-text-0-x-paragraph--telefone-fixo){    background: url(/arquivos/icon-inst-loja-grupo-ninja-som.png);
+               background-repeat: no-repeat;
+               background-position: left center;
+               background-size: contain;
+               padding-left: 30px;
+               margin: 5px 0px;
+           }
+
+
+           :global(.vtex-rich-text-0-x-paragraph--como-chegar-loja){    background: url(/arquivos/icon-inst-como-chegar-directions-rotas-loja-grupo-ninja-som.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
+            padding-left: 30px;
+            margin: 5px 0px;
+        }
+
+        :global(.vtex-rich-text-0-x-paragraph--titulo-televendas-nossas-lojas){    font-weight: bold;
+         padding: 0px;}
+
+         :global(.vtex-rich-text-0-x-paragraph--nossas-lojas-whats){    background: url(/arquivos/icon-inst-whatsapp-loja-grupo-ninja-som.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
+            padding-left: 30px;
+            margin: 5px 0px;
+        }
+
+        :global(.vtex-rich-text-0-x-paragraph--nossas-lojas-0800){    background: url(/arquivos/icon-inst-telefone-loja-grupo-ninja-som.png);
+         background-repeat: no-repeat;
+         background-position: left center;
+         background-size: contain;
+         padding-left: 30px;
+         margin: 5px 0px;
+     }
+
+
+     :global(.vtex-rich-text-0-x-link--nossas-lojas-email){      background: url(/arquivos/icon-inst-email-loja-grupo-ninja-som.png);
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: contain;
+      padding-left: 30px;
+      margin: 5px 0px;
+      padding-top: 5px;
+      padding-bottom: 2px;
+      color: #000;
+      text-decoration: none;;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--nossas-lojas-email){
+   padding: 0;
+   margin: 6px 0px;
+
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-topo){    border-bottom: 1px solid #ccc;    padding-top: 30px;
+   min-height: 400px;}
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-bloco)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child
+   :global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-topo){border-right: 1px solid #ccc;}
+:global(.vtex-rich-text-0-x-link--nossas-lojas-whats),
+   :global(.vtex-rich-text-0-x-link--como-chegar-loja){color:#000;text-decoration:none;}
+
+   :global(.vtex-flex-layout-0-x-flexRow--sobre-nos-nossas-lojas){background-color:#fff;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--sobre-nos-nossas-lojas){max-width: 1250px;margin:auto;padding-bottom: 30px;padding-top: 30px;}
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--sobre-nos-nossas-lojas)
+   :global(.vtex-rich-text-0-x-wrapper){width: 100%;
+      text-align: center;}
+
+      :global(.vtex-rich-text-0-x-wrapper--fonte-nossas-lojas-internas){padding:30px;}
+
+
+      :global(.vtex-store-components-3-x-imageElement--nossas-lojas-logo-estacionamento-sjc){max-width: 230px;
+         display: block;
+         margin: auto;
+         padding-top: 5px;
+         padding-right: 34px;}
+
+         :global(.vtex-rich-text-0-x-strong--nossas-lojas-estacionamento-sjc){font-size: 15px;}
+         :global(.vtex-rich-text-0-x-paragraph--nossas-lojas-estacionamento-sjc){font-size: 12px;}
+
+
+
+         :global(.vtex-store-components-3-x-subscriberContainer)
+         :global(.vtex-button__label){    color: #fff;}
+
+
+         @media screen and (min-width: 992px) {
+            :global(.vtex-flex-layout-0-x-flexColChild--nossas-lojas-new-mobile){display:none;}
+            :global(.vtex-flex-layout-0-x-flexRow--BannerLojaMobile-Container){display:none;}
+
+         }
+
+@media screen and (max-width: 992px) {
+
+
+
+
+   :global(.pr0-ns.pb0.pb0-ns.items-stretch.vtex-flex-layout-0-x-stretchChildrenWidth.flex)
+   {
+      margin: auto;
+
+
+
+   }
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--NS-Desc .vtex-flex-layout-0-x-stretchChildrenWidth) {    padding: 10px 0px;}
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--NS-Desc .vtex-rich-text-0-x-container){    padding: 0px 15px;}
+
+   :global(.vtex-store-components-3-x-imageElement--BannerLoja){display:none;}
+
+   :global(.vtex-slider-layout-0-x-sliderLayoutContainer--SliderCadaLoja){    width: 100%!important;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--NS-Desc) {    padding: 10px 20px!important;}
+
+   :global(.vtex-flex-layout-0-x-flexColChild--nossas-lojas-new){display:none;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--info-availability){    padding: 0px 10px;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--info-availability)
+   :global(.vtex-store-components-3-x-productNameContainer){    margin-top: 190px;    padding-left: 0px!important;
+      padding-right: 0px!important;}
+
+   :global(.vtex-store-components-3-x-shippingContainer)
+   :global(.vtex-input-prefix__group) {
+      width: 100%!important;
+      height: 37px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--productSpecificationValue) iframe {    width: 100%;}
+
+  :global(.vtex-flex-layout-0-x-flexCol--bloco-produtos-lado-direito) {
+   padding-top: 190px;
+}
+
+
+   :global(.vtex-store-components-3-x-imageElement--nossas-lojas-logo-estacionamento-sjc-mobile){padding-top: 25px;}
+   :global(.vtex-store-components-3-x-imageElement--nossas-lojas-logo-estacionamento-sjc){display:none;}
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){    background-color: #010449;}
+   :global(.vtex-store-drawer-0-x-menuIcon){color: #fff;}
+   :global(.vtex-login-2-x-label){display:none;}
+   :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {padding-left: 5px!important;padding-right: 5px!important;}
+   :global(.vtex-product-summary-2-x-spacer.flex.flex-grow-1){max-height: 20px;}
+   :global(.vtex-product-price-1-x-installments--summary){    margin: 0px!important;}
+   :global(.vtex-slider-layout-0-x-slide--shelf)
+   :global(.b--action-primary) {margin-top: 10px!important;margin-bottom: 0px!important;}
+   :global(.vtex-slider-layout-0-x-slide--shelf){min-height: 415px!important}
+   :global(.vtex-product-summary-2-x-brandName){min-height: 125px;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--banners-home)
+   :global(.vtex-flex-layout-0-x-flexCol){padding-bottom: 20px; padding-left: 15px; padding-right: 15px;}
+   :global(.vtex-product-price-1-x-installments--summary){text-align: center;}
+   :global(.vtex-store-newsletter-1-x-nameInputContainer),
+   :global(.vtex-store-newsletter-1-x-emailInputContainer){float: inherit;width: 100%; padding-right: 10px;padding-bottom: 10px;}
+
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news)
+   :global(.vtex-store-components-3-x-container){z-index: 99999;position: relative;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news){    height: 335px;}
+   :global(.vtex-product-price-1-x-installments--summary){padding-bottom: 10px;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-referencia-marca)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){    width: 33%!important;float: left;}
+   :global(.vtex-product-price-1-x-sellerName),
+   :global(.vtex-product-identifier-0-x-product-identifier__value){display:block;}
+   :global(.vtex-flex-layout-0-x-flexColChild--bloco-marca)
+   :global(.vtex-store-components-3-x-productBrandName--summaryListDesktop::before){display:block;}
+   :global(.vtex-flex-layout-0-x-flexColChild--bloco-marca)
+   :global(.vtex-store-components-3-x-productBrandName){    text-align: left;}
+   :global(.vtex-product-identifier-0-x-product-identifier--productReference){    margin-left: 0px;}
+   :global(.vtex-menu-2-x-menuContainerNav){width: 100%;}
+   :global(.vtex-store-drawer-0-x-drawerContent)
+   :global(.vtex-store-components-3-x-searchBarInnerContainer){padding: 0px 20px;}
+   :global(.vtex-product-summary-2-x-brandName){font-size: 12px!important;line-height: 16px; min-height: 60px}
+   :global(.vtex-product-price-1-x-sellingPriceValue--summary){font-size: 20px!important;}
+   :global(.render-route-store-search-departament)
+   /* :global(.vtex-product-price-1-x-sellingPrice::after){display:none;} */
+   :global(.render-route-store-search-category)
+   /* :global(.vtex-product-price-1-x-sellingPrice::after){display:none;} */
+   :global(.render-route-store-home)
+   /* :global(.vtex-product-price-1-x-sellingPrice::after){display:none;} */
+   :global(.vtex-product-price-1-x-installments--summary){font-size:0px!important;}
+   :global(.vtex-product-price-1-x-installmentsNumber){font-size: 14px;}
+   :global(.vtex-product-price-1-x-installmentsNumber::after){content: "x de";font-size: 14px;}
+   :global(.vtex-product-price-1-x-installmentValue){font-size: 14px;}
+   :global(.vtex-slider-layout-0-x-sliderLeftArrow){margin-left: 5px;}
+   :global(.vtex-slider-layout-0-x-sliderRightArrow){margin-right: 5px;}
+   :global(.vtex-tab-layout-0-x-contentContainer.w-100){    min-height: auto;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news){    margin-top: 0px;}
+   :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrousel-de-marcas){padding-top: 20px;}
+   :global(.vtex-login-2-x-container)
+   :global(.vtex-button__label) {padding: 0;}
+   :global(.vtex-breadcrumb-1-x-homeLink)::after{margin-left: 0px!important;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth:last-child){width:100%!important;}
+   :global(.vtex-store-components-3-x-shippingContainer){    padding-bottom: 30px;}
+   :global(.render-route-store-product)
+   :global(.vtex-flex-layout-0-x-flexRowContent){padding-bottom:0px; padding-top: 0px;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news){margin-top: 30px;}
+   :global(.vtex-product-summary-2-x-spacer.flex.flex-grow-1){display:none;}
+   :global(.vtex-sticky-layout-0-x-wrapper--stuck:not(:hover))
+   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){background-color: #010449!important;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--blocoinfocardhome)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){ margin: 0px!important;}
+   :global(.vtex-store-components-3-x-searchBarContainer) {padding: 0px 10px 10px 10px;background-color: #010449;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){padding:0px;}
+   :global(.vtex-rich-text-0-x-paragraph--titulo-menu-mobile){margin-left: 22px;color: #000; font-size: 24px; padding-top: 0px;margin-top: 0px;margin-bottom: 10px}
+   :global(.vtex-menu-2-x-styledLinkContent) {font-family: 'Montserrat',sans-serif;font-style: normal;font-weight: 500;font-size: 16px;line-height: 16px;color: #525252;border-bottom: 1px solid #D9D9D9;padding: 10px 0px;text-transform: uppercase;font-weight: bold;}
+   :global(.vtex-menu-2-x-submenuAccordion)
+   :global(.vtex-menu-2-x-styledLinkContent){font-weight: normal; font-size:14px;}
+   :global(.vtex-store-drawer-0-x-drawer){background-color:#fff;}
+   :global(.vtex-menu-2-x-accordionIcon--isClosed){font-size:0px;}
+   :global(.vtex-menu-2-x-accordionIcon--isClosed)::after{    content: "";background-image: url(/arquivos/palheta-baixo-icon.png);display: block;width: 9px;height: 11px;background-size: contain;background-repeat: no-repeat;margin-top: -15px;}
+   :global(.vtex-menu-2-x-accordionIcon--isOpen){font-size:0px;}
+   :global(.vtex-menu-2-x-accordionIcon--isOpen)::after{    content: "";background-image: url(/arquivos/palheta-cima-icon.png);display: block;width: 9px;height: 11px;background-size: contain;background-repeat: no-repeat;margin-top: -15px;}
+   :global(.vtex-store-components-3-x-searchBarIcon){    background-image: url(/arquivos/icon-search-io.png);background-position: center;background-repeat: no-repeat;background-size: contain;    width: 17px;}
+   :global(svg.vtex-store-components-3-x-searchIcon) {display: none;}
+   :global(.vtex-store-components-3-x-searchBarContainer)
+   :global(.vtex-input-prefix__group){border:none;}
+   :global(span.c-muted-2.fw5.flex.items-center.t-body.bg-base.vtex-input__suffix.br2.bl-0.br--right.pr5.pl4){border-radius:0px;}
+   :global(.render-route-store-search-subcategory)
+   /* :global(.vtex-product-price-1-x-sellingPrice::after){display:none;} */
+   :global(.vtex-search-result-3-x-totalProducts--layout){display:none;}
+   :global(.vtex-search-result-3-x-galleryItem.vtex-search-result-3-x-galleryItem--normal.vtex-search-result-3-x-galleryItem--grid.pa4) {    padding: 5px;}
+   :global(.vtex-product-price-1-x-listPrice--summary){display:none;}
+   :global(.vtex-flex-layout-0-x-flexRow--blocoinfocardhome){display:none;}
+   :global(.vtex-rich-text-0-x-link--mobileslidercategoriaguitarra){    background-image: url(/arquivos/infocard-guitarra-v2.png);display: block;padding: 16px 40px 170px 40px;background-position: bottom center;background-repeat: no-repeat; background-size: 115px;background-color: #ffff; font-family: 'Montserrat',sans-serif;color: #000;font-size: 18px;font-weight: bold;text-decoration: none;width:160px;}
+   :global(.vtex-rich-text-0-x-link--mobileslidercategoriabateria){    background-image: url(/arquivos/infocardbateria-v2.png);display: block;padding: 16px 40px 170px 40px;background-position: bottom right;background-repeat: no-repeat; background-size: 115px;background-color: #ffff; font-family: 'Montserrat',sans-serif;color: #000;font-size: 18px;font-weight: bold;text-decoration: none;width:160px;}
+   :global(.vtex-rich-text-0-x-link--mobileslidercategoriateclado){    background-image: url(/arquivos/infocardteclado-v2.png);display: block;padding: 16px 40px 170px 40px;background-position: bottom right;background-repeat: no-repeat; background-size: 115px;background-color: #ffff; font-family: 'Montserrat',sans-serif;color: #000;font-size: 18px;font-weight: bold;text-decoration: none;width:160px;}
+   :global(.vtex-rich-text-0-x-link--mobileslidercategoriamicrofone){    background-image: url(/arquivos/info-card-microfone-v2.png);display: block;padding: 16px 20px 170px 20px;    text-align: center;background-position: bottom center;background-repeat: no-repeat; background-size: 115px;background-color: #ffff; font-family: 'Montserrat',sans-serif;color: #000;font-size: 18px;font-weight: bold;text-decoration: none;width:160px;}
+   :global(.vtex-rich-text-0-x-link--mobileslidercategoriamesasom){    background-image: url(/arquivos/infocard-mesa-de-som-v2.png);display: block;padding: 16px 12px 170px 12px;background-position: bottom right;background-repeat: no-repeat; background-size: 115px;background-color: #ffff; font-family: 'Montserrat',sans-serif;color: #000;font-size: 18px;font-weight: bold;text-decoration: none;width:160px;}
+   :global(.vtex-rich-text-0-x-link--mobileslidercategoriamesaviolao){    background-image: url(/arquivos/infocard-violao-v2.png);display: block;padding: 16px 40px 170px 40px;background-position: bottom center;background-repeat: no-repeat; background-size: 115px;background-color: #ffff; font-family: 'Montserrat',sans-serif;color: #000;font-size: 18px;font-weight: bold;text-decoration: none;width:160px;}
+   :global(.svg.vtex-slider-layout-0-x-caretIcon.vtex-slider-layout-0-x-caretIcon--carousel-home-categorias){    opacity: 0!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bloco-nova-news){    padding-left: 0px;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--bloco-nova-news)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{background-color:#F3F3F3;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--bloco-nova-news)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{background-color:#044FBF;}
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--bloco-nova-news)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child::before{content: "";background-image: url(/arquivos/musico-newsletter-vtex-io-mobile.png);display: block; width: 339px;height: 190px;position: relative;z-index: 9999999999;background-position: left; background-size: cover; background-repeat: no-repeat;margin-top: -35px;}
+
+
+  /* url(/arquivos/musico-newsletter-vtex-io.png)*/
+
+
+
+   :global(.vtex-rich-text-0-x-strong--texto-newsletter){color: #000;font-size: 20px;}
+   :global(.vtex-rich-text-0-x-paragraph--texto-newsletter){font-size: 13px;line-height: 21px;}
+   :global(.vtex-rich-text-0-x-paragraph--texto-newsletter){color: #000;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news){background-color: transparent;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news::before){background-image:none;}
+   :global(.vtex-store-newsletter-1-x-newsletterForm){padding-top: 9px;}
+   :global(.vtex-rich-text-0-x-container--texto-newsletter){float: right; width: 52%;}
+   :global(.vtex-flex-layout-0-x-flexRow--bloco-nova-news){height: auto;margin: 0px; padding: 0px;}
+   :global(.vtex-flex-layout-0-x-flexRow--redes-sociais-footer){ max-width: 158px;margin: auto;display: block;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--redes-sociais-footer){margin-top: 10px; margin-bottom: 15px; display: block;height: 35px;}
+   :global(.vtex-flex-layout-0-x-flexRow--redes-sociais-footer)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){float:left;width: 33%!important;}
+   :global(.vtex-flex-layout-0-x-flexRow--redes-sociais-footer)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+   :global(.vtex-store-components-3-x-imageElement){ margin: auto;display: block;    max-height: 30px!important;}
+   :global(.vtex-flex-layout-0-x-flexRowContent--bloco-bandeiras)
+   :global(.vtex-flex-layout-0-x-stretchChildrenWidth){float:left; width: 16%!important; padding-bottom: 8px;}
+   :global(.vtex-flex-layout-0-x-flexCol.vtex-flex-layout-0-x-flexCol--logo-footer.ml0.mr0.pl0.pr0.flex.flex-column.h-100.w-100) {padding-top: 25px;}
+   :global(.vtex-rich-text-0-x-paragraph--titulo-footer-pagamentos){margin-top: 0px;}
+   :global(.vtex-store-footer-2-x-footerLayout)
+   :global(.vtex-menu-2-x-styledLinkContent){font-weight: normal!important;}
+
+   :global(.vtex-flex-layout-0-x-flexColChild--blocos-footer-mobile){float:left;}
+   :global(.vtex-flex-layout-0-x-flexCol--blocos-footer-mobile){    flex-direction: initial;padding-bottom: 25px;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--blocos-footer-mobile)
+   :global(.vtex-flex-layout-0-x-flexColChild--blocos-footer-mobile):nth-child(1){    width: 65%;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--blocos-footer-mobile)
+   :global(.vtex-flex-layout-0-x-flexColChild--blocos-footer-mobile):nth-child(2){    width: 25%;}
+
+   :global(.vtex-rich-text-0-x-paragraph--titulo-footer-siga-nos){margin-top:0px!important;}
+   :global(.vtex-flex-layout-0-x-flexCol--blocos-footer-mobile-feito-por){    background-color: #fff;}
+
+   :global(.vtex-menu-2-x-menuConteinerNav--bloco-nossas-lojas-megamenu){background-color:#fff!important;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--blocos-footer-mobile-feito-por)
+   :global(.vtex-flex-layout-0-x-flexColChild){float:left;}
+
+   :global(.vtex-flex-layout-0-x-flexColChild--blocos-footer-mobile-feito-por)
+   :global(.vtex-flex-layout-0-x-flexCol){flex-direction: inherit;justify-content: center;}
+
+   :global(.vtex-store-footer-2-x-footerLayout)
+   :global(.vtex-menu-2-x-accordionIcon--isClosed){background-color: #fff;padding: 5px;border-radius: 5px;}
+
+   :global(.vtex-store-footer-2-x-footerLayout)
+   :global(.vtex-menu-2-x-accordionIcon--isOpen){background-color: #fff;padding: 5px;border-radius: 5px;}
+
+   :global(.vtex-flex-layout-0-x-flexCol--seguranca-footer-1)
+   :global(.vtex-store-components-3-x-imageElement){margin: auto;display: block;}
+
+   :global(.render-route-store-product)
+   :global(.flex-none.flex-ns.mt4.mb0.pt0.pb0.justify-start.vtex-flex-layout-0-x-flexRowContent.items-stretch.w-100){padding-top: 0px;margin-top: 0px;}
+
+   :global(.vtex-breadcrumb-1-x-container.pv3) {background-color: #010449;padding: 5px 10px;}
+   :global(.vtex-breadcrumb-1-x-link){padding-left: 0px;}
+
+   :global(.vtex-flex-layout-0-x-flexRowContent--bloco-contador-bt-comprar){    flex-direction: inherit;
+      display: flex;    padding: 5px 30px;}
+
+      :global(.vtex-flex-layout-0-x-flexRowContent--bloco-contador-bt-comprar)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width: 55%!important;
+         margin-top: 12px;}
+         :global(.vtex-flex-layout-0-x-flexRowContent--bloco-contador-bt-comprar)
+         :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width: 100%!important;}
+
+         :global(.render-route-store-product)
+         :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {    padding-bottom: 0px;}
+
+         :global(.vtex-store-components-3-x-swiperCaretPrev) {background-image: url(/arquivos/palheta-icon.png)!important;width: 30px!important; height: 25px!important; background-repeat: no-repeat!important; margin-left: 23px; padding: 0; margin-top: 16px;background-size: contain!important;}
+
+
+        :global(.vtex-store-components-3-x-swiperCaretNext) { background-image: url(/arquivos/palheta-icon.png)!important;width: 30px!important; height: 25px!important;background-repeat: no-repeat!important;margin-right: 30px;transform: rotate(180deg); padding: 0; background-size: contain!important;}
+
+     :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+      margin-top: 13px;
+
+  }
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-topo){    padding: 20px 20px 10px 20px;}
+  :global(.vtex-flex-layout-0-x-flexRowContent--faq){padding: 30px;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-topo)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width: 85%!important;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--quem-somos-topo)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width: 100%!important;}
+
+  :global(.vtex-flex-layout-0-x-flexRow--prazo-de-entrega-conteudo),
+  :global(.vtex-flex-layout-0-x-flexRow--trocas-e-devolucoes-conteudo),
+  :global(.vtex-flex-layout-0-x-flexRow--politica-de-privacidade-conteudo),
+:global(.vtex-flex-layout-0-x-flexCol--missao-visao-valores),
+:global(.vtex-flex-layout-0-x-flexRow--formas-de-pagamento-conteudo){    padding: 30px;}
+
+:global(.vtex-rich-text-0-x-paragraph--titulo-footer-pagamentos){    font-size: 16px;}
+:global(.vtex-rich-text-0-x-paragraph--titulo-footer-siga-nos){    font-size: 16px!important;}
+
+:global(#menu-item-category-home-promocoes)
+:global(.vtex-menu-2-x-styledLinkContent::before){display:none;}
+
+:global(svg.vtex-slider-layout-0-x-caretIcon.vtex-slider-layout-0-x-caretIcon--carousel-home-categorias){display:none;}
+
+:global(#menu-item-category-audio-ver-todos),
+:global(#menu-item-category-cordas-ver-todos),
+:global(#menu-item-category-estudio-ver-todos),
+:global(#menu-item-category-percussao-ver-todos),
+:global(#menu-item-category-sopro-ver-todos),
+:global(#menu-item-category-teclas-ver-todos){padding:20px;}
+
+
+:global(#menu-item-category-audio-ver-todos)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(#menu-item-category-cordas-ver-todos)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(#menu-item-category-estudio-ver-todos)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(#menu-item-category-percussao-ver-todos)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(#menu-item-category-sopro-ver-todos)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(#menu-item-category-teclas-ver-todos)
+:global(.vtex-menu-2-x-styledLinkContent)
+{border: 1px solid #525252;
+   text-align: center;
+   display: block;
+   color: #525252;
+   max-width: 80%;
+   margin: auto;}
+
+   :global(.vtex-search-result-3-x-orderByButton){    margin-top: 0px;}
+   /* :global(.vtex-product-price-1-x-sellingPrice::after){display:none;} */
+
+   :global(.vtex-search-result-3-x-galleryTitle--layout) {
+      text-align: center;
+      font-size: 30px;
+  }
+}
+@media screen and (min-width: 993px) {
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-home-categorias){display:none;}
+:global(.vtex-store-components-3-x-imageElement--nossas-lojas-logo-estacionamento-sjc-mobile){display:none;}
+}
+
+
+
+:global(.render-route-store-custom-trabalheconosco)
+:global(.vtex-flex-layout-0-x-flexColChild--containerWWU){margin: auto;}
+
+:global(.render-route-store-custom-trabalheconosco)
+:global(.vtex-rich-text-0-x-heading-level-4){
+   font-size: 24px;
+   color: #000;
+
+}
+
+:global(.render-route-store-custom-trabalheconosco)
+:global(.vtex-rich-text-0-x-headingLevel2--TrabalheConoscoS){
+
+   color: #010449;
+   font-size: 60px;
+   font-weight: bold;
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+:global(.render-route-store-custom-trabalheconosco)
+:global(.vtex-rich-text-0-x-container--TrabalheConoscoS){    margin-top: 35px!important;}
+
+:global(.render-route-store-custom-trabalheconosco)
+:global(.Form-wwu){height: auto!important;}
+
+:global(.render-route-store-custom-trabalheconosco)
+:global(.vtex-rich-text-0-x-heading--TrabalheConoscoF){    margin-bottom: 15px;}
+
+:global(.render-container)
+:global(.vtex-flex-layout-0-x-flexRowContent--NS-Desc) {    padding: 10px 0px!important;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--NS-ImageContainer) {
+   max-width: inherit!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--BannerLoja-Container){  max-width: inherit!important;}
+
+
+
+:global(.ninjasom-theme-5-x-NJ-Card){min-height: 500px;height: inherit!important;}
+
+:global(.ninjasom-theme-5-x-NJ-Card)
+:global(.ninjasom-theme-5-x-paragraph)
+:global(.ninjasom-theme-5-x-image){
+   margin-bottom: -5px;
+
+}
+
+
+:global(.ninjasom-theme-5-x-NJ-Title){    font-family: 'Montserrat',sans-serif!important;}
+
+:global(.ninjasom-theme-5-x-NJ-Desc)
+:global(.ninjasom-theme-5-x-paragraph){
+    opacity: 1!important;
+   font-family: 'Montserrat',sans-serif!important;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+
+
+   :global(.ninjasom-theme-5-x-NJ-Card) {
+      width: auto!important;
+      margin: 10px 20px!important;
+
+  }
+
+
+   :global(.render-route-store-custom-trabalheconosco)
+   :global(.InputFile-parent) {width: auto!important;}
+
+   :global(.render-route-store-custom-trabalheconosco)
+   :global(.vtex-rich-text-0-x-headingLevel2--TrabalheConoscoS) {font-size: 34px!important;}
+
+   :global(.render-route-store-custom-trabalheconosco)
+   :global(.vtex-rich-text-0-x-container--TrabalheConoscoS){width: auto!important;}
+
+
+   :global(.render-route-store-custom-trabalheconosco)
+   :global(.Form-wwu){width: auto!important;}
+
+   :global(.render-route-store-custom-trabalheconosco)
+   :global(.vtex-rich-text-0-x-container--TrabalheConoscoF) {    width: auto;
+      margin: 20px;}
+
+:global(.render-route-store-custom-trabalheconosco)
+      :global(.vtex-iframe-0-x-container) iframe {    max-width: 100%;}
+
+
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--TrabalheConoscoS)
+:global(.vtex-iframe-0-x-container){    margin-top: 75px;
+}

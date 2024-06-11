@@ -1,0 +1,120 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#compra-segura",
+  
+      "menu-item#parcelamento",
+      "menu-item#entrega-em-todo-brasil",
+      "menu-item#central-de-atendimento"
+    ]
+  },
+  "menu-item#compra-segura": {
+    "props": {
+      "id": "menu-item-compra-segura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "topo-menu-compra-segura",
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "compra 100% segura",
+        "text": "Compra 100% segura"
+      }
+    }
+  },
+
+  "menu-item#retire-na-loja": {
+    "props": {
+      "id": "menu-item-retire-na-loja",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "topo-menu-retire-na-loja",
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Retire na loja",
+        "text": "Retire na loja"
+      }
+    }
+  },
+
+  "menu-item#parcelamento": {
+    "props": {
+      "id": "menu-item-parcelamento",
+      "type": "custom",
+      "blockClass": "topo-menu-parcelamento",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Parcelamento em até 10x",
+        "text": "Parcelamento em até 10x"
+      }
+    }
+  },
+
+ 
+
+  "menu-item#entrega-em-todo-brasil": {
+    "props": {
+      "id": "menu-item-entrega-em-todo-brasil",
+      "type": "custom",
+      "blockClass": "topo-menu-entrega",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Entrega em todo o Brasil",
+        "text": "Entrega em todo o Brasil"
+      }
+    }
+  },
+
+
+  "menu-item#central-de-atendimento": {
+    "props": {
+      "id": "menu-item-central-de-atendimento",
+      "blockClass": "topo-menu-central-de-atendimento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Central de atendimento",
+        "text": "Central de atendimento",
+        "type": "external",
+        "href": "#"
+      }
+    }
+  },
+
+  "login":{
+    "props": {
+      "showIconProfile": true,
+      "iconLabel":"Olá, faça login \n ou cadastre-se"
+    }
+  },
+
+
+
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "visit vtex.com"
+      }
+    }
+  }
+}

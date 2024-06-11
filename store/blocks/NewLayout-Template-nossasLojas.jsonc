@@ -1,0 +1,214 @@
+{
+    "store.custom#TemplateCadaLoja": {
+        "blocks": [
+            "flex-layout.row#BannerCadaLoja",
+            "flex-layout.row#BannerCadaLojaMobile",
+            "flex-layout.row#NS-desc",
+            "list-context.image-list#CadaLojaImages"
+        ]
+    },
+    "list-context.image-list#CadaLojaImages": {
+        "children": [
+            "slider-layout#CadaLojaImages-images"
+        ],
+        "props": {
+            "preload": true,
+            "height":"auto",
+            "width":"260px",
+            "images": [
+                {
+                    "loading": "eager",
+                    "image": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/88e64a2a-a56c-4f0f-9854-0cae31932423___27923de313cdde9c7faf6c63f5550e9d.png",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/9bf5031d-b28a-4e0c-97bf-2e8853045c33___5dceaf233e88217fbb28e49b5d2b957a.png",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/4c9f39b6-76e5-4aa0-bb5f-c0e2ceaa4719___31e1a6042f94fffedaa0d4cca1b26371.png",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/9f608476-fe00-4929-8757-4efb0a184491___8327b75d74b2551e57e8bf8ea39bb6a6.png",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/4c9f39b6-76e5-4aa0-bb5f-c0e2ceaa4719___31e1a6042f94fffedaa0d4cca1b26371.png",
+                    "description": "something something"
+                },
+                {
+                    "loading": "lazy",
+                    "image": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/4c9f39b6-76e5-4aa0-bb5f-c0e2ceaa4719___31e1a6042f94fffedaa0d4cca1b26371.png",
+                    "description": "something something"
+                }
+            ]
+        }
+    },
+    "slider-layout#CadaLojaImages-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 1,
+            "phone": 1
+          },
+          "blockClass":"SliderCadaLoja",
+          "gap":"15px",
+          "infinite": true
+        }
+      },
+    "flex-layout.row#NS-desc-cont-end": {
+        "children": [
+            "flex-layout.col#NS-desc"
+        ]
+    },
+    "flex-layout.row#BannerCadaLoja": {
+        "children": [
+            "flex-layout.row#NsTitle",
+            "flex-layout.row#NS-Image"
+        ],
+        "props": {
+            "blockClass": "BannerLoja-Container"
+        }
+    },
+
+
+    "flex-layout.row#BannerCadaLojaMobile": {
+        "children": [
+            "flex-layout.row#NS-Image-mobile"
+        ],
+        "props": {
+            "blockClass": "BannerLojaMobile-Container"
+        }
+    },
+
+
+    "flex-layout.col#NS-desc": {
+        "children": [
+            "rich-text#NS-End",
+            "rich-text#NS-Conta"
+        ]
+    },
+    "flex-layout.row#NS-desc": {
+        "children": [
+            "iframe#map",
+            "rich-text#NS-Desc",
+            "flex-layout.row#NS-desc-cont-end"
+        ],
+        "props": {
+            "blockClass": [
+                "Ns-Container",
+                "NS-Desc"
+            ]
+        }
+    },
+    "flex-layout.row#NS-Image": {
+        "children": [
+            "image#BannerLoja"
+        ],
+        "props": {
+            "blockClass": [
+                "NS-ImageContainer"
+            ]
+        }
+    },
+
+
+    "flex-layout.row#NS-Image-mobile": {
+        "children": [
+            "image#BannerLoja-mobile"
+        ],
+        "props": {
+            "blockClass": [
+                "NS-ImageContainer-mobile"
+            ]
+        }
+    },
+
+
+
+    "rich-text#NS-Desc": {
+        "title": "Descrrição da loja",
+        "props": {
+            "text": "PlaceHolder"
+        }
+    },
+    "rich-text#NS-End": {
+        "title": "Endereço da loja",
+        "props": {
+            "text": "PlaceHolder",
+            "blockClass": "NS-End"
+        }
+    },
+    "rich-text#NS-Conta": {
+        "title": "Contato da loja",
+        "props": {
+            "text": "PlaceHolder",
+            "blockClass": "NS-Conta"
+        }
+    },
+    "image#BannerLoja": {
+        "title": "Banner da Loja",
+        "props": {
+            "src": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/0208ee68-435e-43c0-add8-e74a046b1651___140ab59e2ccaf3efc03258fdd4976620.png",
+            "blockClass": "BannerLoja"
+        }
+    },
+
+    "image#BannerLoja-mobile": {
+        "title": "Banner da Loja",
+        "props": {
+            "src": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/b4f3d5c2-e45b-4668-a4ea-b581b45a456a___16b38caf50dafd9fa5b7d2db6741d0b9.jpg",
+            "blockClass": "BannerLojaMobile"
+        }
+    },
+    "flex-layout.col#NsTitle": {
+        "children": [
+            "rich-text#PageTitle",
+            "rich-text#SubTitulo"
+        ]
+    },
+    "flex-layout.row#NsTitle": {
+        "title": "Titulo",
+        "children": [
+            "flex-layout.col#NsTitle"
+        ],
+        "props": {
+            "blockClass": [
+                "Ns-Container",
+                "NS-TitleContainer"
+            ]
+        }
+    },
+    "rich-text#PageTitle": {
+        "title": "Titulo da pagina",
+        "props": {
+            "text": "# PlaceHolder",
+            "blockClass": [
+                "NS-Title"
+            ],
+            "textAlignment": "CENTER"
+        }
+    },
+    "rich-text#SubTitulo": {
+        "title": "SubTitulo da pagina",
+        "props": {
+            "text": "# PlaceHolder",
+            "blockClass": [
+                "NS-SubTitle"
+            ],
+            "textAlignment": "CENTER"
+        }
+    },
+    "iframe#map": {
+        "props": {
+            "src": "https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed",
+            "width": "300px",
+            "height": "300px"
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "store.custom#nossas-lojas-bh": {
+      "blocks": [
+        "flex-layout.row#nossas-lojas-bh-banner", 
+        "flex-layout.row#nossas-lojas-bh-bloco",
+       
+        "flex-layout.row#nossas-lojas-bh-bloco6"
+      
+      ]
+    },
+
+    "flex-layout.row#nossas-lojas-bh-banner":{
+      "children": [ "flex-layout.col#nossas-lojas-bh-banner-1","flex-layout.col#nossas-lojas-bh-banner-2"],
+      "props":{
+        "blockClass": "nossas-lojas-banner"
+      }
+    },
+
+    "flex-layout.col#nossas-lojas-bh-banner-1":{
+      "children": ["rich-text#nossas-lojas-bh-banner-title"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#nossas-lojas-bh-banner-2":{
+      "children": ["rich-text#nossas-lojas-banner-bh-subtitle"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-subtitle"
+      }
+
+    },
+
+    "rich-text#nossas-lojas-bh-banner-title": {
+      "props": {
+        "text": "## BELO HORIZONTE"
+      }
+    },
+
+    "rich-text#nossas-lojas-banner-bh-subtitle": {
+      "props": {
+        "text": "# Avenida Olegário Maciel, 131"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-bh-bloco": {
+      "children": ["flex-layout.row#nnossas-lojas-bh-bloco1", "flex-layout.row#nnossas-lojas-bh-bloco2"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-bh-bloco1": {
+      "children": ["image#nossas-lojas-bh", "flex-layout.col#text-nossas-bh-lojas"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-bh-lojas": {
+      "children": [
+        "rich-text#nossas-lojas-bh-title", 
+        "rich-text#nossas-lojas-bh-end",
+        "rich-text#nossas-lojas-bh-end-cont",
+        "rich-text#nossas-lojas-bh-end-cep",
+       
+        "rich-text#nossas-lojas-bh-end-como-chegar",
+       
+
+        "rich-text#nossas-lojas-bh-whatsapp",
+        "rich-text#nossas-lojas-bh-0-800",
+        "rich-text#nossas-lojas-bh-email"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-bh-title": {
+      "props": {
+        "text": "#### BELO HORIZONTE",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-bh-end": {
+      "props": {
+        "text": "Avenida Olegário Maciel, 131",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-bh-end-cont": {
+      "props": {
+        "text": "Centro - Belo Horizonte",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-bh-end-cep": {
+      "props": {
+        "text": "CEP: 30180-110",
+        "blockClass": "cep"
+      }
+    },
+   
+
+    "rich-text#nossas-lojas-bh-end-como-chegar": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20BH%20-%20Av.%20Oleg%C3%83%C2%A1rio%20Maciel,%20131%20-%20Centro,%20Belo%20Horizonte%20-%20MG,%2030180-110/@-19.9158792,-43.9451972,17z/data=!4m16!1m6!3m5!1s0xa6996955b5613b:0x3e8f107403b1a67b!2sNinja%20Som%20BH!8m2!3d-19.9158792!4d-43.9430085!4m8!1m0!1m5!1m1!1s0xa6996955b5613b:0x3e8f107403b1a67b!2m2!1d-43.9430085!2d-19.9158792!3e2?hl=pt)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+   
+
+    "rich-text#nossas-lojas-bh-whatsapp": {
+      "props": {
+        "text": "[(31) 3654-4276](https://whts.co/ninjasom-bh)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-bh-0-800": {
+      "props": {
+        "text": "(31) 3654-4276",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-bh-email": {
+      "props": {
+        "text": "vendasbh@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas-bh": {
+      "props": {
+        "src": "/arquivos/loja-belo-horizonte.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-bh-bloco2": {
+      "children": ["rich-text#textopinheiros"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+   
+
+    "rich-text#textobh": {
+        "props": {
+      
+          "text": "",
+        
+          "blockClass": "fonte-nossas-lojas-internas"
+        }
+      },
+    
+
+
+    
+
+
+
+    
+    "flex-layout.row#nossas-lojas-bh-bloco6":{
+
+      "children": [ "flex-layout.col#lojas-bloco6"],
+      "props":{
+        "blockClass": "sobre-nos-nossas-lojas"
+      }
+    },
+
+    "flex-layout.col#lojas-bloco6":{
+
+        "children": [ "rich-text#sobre-nos-nossas-lojas-titulo","rich-text#sobre-nos-nossas-lojas-texto"]
+    },
+
+
+    "rich-text#sobre-nos-nossas-lojas-titulo": {
+        "props": {
+          "text": "## SOBRE NÓS"
+        }
+      },
+
+    "rich-text#sobre-nos-nossas-lojas-texto": {
+        "props": {
+          "text": "Hoje a Ninja Som tem uma posição de destaque no mercado brasileiro de áudio profissional e instrumentos musicais no papel como revendedora das melhores marcas nacionais e importadas, trabalhamos com as melhores marcas do meio musical, como, AKG, AMPHENOL, ÁUDIO-TÉCNICA, BEHRINGER, BOSS, BSA, CASIO, CICLOTRON, CRAFTER, CROWN, CSR, D.A.S ÁUDIO, DBX, FENDER, FOCUSRITE, FRAHM, GIANNINI, GOPE, JBL, KORG, KRK, LABGRUPPEN, LESON, MACKIE, MARSHALL, METEORO, NAGANO, NEUTRIK, NEXT PRO, NOVATION, NXA, RCF, REAN BY NEUTRIK, REFERENCE, RMV, ROLAND, SAMSON, SENNHEISER,SHURE, SOUNDCAST, SOUNDCRAFT, STANER, STAY, SUPERLUX, TAGIMA, TASCAM, TSI, UPSAI, VOX, WHIRLWIND, WLS, YAMAHA, YOGA, ZOOM. Disponibilizamos atendimento especial a Instituições de ensino, Igrejas, Órgãos Governamentais, Militares, Agremiações esportivas e Músicos."
+        }
+      }
+
+
+
+
+  }

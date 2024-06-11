@@ -1,0 +1,105 @@
+.App {
+    font-family: cursive;
+}
+
+.title {
+    text-align: center;
+}
+
+.custom-select-container {
+    display: inline-block;
+    min-width: 250px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.selected-text {
+    background-color: #fff;
+    padding: 6px 20px;
+    border-bottom: 1px solid black;
+    text-align: start;
+    padding-left: 0px;
+    margin-top: 7px;
+}
+
+.selected-text::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    border: 7px solid transparent;
+    border-color: black transparent transparent transparent;
+}
+
+.selected-text.active::after {
+    top: 8px;
+    border-color: transparent transparent black transparent;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.select-options {
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+}
+
+.custom-select-option {
+    list-style-type: none;
+    padding: 6px 20px;
+    background: #F3F3F3;
+    cursor: pointer;
+    text-align: start;
+}
+
+.custom-select-option:hover {
+    background-color: #cecece;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.InputFile-parent {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 7px;
+}
+
+.InputFile-file-upload {
+    text-align: center;
+    border: 1.5px solid black;
+    padding: 1.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.InputFile-file-upload p {
+    font-size: 0.87rem;
+    margin-top: 10px;
+    color: #bbcada;
+}
+
+.InputFile-file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}

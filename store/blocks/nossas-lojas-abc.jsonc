@@ -1,0 +1,197 @@
+{
+    "store.custom#nossas-lojas-abc": {
+      "blocks": [
+        "flex-layout.row#nossas-lojas-abc-banner", 
+        "flex-layout.row#nossas-lojas-abc-bloco",
+       
+        "flex-layout.row#nossas-lojas-abc-bloco6"
+      
+      ]
+    },
+
+    "flex-layout.row#nossas-lojas-abc-banner":{
+      "children": [ "flex-layout.col#nossas-lojas-abc-banner-1","flex-layout.col#nossas-lojas-abc-banner-2"],
+      "props":{
+        "blockClass": "nossas-lojas-banner"
+      }
+    },
+
+    "flex-layout.col#nossas-lojas-abc-banner-1":{
+      "children": ["rich-text#nossas-lojas-abc-banner-title"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#nossas-lojas-abc-banner-2":{
+      "children": ["rich-text#nossas-lojas-banner-abc-subtitle"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-subtitle"
+      }
+
+    },
+
+    "rich-text#nossas-lojas-abc-banner-title": {
+      "props": {
+        "text": "## SANTO ANDRÉ - ABC"
+      }
+    },
+
+    "rich-text#nossas-lojas-banner-abc-subtitle": {
+      "props": {
+        "text": "# Avenida Portugal, 702"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-abc-bloco": {
+      "children": ["flex-layout.row#nnossas-lojas-abc-bloco1", "flex-layout.row#nnossas-lojas-abc-bloco2"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-abc-bloco1": {
+      "children": ["image#nossas-lojas-abc", "flex-layout.col#text-nossas-abc-lojas"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-abc-lojas": {
+      "children": [
+        "rich-text#nossas-lojas-abc-title", 
+        "rich-text#nossas-lojas-abc-end",
+        "rich-text#nossas-lojas-abc-end-cont",
+        "rich-text#nossas-lojas-abc-end-cep",
+       
+        "rich-text#nossas-lojas-abc-end-como-chegar",
+       
+
+        "rich-text#nossas-lojas-abc-whatsapp",
+        "rich-text#nossas-lojas-abc-0-800",
+        "rich-text#nossas-lojas-abc-email"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-abc-title": {
+      "props": {
+        "text": "####  SANTO ANDRÉ - ABC",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-abc-end": {
+      "props": {
+        "text": "Avenida Portugal, 702",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-abc-end-cont": {
+      "props": {
+        "text": "Centro - Santo André",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-abc-end-cep": {
+      "props": {
+        "text": "CEP: 09040-001",
+        "blockClass": "cep"
+      }
+    },
+   
+
+    "rich-text#nossas-lojas-abc-end-como-chegar": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20ABC%20-%20Av.%20Portugal,%20702%20-%20Centro,%20Santo%20Andr%C3%83%C2%A9%20-%20SP,%2009040-001/@-23.6618927,-46.53538,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce43289241c93f:0x3ed29fb039d81533!2m2!1d-46.5331913!2d-23.6618976)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+   
+
+    "rich-text#nossas-lojas-abc-whatsapp": {
+      "props": {
+        "text": "[(11) 4438-6166](https://whts.co/ninjasom-abc)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-abc-0-800": {
+      "props": {
+        "text": "(11) 4438-6166",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-abc-email": {
+      "props": {
+        "text": "vendasabc@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas-abc": {
+      "props": {
+        "src": "/arquivos/loja-santo-andre.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-abc-bloco2": {
+      "children": ["rich-text#textopinheiros"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+   
+
+    "rich-text#textoabc": {
+        "props": {
+      
+          "text": "",
+        
+          "blockClass": "fonte-nossas-lojas-internas"
+        }
+      },
+    
+
+
+    
+
+
+
+    
+    "flex-layout.row#nossas-lojas-abc-bloco6":{
+
+      "children": [ "flex-layout.col#lojas-bloco6"],
+      "props":{
+        "blockClass": "sobre-nos-nossas-lojas"
+      }
+    },
+
+    "flex-layout.col#lojas-bloco6":{
+
+        "children": [ "rich-text#sobre-nos-nossas-lojas-titulo","rich-text#sobre-nos-nossas-lojas-texto"]
+    },
+
+
+    "rich-text#sobre-nos-nossas-lojas-titulo": {
+        "props": {
+          "text": "## SOBRE NÓS"
+        }
+      },
+
+    "rich-text#sobre-nos-nossas-lojas-texto": {
+        "props": {
+          "text": "Hoje a Ninja Som tem uma posição de destaque no mercado brasileiro de áudio profissional e instrumentos musicais no papel como revendedora das melhores marcas nacionais e importadas, trabalhamos com as melhores marcas do meio musical, como, AKG, AMPHENOL, ÁUDIO-TÉCNICA, BEHRINGER, BOSS, BSA, CASIO, CICLOTRON, CRAFTER, CROWN, CSR, D.A.S ÁUDIO, DBX, FENDER, FOCUSRITE, FRAHM, GIANNINI, GOPE, JBL, KORG, KRK, LABGRUPPEN, LESON, MACKIE, MARSHALL, METEORO, NAGANO, NEUTRIK, NEXT PRO, NOVATION, NXA, RCF, REAN BY NEUTRIK, REFERENCE, RMV, ROLAND, SAMSON, SENNHEISER,SHURE, SOUNDCAST, SOUNDCRAFT, STANER, STAY, SUPERLUX, TAGIMA, TASCAM, TSI, UPSAI, VOX, WHIRLWIND, WLS, YAMAHA, YOGA, ZOOM. Disponibilizamos atendimento especial a Instituições de ensino, Igrejas, Órgãos Governamentais, Militares, Agremiações esportivas e Músicos."
+        }
+      }
+
+
+
+
+  }

@@ -1,0 +1,3713 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#compre-por-departamento",
+      "menu-item#category-audio-profissional",
+      "menu-item#category-instrumentos",
+      "menu-item#category-home",
+      "menu-item#category-nossas-lojas"
+    ]
+  },
+  "menu-item#category-audio-profissional": {
+    "props": {
+      "id": "menu-item-category-audio-profissional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional",
+        "noFollow": false,
+        "tagTitle": "Áudio",
+        "text": "Áudio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-audio-profissional"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-audio-profissional": {
+    "props": {
+      "width": "100%"
+    
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-audio-profissional"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-audio-profissional": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "bloco-compre-por-departamento-audio-megamenu"
+    },
+    "children": [
+      
+      "flex-layout.col#menu-audio-profissional-1",
+      "flex-layout.col#menu-audio-profissional-2",
+      "flex-layout.col#menu-audio-profissional-3",
+      "flex-layout.col#menu-audio-profissional-4",
+      "flex-layout.col#menu-audio-profissional-5"
+
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.col#category-audio": {
+    "children": [
+     "vtex.menu@2.x:menu#category-audio"
+    ]
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#category-audio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+   
+      "menu-item#category-audio",
+      "menu-item#category-audio-acessorios",
+      "menu-item#category-audio-alto-falantes",
+      "menu-item#category-audio-amplificadores",
+      "menu-item#category-audio-caixas-acusticas",
+      "menu-item#category-audio-directbox",
+      "menu-item#category-audio-energia",
+      "menu-item#category-audio-equipamentos-dj",
+      "menu-item#category-audio-fones-de-ouvido",
+      "menu-item#category-audio-mesas-de-som",
+      "menu-item#category-audio-microfones",
+      "menu-item#category-audio-monitores-sem-fio",
+      "menu-item#category-audio-phantom-power",
+      "menu-item#category-audio-processadores-de-sinal"
+    ]
+  },
+
+
+  
+  "flex-layout.col#category-menu-estudio": {
+    "children": [
+     "vtex.menu@2.x:menu#category-menu-estudio"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-menu-estudio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-principal-estudio",
+      "menu-item#category-estudio-acessorios",
+      "menu-item#category-estudio-controladores",
+      "menu-item#category-estudio-conversores-de-audio",
+      "menu-item#category-estudio-fones-de-ouvido",
+      "menu-item#category-estudio-gravadores",
+      "menu-item#category-estudio-interfaces-de-audio",
+      "menu-item#category-estudio-mesas-de-som",
+      "menu-item#category-estudio-microfones",
+      "menu-item#category-estudio-mixer-de-video",
+      "menu-item#category-estudio-monitores",
+      "menu-item#category-estudio-pre-amplificadores",
+      "menu-item#category-estudio-software-e-plugins",
+      "menu-item#category-estudio-subwoofers",
+      "menu-item#category-estudio-vara-de-boom"
+    ]
+  },
+
+  "flex-layout.col#category-menu-home-theater": {
+    "children": [
+     "vtex.menu@2.x:menu#category-home-theater"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-home-theater": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-principal-home-theater",
+      "menu-item#category-theater-acessorios",
+      "menu-item#category-theater-amplificadores",
+      "menu-item#category-theater-blu-ray",
+      "menu-item#category-theater-caixas-acusticas",
+      "menu-item#category-theater-energia",
+      "menu-item#category-theater-lift",
+      "menu-item#category-theater-projetores",
+      "menu-item#category-theater-receivers",
+      "menu-item#category-theater-setorizadores",
+      "menu-item#category-theater-sistema-home-theater",
+      "menu-item#category-theater-com-portatil",
+      "menu-item#category-theater-soundbar",
+      "menu-item#category-theater-telas-de-protecao",
+      "menu-item#category-theater-toca-discos"
+
+    ]
+  },
+
+  "menu-item#category-principal-home-theater": {
+    "props": {
+      "id": "menu-item-principal-home-theater",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater",
+        "noFollow": false,
+        "tagTitle": "Home Theater",
+        "text": "Home Theater"
+      }
+    }
+  },
+
+  "menu-item#category-theater-acessorios": {
+    "props": {
+      "id": "menu-item-theater-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+  "menu-item#category-theater-amplificadores": {
+    "props": {
+      "id": "menu-item-theater-amplificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/amplificadores",
+        "noFollow": false,
+        "tagTitle": "Amplificadores",
+        "text": "Amplificadores"
+      }
+    }
+  },
+
+
+  "menu-item#category-theater-blu-ray": {
+    "props": {
+      "id": "menu-item-category-theater-blu-ray",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/blue-ray",
+        "noFollow": false,
+        "tagTitle": "Blue ray / DVD",
+        "text": "Blue ray / DVD"
+      }
+    }
+  },
+
+  "menu-item#category-theater-caixas-acusticas": {
+    "props": {
+      "id": "menu-item-theater-caixas-acusticas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/caixas-acusticas",
+        "noFollow": false,
+        "tagTitle": "Caixas Acústicas",
+        "text": "Caixas Acústicas"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-energia": {
+    "props": {
+      "id": "menu-item-theater-energia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/energia",
+        "noFollow": false,
+        "tagTitle": "Energia",
+        "text": "Energia"
+      }
+    }
+  },
+
+
+  "menu-item#category-theater-lift": {
+    "props": {
+      "id": "menu-item-theater-lift",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/lift",
+        "noFollow": false,
+        "tagTitle": "Lift",
+        "text": "Lift"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-projetores": {
+    "props": {
+      "id": "menu-item-theater-projetores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/projetores",
+        "noFollow": false,
+        "tagTitle": "Projetores",
+        "text": "Projetores"
+      }
+    }
+  },
+
+  "menu-item#category-theater-receivers": {
+    "props": {
+      "id": "menu-item-theater-receivers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/receivers",
+        "noFollow": false,
+        "tagTitle": "Receivers",
+        "text": "Receivers"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-setorizadores": {
+    "props": {
+      "id": "menu-item-theater-setorizadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/setorizadores",
+        "noFollow": false,
+        "tagTitle": "Setorizadores",
+        "text": "Setorizadores"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-sistema-home-theater": {
+    "props": {
+      "id": "menu-item-theater-setorizadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/conjunto--home-theater",
+        "noFollow": false,
+        "tagTitle": "Sistema de Home Theater",
+        "text": "Sistema de Home Theater"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-com-portatil": {
+    "props": {
+      "id": "menu-item-theater-setorizadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Som portátil",
+        "text": "Som portátil"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-soundbar": {
+    "props": {
+      "id": "menu-item-theater-setorizadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/soundbar",
+        "noFollow": false,
+        "tagTitle": "Soundbar",
+        "text": "Soundbar"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-telas-de-protecao": {
+    "props": {
+      "id": "menu-item-theater-telas-de-protecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/telas-de-projecao",
+        "noFollow": false,
+        "tagTitle": "Telas de projeção",
+        "text": "Telas de projeção"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-theater-toca-discos": {
+    "props": {
+      "id": "menu-item-theater-toca-discos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater/toca-discos",
+        "noFollow": false,
+        "tagTitle": "Toca discos",
+        "text": "Toca discos"
+      }
+    }
+  },
+
+
+
+
+
+
+  "menu-item#category-audio": {
+    "props": {
+      "id": "menu-item-category-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional",
+        "noFollow": false,
+        "tagTitle": "Áudio Profissional",
+        "text": "Áudio Profissional"
+      }
+    }
+  },
+  "menu-item#category-audio-acessorios": {
+    "props": {
+      "id": "menu-item-category-audio-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#category-audio-alto-falantes": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/alto-falantes",
+        "noFollow": false,
+        "tagTitle": "Alto Falantes",
+        "text": "Alto Falantes"
+      }
+    }
+  },
+
+  "menu-item#category-audio-amplificadores": {
+    "props": {
+      "id": "menu-item-category-audio-amplificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/amplificadores",
+        "noFollow": false,
+        "tagTitle": "Amplificadores",
+        "text": "Amplificadores"
+      }
+    }
+  },
+
+  "menu-item#category-audio-caixas-acusticas": {
+    "props": {
+      "id": "menu-item-category-audio-caixas-acusticas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/caixas-acusticas",
+        "noFollow": false,
+        "tagTitle": "Caixas Acústicas",
+        "text": "Caixas Acústicas"
+      }
+    }
+  },
+
+
+  
+  "menu-item#category-audio-directbox": {
+    "props": {
+      "id": "menu-item-category-audio-directbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/direct-box-di",
+        "noFollow": false,
+        "tagTitle": "Direct box DI",
+        "text": "Direct box DI"
+      }
+    }
+  },
+
+
+  "menu-item#category-audio-energia": {
+    "props": {
+      "id": "menu-item-category-audio-energia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/energia",
+        "noFollow": false,
+        "tagTitle": "Energia",
+        "text": "Energia"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-audio-equipamentos-dj": {
+    "props": {
+      "id": "menu-item-category-audio-equipamentos-dj",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/equipamentos-dj",
+        "noFollow": false,
+        "tagTitle": "Equipamentos DJ",
+        "text": "Equipamentos DJ"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-audio-fones-de-ouvido": {
+    "props": {
+      "id": "menu-item-category-audio-fones-de-ouvido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/fones-de-ouvido",
+        "noFollow": false,
+        "tagTitle": "Fones de ouvido",
+        "text": "Fones de ouvido"
+      }
+    }
+  },
+
+
+  "menu-item#category-audio-mesas-de-som": {
+    "props": {
+      "id": "menu-item-category-audio-mesas-de-som",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/mesas-de-som",
+        "noFollow": false,
+        "tagTitle": "Mesas de som",
+        "text": "Mesas de som"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-audio-microfones": {
+    "props": {
+      "id": "menu-item-category-audio-microfones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/microfones",
+        "noFollow": false,
+        "tagTitle": "Microfones",
+        "text": "Microfones"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-audio-monitores-sem-fio": {
+    "props": {
+      "id": "menu-item-category-audio-monitores-sem-fio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/monitores-sem-fio",
+        "noFollow": false,
+        "tagTitle": "Monitores sem fio",
+        "text": "Monitores sem fio"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-audio-phantom-power": {
+    "props": {
+      "id": "menu-item-category-audio-phantom-power",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/phantom-power",
+        "noFollow": false,
+        "tagTitle": "Phantom power",
+        "text": "Phantom power"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-audio-processadores-de-sinal": {
+    "props": {
+      "id": "menu-item-category-audio-phantom-power",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/processadores-de-sinal",
+        "noFollow": false,
+        "tagTitle": "Processadores de sinal",
+        "text": "Processadores de sinal"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.col#category-menu-som-ambiente": {
+    "children": [
+     "vtex.menu@2.x:menu#category-som-ambiente"
+    ]
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#category-som-ambiente": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-principal-som-ambiente",
+      "menu-item#category-principal-som-auto-falantes",
+      "menu-item#category-principal-som-ambiente-amplificadores",
+      "menu-item#category-principal-som-ambiente-base-de-microfones",
+      "menu-item#category-principal-som-ambiente-cabos",
+      "menu-item#category-principal-som-ambiente-caixas-acusticas",
+      "menu-item#category-principal-som-ambiente-cornetas",
+      "menu-item#category-principal-som-ambiente-megafones",
+      "menu-item#category-principal-som-ambiente-microfones",
+      "menu-item#category-principal-som-ambiente-potenciometros",
+      "menu-item#category-principal-som-ambiente-pre-amplificadores",
+      "menu-item#category-principal-som-ambiente-seletores",
+      "menu-item#category-principal-som-ambiente-suportes",
+      "menu-item#category-principal-som-transformadores"
+      
+
+    ]
+  },
+  "menu-item#category-principal-som-ambiente": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente",
+        "noFollow": false,
+        "tagTitle": "Som ambiente",
+        "text": "Som ambiente"
+      }
+    }
+  },
+
+
+  "menu-item#category-principal-som-auto-falantes": {
+    "props": {
+      "id": "menu-item-principal-som-auto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional/alto-falantes",
+        "noFollow": false,
+        "tagTitle": "Auto falantes",
+        "text": "Auto falantes"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-principal-som-ambiente-amplificadores": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-amplificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/amplificadores",
+        "noFollow": false,
+        "tagTitle": "Amplificadores",
+        "text": "Amplificadores"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-principal-som-ambiente-base-de-microfones": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-base-de-microfones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/bases-de-microfones",
+        "noFollow": false,
+        "tagTitle": "Base de microfones",
+        "text": "Base de microfones"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-principal-som-ambiente-cabos": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-cabos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/cabos-de-audio",
+        "noFollow": false,
+        "tagTitle": "Cabos",
+        "text": "Cabos"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-principal-som-ambiente-caixas-acusticas": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-acusticas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/caixas-acusticas",
+        "noFollow": false,
+        "tagTitle": "Caixas Acústicas",
+        "text": "Caixas Acústicas"
+      }
+    }
+  },
+
+
+  "menu-item#category-principal-som-ambiente-cornetas": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-cornetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/cornetas",
+        "noFollow": false,
+        "tagTitle": "Cornetas",
+        "text": "Cornetas"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-principal-som-ambiente-megafones": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-megafones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/megafones",
+        "noFollow": false,
+        "tagTitle": "Megafones",
+        "text": "Megafones"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-principal-som-ambiente-microfones": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-microfones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/microfones",
+        "noFollow": false,
+        "tagTitle": "Microfones",
+        "text": "Microfones"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-principal-som-ambiente-potenciometros": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-potenciometros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/potenciometros",
+        "noFollow": false,
+        "tagTitle": "Potenciômetros",
+        "text": "Potenciômetros"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#category-principal-som-ambiente-pre-amplificadores": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-pre-amplificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/pre-amplificadores",
+        "noFollow": false,
+        "tagTitle": "Pré-amplificadores",
+        "text": "Pré-amplificadores"
+      }
+    }
+  },
+
+
+
+
+
+  "menu-item#category-principal-som-ambiente-seletores": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-pre-seletores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/seletores",
+        "noFollow": false,
+        "tagTitle": "Seletores",
+        "text": "Seletores"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-principal-som-ambiente-suportes": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-suportes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/suportes",
+        "noFollow": false,
+        "tagTitle": "Suportes",
+        "text": "Suportes"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-principal-som-transformadores": {
+    "props": {
+      "id": "menu-item-principal-som-ambiente-transformadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente/transformadores",
+        "noFollow": false,
+        "tagTitle": "Transformadores",
+        "text": "Transformadores"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-instrumentos": {
+    "props": {
+      "id": "menu-item-category-instrumentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/instrumentos?_q=instrumentos&map=ft",
+        "noFollow": false,
+        "tagTitle": "Instrumentos",
+        "text": "Instrumentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-instrumentos"
+    ]
+  },
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "vtex.menu@2.x:submenu#category-instrumentos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "bloco-compre-por-departamento-audio-megamenu"
+    },
+
+    "children": [
+     
+      "vtex.menu@2.x:menu#category-instrumentos-profissional"
+    ]
+  },
+
+
+
+
+
+  "vtex.menu@2.x:menu#category-instrumentos-profissional": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "bloco-compre-por-departamento-audio-megamenu"
+    },
+    "children": [
+      "flex-layout.col#menu-instrumentos-1",
+      "flex-layout.col#menu-instrumentos-2",
+      "flex-layout.col#menu-instrumentos-3",
+      "flex-layout.col#menu-instrumentos-4",
+      "flex-layout.col#menu-instrumentos-5"
+    ]
+  },
+
+
+   "flex-layout.col#category-instrumentos-1": {
+    "children": [
+     "vtex.menu@2.x:menu#category-instrumentos"
+    ]
+  },
+
+
+
+
+
+  "flex-layout.col#category-instrumentos-2": {
+    "children": [
+      "flex-layout.col#category-instrumentos-2-cont"
+    ]
+  },
+
+
+
+  "flex-layout.col#category-instrumentos-2-cont" :{
+    "children": [
+      "vtex.menu@2.x:menu#category-instrumentos-2"
+    
+     ]
+
+  },
+
+
+
+
+
+  "vtex.menu@2.x:menu#category-instrumentos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+   
+      "menu-item#category-instrumentos-cordas",
+      "menu-item#category-instrumentos-cordas-acessorios",
+      "menu-item#category-instrumentos-cordas-amplificadores",
+      "menu-item#category-instrumentos-cordas-baixoloes",
+      "menu-item#category-instrumentos-cordas-bandolins",
+      "menu-item#category-instrumentos-cordas-banjos",
+      "menu-item#category-instrumentos-cordas-cavaquinhoa",
+      "menu-item#category-instrumentos-cordas-contrabaixos",
+      "menu-item#category-instrumentos-cordas-guitarras",
+      "menu-item#category-instrumentos-cordas-interfaces",
+      "menu-item#category-instrumentos-cordas-pedais",
+      "menu-item#category-instrumentos-cordas-pedaleiras",
+      "menu-item#category-instrumentos-cordas-ukuleles",
+      "menu-item#category-instrumentos-cordas-viola-de-arco",
+      "menu-item#category-instrumentos-cordas-violas",
+      "menu-item#category-instrumentos-cordas-violinos",
+      "menu-item#category-instrumentos-cordas-violoes",
+      "menu-item#category-instrumentos-cordas-violoncelos"
+    ]
+  },
+
+
+
+
+  "menu-item#category-instrumentos-cordas": {
+    "props": {
+      "id": "menu-item-category-cordas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas",
+        "noFollow": false,
+        "tagTitle": "Cordas",
+        "text": "Cordas"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-cordas-acessorios": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-cordas-amplificadores": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-amplificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/amplificadores",
+        "noFollow": false,
+        "tagTitle": "Amplificadores",
+        "text": "Amplificadores"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-cordas-baixoloes": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-baixoloes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/baixoloes",
+        "noFollow": false,
+        "tagTitle": "Baixolões",
+        "text": "Baixolões"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-bandolins": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-bandolins",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/bandolins",
+        "noFollow": false,
+        "tagTitle": "Bandolins",
+        "text": "Bandolins"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-banjos": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-banjos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/banjos",
+        "noFollow": false,
+        "tagTitle": "Banjos",
+        "text": "Banjos"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-cordas-cavaquinhoa": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-cavaquinhoa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/bavaquinhos",
+        "noFollow": false,
+        "tagTitle": "Cavaquinhos",
+        "text": "Cavaquinhos"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-contrabaixos": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-contrabaixos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/contrabaixos",
+        "noFollow": false,
+        "tagTitle": "Contrabaixos",
+        "text": "Contrabaixos"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-instrumentos-cordas-guitarras": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-guitarras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/guitarras",
+        "noFollow": false,
+        "tagTitle": "Guitarras",
+        "text": "Guitarras"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-interfaces": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-interfaces",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/interfaces",
+        "noFollow": false,
+        "tagTitle": "Interfaces",
+        "text": "Interfaces"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-pedais": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-pedais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/pedais",
+        "noFollow": false,
+        "tagTitle": "Pedais",
+        "text": "Pedais"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-pedaleiras": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-pedaleiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/pedaleiras",
+        "noFollow": false,
+        "tagTitle": "Pedaleiras",
+        "text": "Pedaleiras"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-ukuleles": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-ukuleles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/ukuleles",
+        "noFollow": false,
+        "tagTitle": "Ukuleles",
+        "text": "Ukuleles"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-viola-de-arco": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-viola-de-arco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/violas-de-arco",
+        "noFollow": false,
+        "tagTitle": "Viola de arco",
+        "text": "Viola de arco"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-violas": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-violas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/violas",
+        "noFollow": false,
+        "tagTitle": "Violas",
+        "text": "Violas"
+      }
+    }
+  },
+
+
+
+
+  "menu-item#category-instrumentos-cordas-violinos": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-violinos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/violinos",
+        "noFollow": false,
+        "tagTitle": "Violinos",
+        "text": "Violinos"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-cordas-violoes": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-violoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/violoes",
+        "noFollow": false,
+        "tagTitle": "Violões",
+        "text": "Violões"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-cordas-violoncelos": {
+    "props": {
+      "id": "menu-item-category-instrumentos-cordas-violoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas/violoncelos",
+        "noFollow": false,
+        "tagTitle": "Violoncelos",
+        "text": "Violoncelos"
+      }
+    }
+  },
+
+
+
+
+  "vtex.menu@2.x:menu#category-instrumentos-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-percussao",
+      "menu-item#category-instrumentos-percussao-acessorios",
+      "menu-item#category-instrumentos-percussao-afuche",
+      "menu-item#category-instrumentos-percussao-agogo",
+      "menu-item#category-instrumentos-percussao-atabaque",
+      "menu-item#category-instrumentos-percussao-baterias",
+      "menu-item#category-instrumentos-percussao-bateron",
+      "menu-item#category-instrumentos-percussao-bloco-sonoro",
+      "menu-item#category-instrumentos-percussao-bongo",
+      "menu-item#category-instrumentos-percussao-cajon",
+      "menu-item#category-instrumentos-percussao-carrilhao",
+      "menu-item#category-instrumentos-percussao-caxixi",
+      "menu-item#category-instrumentos-percussao-conga",
+      "menu-item#category-instrumentos-percussao-cowbell",
+      "menu-item#category-instrumentos-percussao-cuica",
+      "menu-item#category-instrumentos-percussao-djembe",
+      "menu-item#category-instrumentos-percussao-ganza",
+      "menu-item#category-instrumentos-percussao-malacacheta",
+      "menu-item#category-instrumentos-percussao-maracas"
+    ]
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao": {
+    "props": {
+      "id": "menu-item-category-instrumentos-percussao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao",
+        "noFollow": false,
+        "tagTitle": "Percussão",
+        "text": "Percussão"
+      }
+    }
+  },
+  "menu-item#category-instrumentos-percussao-acessorios": {
+    "props": {
+      "id": "menu-item-category-percussao-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-afuche": {
+    "props": {
+      "id": "menu-item-category-percussao-afuche",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/afunche",
+        "noFollow": false,
+        "tagTitle": "Afunchê",
+        "text": "Afunchê"
+      }
+    }
+  },
+ 
+
+
+  "menu-item#category-instrumentos-percussao-agogo": {
+    "props": {
+      "id": "menu-item-category-percussao-agogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/agogo",
+        "noFollow": false,
+        "tagTitle": "Agogo",
+        "text": "Agogo"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-atabaque": {
+    "props": {
+      "id": "menu-item-category-percussao-atabaque",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/atabaque",
+        "noFollow": false,
+        "tagTitle": "Atabaque",
+        "text": "Atabaque"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-percussao-baterias": {
+    "props": {
+      "id": "menu-item-category-percussao-baterias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/baterias",
+        "noFollow": false,
+        "tagTitle": "Baterias",
+        "text": "Baterias"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-bateron": {
+    "props": {
+      "id": "menu-item-category-percussao-bateron",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/bateron",
+        "noFollow": false,
+        "tagTitle": "Bateron",
+        "text": "Bateron"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-bloco-sonoro": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-sonoro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/bloco-sonoro",
+        "noFollow": false,
+        "tagTitle": "Bloco Sonoro",
+        "text": "Bloco Sonoro"
+      }
+    }
+  },
+ 
+
+  "menu-item#category-instrumentos-percussao-bongo": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-bongo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/bongo",
+        "noFollow": false,
+        "tagTitle": "Bongo",
+        "text": "Bongo"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-cajon": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-cajon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/cajon",
+        "noFollow": false,
+        "tagTitle": "Cajon",
+        "text": "Cajon"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-carrilhao": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-carrilhao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/carrilhao",
+        "noFollow": false,
+        "tagTitle": "Carrilhão",
+        "text": "Carrilhão"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-caxixi": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-caxixi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/caxixi",
+        "noFollow": false,
+        "tagTitle": "Caxixi",
+        "text": "Caxixi"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-conga": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-conga",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/conga",
+        "noFollow": false,
+        "tagTitle": "Conga",
+        "text": "Conga"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-cowbell": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-cowbell",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/cowbell",
+        "noFollow": false,
+        "tagTitle": "cowbell",
+        "text": "cowbell"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-percussao-cuica": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-cuica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/cuica",
+        "noFollow": false,
+        "tagTitle": "cuica",
+        "text": "cuica"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-percussao-djembe": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-djembe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/djembe",
+        "noFollow": false,
+        "tagTitle": "djembe",
+        "text": "djembe"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-percussao-ganza": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-ganza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/ganza",
+        "noFollow": false,
+        "tagTitle": "ganza",
+        "text": "ganza"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-percussao-malacacheta": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-malacacheta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/malacacheta",
+        "noFollow": false,
+        "tagTitle": "malacacheta",
+        "text": "malacacheta"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-percussao-maracas": {
+    "props": {
+      "id": "menu-item-category-percussao-bloco-maracas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/maracas",
+        "noFollow": false,
+        "tagTitle": "maracas",
+        "text": "maracas"
+      }
+    }
+  },
+
+
+
+
+  "flex-layout.col#category-instrumentos-3": {
+    "children": [
+      "flex-layout.col#category-instrumentos-3-cont"
+    ]
+  },
+
+
+
+  "flex-layout.col#category-instrumentos-3-cont" :{
+    "children": [
+      "vtex.menu@2.x:menu#category-instrumentos-3"
+    
+     ]
+
+  },
+
+
+
+
+
+  "vtex.menu@2.x:menu#category-instrumentos-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-percussao-modulo",
+      "menu-item#category-instrumentos-percussao-ovinho",
+      "menu-item#category-instrumentos-percussao-pandeiro",
+      "menu-item#category-instrumentos-percussao-queixada",
+      "menu-item#category-instrumentos-percussao-rebolo",
+      "menu-item#category-instrumentos-percussao-reco-reco",
+      "menu-item#category-instrumentos-percussao-repinique",
+      "menu-item#category-instrumentos-percussao-repique",
+      "menu-item#category-instrumentos-percussao-surdo",
+      "menu-item#category-instrumentos-percussao-tamborim",
+      "menu-item#category-instrumentos-percussao-tantam",
+      "menu-item#category-instrumentos-percussao-tarol",
+      "menu-item#category-instrumentos-percussao-timba",
+      "menu-item#category-instrumentos-percussao-timbal",
+      "menu-item#category-instrumentos-percussao-timbales",
+      "menu-item#category-instrumentos-percussao-tiangulo",
+      "menu-item#category-instrumentos-percussao-washboard",
+      "menu-item#category-instrumentos-percussao-zabumba"
+    ]
+  },
+
+
+
+
+  "menu-item#category-instrumentos-percussao-modulo": {
+    "props": {
+      "id": "menu-item-category-percussao-modulo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/modulo",
+        "noFollow": false,
+        "tagTitle": "Módulo",
+        "text": "Módulo"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-ovinho": {
+    "props": {
+      "id": "menu-item-category-percussao-ovinho",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/ovinho",
+        "noFollow": false,
+        "tagTitle": "Ovinho",
+        "text": "Ovinho"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-pandeiro": {
+    "props": {
+      "id": "menu-item-category-percussao-pandeiro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/pandeiro",
+        "noFollow": false,
+        "tagTitle": "Pandeiro",
+        "text": "Pandeiro"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-queixada": {
+    "props": {
+      "id": "menu-item-category-percussao-queixada",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/pandeiro/queixada",
+        "noFollow": false,
+        "tagTitle": "Queixada",
+        "text": "Queixada"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-rebolo": {
+    "props": {
+      "id": "menu-item-category-percussao-rebolo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/rebolo",
+        "noFollow": false,
+        "tagTitle": "Rebolo",
+        "text": "Rebolo"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-reco-reco": {
+    "props": {
+      "id": "menu-item-category-percussao-reco-reco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/reco--reco",
+        "noFollow": false,
+        "tagTitle": "Reco reco",
+        "text": "Reco reco"
+      }
+    }
+  },
+
+
+  
+  "menu-item#category-instrumentos-percussao-repinique": {
+    "props": {
+      "id": "menu-item-category-percussao-repinique",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/repinique",
+        "noFollow": false,
+        "tagTitle": "Repinique",
+        "text": "Repinique"
+      }
+    }
+  },
+
+
+
+    
+  "menu-item#category-instrumentos-percussao-repique": {
+    "props": {
+      "id": "menu-item-category-percussao-repique",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/repique",
+        "noFollow": false,
+        "tagTitle": "Repique",
+        "text": "Repique"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-surdo": {
+    "props": {
+      "id": "menu-item-category-percussao-surdo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/surdo",
+        "noFollow": false,
+        "tagTitle": "Surdo",
+        "text": "Surdo"
+      }
+    }
+  },
+
+
+
+  
+  "menu-item#category-instrumentos-percussao-tamborim": {
+    "props": {
+      "id": "menu-item-category-percussao-tamborim",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/tamborim",
+        "noFollow": false,
+        "tagTitle": "tamborim",
+        "text": "tamborim"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-tantam": {
+    "props": {
+      "id": "menu-item-category-percussao-tantam",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/tantam",
+        "noFollow": false,
+        "tagTitle": "tantam",
+        "text": "tantam"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-tarol": {
+    "props": {
+      "id": "menu-item-category-percussao-tarol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/tarol",
+        "noFollow": false,
+        "tagTitle": "tarol",
+        "text": "tarol"
+      }
+    }
+  },
+
+
+
+  
+  "menu-item#category-instrumentos-percussao-timba": {
+    "props": {
+      "id": "menu-item-category-percussao-timba",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/timba",
+        "noFollow": false,
+        "tagTitle": "timba",
+        "text": "timba"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-timbal": {
+    "props": {
+      "id": "menu-item-category-percussao-timbal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/timbal",
+        "noFollow": false,
+        "tagTitle": "timbal",
+        "text": "timbal"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-timbales": {
+    "props": {
+      "id": "menu-item-category-percussao-timbales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/timbales",
+        "noFollow": false,
+        "tagTitle": "timbales",
+        "text": "timbales"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-instrumentos-percussao-tiangulo": {
+    "props": {
+      "id": "menu-item-category-percussao-tiangulo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/triangulo",
+        "noFollow": false,
+        "tagTitle": "triângulo",
+        "text": "triângulo"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-washboard": {
+    "props": {
+      "id": "menu-item-category-percussao-washboard",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/washboard",
+        "noFollow": false,
+        "tagTitle": "washboard",
+        "text": "washboard"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-percussao-zabumba": {
+    "props": {
+      "id": "menu-item-category-percussao-zabumba",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao/zabumba",
+        "noFollow": false,
+        "tagTitle": "zabumba",
+        "text": "zabumba"
+      }
+    }
+  },
+
+
+  "menu-item#category-estudio": {
+    "props": {
+      "id": "menu-item-category-estudio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Estúdio",
+        "text": "Estúdio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-estudio"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-estudio": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-estudio"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-estudio": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-estudio-acessorios",
+      "menu-item#category-estudio-controladores",
+      "menu-item#category-estudio-conversores-de-audio",
+      "menu-item#category-estudio-fones-de-ouvido",
+      "menu-item#category-estudio-gravadores",
+      "menu-item#category-estudio-interfaces-de-audio",
+      "menu-item#category-estudio-mesas-de-som",
+      "menu-item#category-estudio-microfones",
+      "menu-item#category-estudio-mixer-de-video",
+      "menu-item#category-estudio-monitores",
+      "menu-item#category-estudio-pre-amplificadores",
+      "menu-item#category-estudio-software-e-plugins",
+      "menu-item#category-estudio-subwoofers",
+      "menu-item#category-estudio-vara-de-boom"
+
+    ]
+  },
+
+
+  "menu-item#category-estudio-acessorios": {
+    "props": {
+      "id": "menu-item-category-estudio-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#category-estudio-controladores": {
+    "props": {
+      "id": "menu-item-category-estudio-controladores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/controladores",
+        "noFollow": false,
+        "tagTitle": "Controladores",
+        "text": "Controladores"
+      }
+    }
+  },
+  "menu-item#category-estudio-conversores-de-audio": {
+    "props": {
+      "id": "menu-item-category-estudio-conversores-de-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/conversores-de-audio",
+        "noFollow": false,
+        "tagTitle": "Conversores de áudio",
+        "text": "Conversores de áudio"
+      }
+    }
+  },
+
+  "menu-item#category-estudio-fones-de-ouvido": {
+    "props": {
+      "id": "menu-item-category-fones-de-ouvido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/fones-de-ouvido",
+        "noFollow": false,
+        "tagTitle": "Fones de ouvido",
+        "text": "Fones de ouvido"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-estudio-gravadores": {
+    "props": {
+      "id": "menu-item-category-estudio-gravadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/gravadores",
+        "noFollow": false,
+        "tagTitle": "Gravadores",
+        "text": "Gravadores"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-estudio-interfaces-de-audio": {
+    "props": {
+      "id": "menu-item-category-estudio-interfaces-de-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/interfaces-de-audio",
+        "noFollow": false,
+        "tagTitle": "Interfaces de áudio",
+        "text": "Interfaces de áudio"
+      }
+    }
+  },
+
+
+  "menu-item#category-estudio-mesas-de-som": {
+    "props": {
+      "id": "menu-item-category-estudio-mesas-de-som",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/mesas-de-som",
+        "noFollow": false,
+        "tagTitle": "Mesas de som",
+        "text": "Mesas de som"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-estudio-microfones": {
+    "props": {
+      "id": "menu-item-category-estudio-microfones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/microfones",
+        "noFollow": false,
+        "tagTitle": "Microfones",
+        "text": "Microfones"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-estudio-mixer-de-video": {
+    "props": {
+      "id": "menu-item-category-mixer-de-video",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/mixers-de-videos",
+        "noFollow": false,
+        "tagTitle": "Mixers de vídeos",
+        "text": "Mixers de vídeos"
+      }
+    }
+  },
+
+
+  
+  "menu-item#category-estudio-monitores": {
+    "props": {
+      "id": "menu-item-category-estudio-monitores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/monitores",
+        "noFollow": false,
+        "tagTitle": "Monitores",
+        "text": "Monitores"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-estudio-pre-amplificadores": {
+    "props": {
+      "id": "menu-item-category-estudio-pre-amplificadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/pre-amplificadores",
+        "noFollow": false,
+        "tagTitle": "Pré amplificadores",
+        "text": "Pré amplificadores"
+      }
+    }
+  },
+
+
+  "menu-item#category-estudio-software-e-plugins": {
+    "props": {
+      "id": "menu-item-category-estudio-software-e-plugins",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/softwares-e-plugins",
+        "noFollow": false,
+        "tagTitle": "Softwares e plugins",
+        "text": "Softwares e plugins"
+      }
+    }
+  },
+
+
+  "menu-item#category-estudio-subwoofers": {
+    "props": {
+      "id": "menu-item-category-estudio-subwoofers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/subwoofers",
+        "noFollow": false,
+        "tagTitle": "Subwoofers",
+        "text": "Subwoofers"
+      }
+    }
+  },
+
+
+  "menu-item#category-estudio-vara-de-boom": {
+    "props": {
+      "id": "menu-item-category-vara-de-boom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio/cara-de-boom",
+        "noFollow": false,
+        "tagTitle": "Vara de boom",
+        "text": "Vara de boom"
+      }
+    }
+  },
+
+
+  "menu-item#category-video": {
+    "props": {
+      "id": "menu-item-category-video",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Vídeo",
+        "text": "Vídeo"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-video"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-video": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-video"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-video": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-video-video"
+    ]
+  },
+  "menu-item#category-video-video": {
+    "props": {
+      "id": "menu-item-category-video-video",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Vídeo",
+        "text": "Vídeo"
+      }
+    }
+  },
+
+
+
+
+
+
+
+
+  
+  "flex-layout.col#category-instrumentos-4": {
+    "children": [
+      "flex-layout.col#category-instrumentos-4-cont"
+    ]
+  },
+
+
+
+  "flex-layout.col#category-instrumentos-4-cont" :{
+    "children": [
+      "vtex.menu@2.x:menu#category-instrumentos-4"
+    
+     ]
+
+  },
+
+
+
+
+
+  "vtex.menu@2.x:menu#category-instrumentos-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-instrumentos-sopro",
+      "menu-item#category-instrumentos-sopro-acessorios",
+      "menu-item#category-instrumentos-sopro-bombardinos",
+      "menu-item#category-instrumentos-sopro-clarinetas",
+      "menu-item#category-instrumentos-sopro-escaletas",
+      "menu-item#category-instrumentos-sopro-flautas",
+      "menu-item#category-instrumentos-sopro-gaitas",
+      "menu-item#category-instrumentos-sopro-kazdos",
+      "menu-item#category-instrumentos-sopro-saxofones",
+      "menu-item#category-instrumentos-sopro-trombones",
+      "menu-item#category-instrumentos-sopro-trompetes"
+
+    ]
+  },
+
+
+  "menu-item#category-instrumentos-sopro": {
+    "props": {
+      "id": "menu-item-category-sopro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro",
+        "noFollow": false,
+        "tagTitle": "Sopro",
+        "text": "Sopro"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-sopro-acessorios": {
+    "props": {
+      "id": "menu-item-category-sopro-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-sopro-bombardinos": {
+    "props": {
+      "id": "menu-item-category-sopro-bombardinos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/bombardinos",
+        "noFollow": false,
+        "tagTitle": "bombardinos",
+        "text": "bombardinos"
+      }
+    }
+  },
+ 
+
+  "menu-item#category-instrumentos-sopro-clarinetas": {
+    "props": {
+      "id": "menu-item-category-sopro-clarinetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/clarinetas",
+        "noFollow": false,
+        "tagTitle": "clarinetas",
+        "text": "clarinetas"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-sopro-escaletas": {
+    "props": {
+      "id": "menu-item-category-sopro-escaletas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/escaletas",
+        "noFollow": false,
+        "tagTitle": "escaletas",
+        "text": "escaletas"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-sopro-flautas": {
+    "props": {
+      "id": "menu-item-category-sopro-flautas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/flautas",
+        "noFollow": false,
+        "tagTitle": "flautas",
+        "text": "flautas"
+      }
+    }
+  },
+
+
+  
+  "menu-item#category-instrumentos-sopro-gaitas": {
+    "props": {
+      "id": "menu-item-category-sopro-gaitas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/gaitas",
+        "noFollow": false,
+        "tagTitle": "gaitas",
+        "text": "gaitas"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-sopro-kazdos": {
+    "props": {
+      "id": "menu-item-category-sopro-kazdos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/kazdos",
+        "noFollow": false,
+        "tagTitle": "kazdos",
+        "text": "kazdos"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-sopro-saxofones": {
+    "props": {
+      "id": "menu-item-category-sopro-saxofones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/saxofones",
+        "noFollow": false,
+        "tagTitle": "saxofones",
+        "text": "saxofones"
+      }
+    }
+  },
+
+
+  "menu-item#category-instrumentos-sopro-trombones": {
+    "props": {
+      "id": "menu-item-category-sopro-trombones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro/trombones",
+        "noFollow": false,
+        "tagTitle": "trombones",
+        "text": "trombones"
+      }
+    }
+  },
+
+  "menu-item#category-instrumentos-sopro-trompetes":{
+  "props": {
+    "id": "menu-item-category-sopro-trompetes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/sopro/trompetes",
+      "noFollow": false,
+      "tagTitle": "trompetes",
+      "text": "trompetes"
+    }
+  }
+},
+
+
+
+
+
+ 
+"flex-layout.col#category-instrumentos-5": {
+  "children": [
+    "flex-layout.col#category-instrumentos-5-cont"
+  ]
+},
+
+
+
+"flex-layout.col#category-instrumentos-5-cont" :{
+  "children": [
+    "vtex.menu@2.x:menu#category-instrumentos-5"
+  
+   ]
+
+},
+
+
+
+
+
+"vtex.menu@2.x:menu#category-instrumentos-5": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#category-instrumentos-teclas",
+    "menu-item#category-instrumentos-teclas-acessorios",
+    "menu-item#category-instrumentos-teclas-acordeons",
+    "menu-item#category-instrumentos-teclas-amplificadores",
+    "menu-item#category-instrumentos-teclas-controladores",
+    "menu-item#category-instrumentos-teclas-pianos",
+    "menu-item#category-instrumentos-teclas-sintetizadores",
+    "menu-item#category-instrumentos-teclados"
+
+  ]
+},
+
+
+"menu-item#category-instrumentos-teclas": {
+  "props": {
+    "id": "menu-item-category-teclas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas",
+      "noFollow": false,
+      "tagTitle": "Teclas",
+      "text": "Teclas"
+    }
+  }
+},
+
+
+
+"menu-item#category-instrumentos-teclas-acessorios": {
+  "props": {
+    "id": "menu-item-category-teclas-acessorios",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/acessorios",
+      "noFollow": false,
+      "tagTitle": "Acessórios",
+      "text": "Acessórios"
+    }
+  }
+},
+
+
+"menu-item#category-instrumentos-teclas-acordeons": {
+  "props": {
+    "id": "menu-item-category-teclas-acordeons",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/acordeons",
+      "noFollow": false,
+      "tagTitle": "acordeons",
+      "text": "acordeons"
+    }
+  }
+},
+
+
+"menu-item#category-instrumentos-teclas-amplificadores": {
+  "props": {
+    "id": "menu-item-category-teclas-amplificadores",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/amplificadores",
+      "noFollow": false,
+      "tagTitle": "amplificadores",
+      "text": "amplificadores"
+    }
+  }
+},
+
+"menu-item#category-instrumentos-teclas-controladores": {
+  "props": {
+    "id": "menu-item-category-teclas-controladores",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/controladores",
+      "noFollow": false,
+      "tagTitle": "controladores",
+      "text": "controladores"
+    }
+  }
+},
+
+
+"menu-item#category-instrumentos-teclas-pianos": {
+  "props": {
+    "id": "menu-item-category-teclas-pianos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/pianos",
+      "noFollow": false,
+      "tagTitle": "pianos",
+      "text": "pianos"
+    }
+  }
+},
+
+
+
+
+"menu-item#category-instrumentos-teclas-sintetizadores": {
+  "props": {
+    "id": "menu-item-category-teclas-sintetizadores",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/sintetizadores",
+      "noFollow": false,
+      "tagTitle": "sintetizadores",
+      "text": "sintetizadores"
+    }
+  }
+},
+
+
+"menu-item#category-instrumentos-teclados": {
+  "props": {
+    "id": "menu-item-category-teclas-teclados",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/teclas/teclado-musical",
+      "noFollow": false,
+      "tagTitle": "teclados",
+      "text": "teclados"
+    }
+  }
+},
+
+
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home-promocoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocoes",
+        "noFollow": false,
+        "tagTitle": "Promoções",
+        "text": "Promoções"
+      }
+    }
+  },
+
+  "menu-item#category-nossas-lojas": {
+    "props": {
+      "id": "menu-item-category-nossas-lojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas",
+        "noFollow": false,
+        "tagTitle": "Nossas Lojas",
+        "text": "Nossas Lojas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lojas"]
+  },
+
+  "vtex.menu@2.x:submenu#lojas": {
+    "children": [
+      "vtex.menu@2.x:menu#submenulojas"
+      
+    ]
+  },
+  "vtex.menu@2.x:menu#submenulojas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "bloco-nossas-lojas-megamenu"
+    },
+    "children": [
+      "menu-item#nossas-lojas-matriz",
+      "menu-item#nossas-lojas-santa-efigenia",
+      "menu-item#nossas-lojas-ninja-pro-audio",
+      "menu-item#nossas-lojas-pinheiros",
+       "menu-item#nossas-lojas-santo-andre",
+      "menu-item#nossas-lojas-campinas",
+      "menu-item#nossas-lojas-poa",
+      "menu-item#nossas-lojas-sj",
+      "menu-item#nossas-lojas-bh",
+      "menu-item#nossas-lojas-nssom",
+      "menu-item#nossas-lojas-santos"
+    ]
+  },
+
+
+
+  "menu-item#compre-por-departamento": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Compre por departamento",
+        "text": "Compre por departamento"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#compre-por-departamento"
+    ]
+  },
+  "vtex.menu@2.x:submenu#compre-por-departamento": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-compre-por-departamento"
+    ]
+  },
+  "flex-layout.row#menu-compre-por-departamento": {
+    "children": [
+      "flex-layout.col#category-audio",   
+      "flex-layout.col#category-instrumentos-1",
+      "flex-layout.col#category-menu-estudio",
+      "flex-layout.col#category-menu-home-theater",
+      "flex-layout.col#category-instrumentos-2",
+      "flex-layout.col#category-instrumentos-3",
+      "flex-layout.col#category-menu-som-ambiente",
+      "flex-layout.col#category-instrumentos-4",
+      "flex-layout.col#category-instrumentos-5"
+    ],
+    "props": {
+      "blockClass": "bloco-compre-por-departamento-megamenu"
+    }
+  },
+  "flex-layout.col#menu-audio-profissional-1": {
+    "children": [
+      "image#audio-megamennu-profissional"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-1"
+    }
+  },
+  "flex-layout.col#menu-audio-profissional-2": {
+    "children": [
+      "image#som-megamennu-ambiente"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-2"
+    }
+  },
+  "flex-layout.col#menu-audio-profissional-3": {
+    "children": [
+      "image#home-megamennu-theater"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-3"
+    }
+  },
+
+  "flex-layout.col#menu-audio-profissional-4": {
+    "children": [
+      "image#banner-megamennu-estudio"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-4"
+    }
+  },
+
+
+  "flex-layout.col#menu-audio-profissional-5": {
+    "children": [
+      "image#banner-megamennu-estudio-produto"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-5"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  "flex-layout.col#menu-instrumentos-1": {
+    "children": [
+      "image#cordas-megamennu"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-1"
+    }
+  },
+  "flex-layout.col#menu-instrumentos-2": {
+    "children": [
+      "image#percussao-megamennu"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-2"
+    }
+  },
+  "flex-layout.col#menu-instrumentos-3": {
+    "children": [
+      "image#sopro-megamennu"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-3"
+    }
+  },
+
+  "flex-layout.col#menu-instrumentos-4": {
+    "children": [
+      "image#teclas-megamennu"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-4"
+    }
+  },
+
+
+  "flex-layout.col#menu-instrumentos-5": {
+    "children": [
+      "image#banner-megamennu-instrumentos"
+    ],
+    "props": {
+      "blockClass": "bloco-image-megamenu-5"
+    }
+  },
+
+
+
+
+  "image#audio-megamennu-profissional": {
+    "props": {
+      "src": "/arquivos/banner-audio-profissional.png",
+      "link": "/audio-profissional"
+     
+    }
+  },
+
+
+  "image#som-megamennu-ambiente": {
+    "props": {
+      "src": "/arquivos/banner-som-ambiente.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+
+  "image#home-megamennu-theater": {
+    "props": {
+      "src": "/arquivos/banner-home-theater.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+
+  "image#banner-megamennu-estudio": {
+    "props": {
+      "src": "/arquivos/banner-estudio.png",
+      "link": "/audio-profissional"
+     
+    }
+  },
+
+  "image#banner-megamennu-produto": {
+    "props": {
+      "src": "/arquivos/banner-linha-akg.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+  "image#banner-megamennu-estudio-produto": {
+    "props": {
+      "src": "/arquivos/banner-linha-akg.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+
+
+
+  "image#cordas-megamennu": {
+    "props": {
+      "src": "/arquivos/megamenu-io-cordas.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+  "image#percussao-megamennu": {
+    "props": {
+      "src": "/arquivos/megamenu-io-percussao.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+  "image#sopro-megamennu": {
+    "props": {
+      "src": "/arquivos/megamenu-io-sopro.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+  "image#teclas-megamennu": {
+    "props": {
+      "src": "/arquivos/megamenu-io-teclas.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+  "image#banner-megamennu-instrumentos": {
+    "props": {
+      "src": "/arquivos/vtex-io-genos-yamaha.png",
+      "link": "/audio-profissional"
+    
+    }
+  },
+
+
+
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  },
+
+  "menu-item#category-geral-audio": {
+    "props": {
+      "id": "menu-item-category-geral-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional",
+        "noFollow": false,
+        "tagTitle": "Áudio Profissional",
+        "text": "Áudio Profissional"
+      }
+    }
+  },
+
+
+  "menu-item#category-geral-cordas": {
+    "props": {
+      "id": "menu-item-category-geral-cordas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas",
+        "noFollow": false,
+        "tagTitle": "Cordas",
+        "text": "Cordas"
+      }
+    }
+  },
+
+  "menu-item#category-geral-estudio": {
+    "props": {
+      "id": "menu-item-category-geral-estudio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio",
+        "noFollow": false,
+        "tagTitle": "Estúdio",
+        "text": "Estúdio"
+      }
+    }
+  },
+
+  "menu-item#category-geral-home-theater": {
+    "props": {
+      "id": "menu-item-category-geral-estudio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home-theater",
+        "noFollow": false,
+        "tagTitle": "Home Theater",
+        "text": "Home Theater"
+      }
+    }
+  },
+
+  "menu-item#category-geral-home-percussao": {
+    "props": {
+      "id": "menu-item-category-geral-percussao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao",
+        "noFollow": false,
+        "tagTitle": "Percussão",
+        "text": "Percussão"
+      }
+    }
+  },
+
+  "menu-item#category-geral-home-som-ambiente": {
+    "props": {
+      "id": "menu-item-category-geral-som-ambiente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/som-ambiente",
+        "noFollow": false,
+        "tagTitle": "Som ambiente",
+        "text": "Som ambiente"
+      }
+    }
+  },
+
+
+  "menu-item#category-geral-home-sopro": {
+    "props": {
+      "id": "menu-item-category-geral-sopro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro",
+        "noFollow": false,
+        "tagTitle": "Sopro",
+        "text": "Sopro"
+      }
+    }
+  },
+
+
+  "menu-item#category-geral-home-teclas": {
+    "props": {
+      "id": "menu-item-category-geral-teclas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/teclas",
+        "noFollow": false,
+        "tagTitle": "Teclas",
+        "text": "Teclas"
+      }
+    }
+  },
+
+
+  
+  "menu-item#category-geral-home-video": {
+    "props": {
+      "id": "menu-item-category-geral-video",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/video/video?_q=video&fuzzy=0&initialMap=ft&initialQuery=video&map=category-2,ft&operator=and",
+        "noFollow": false,
+        "tagTitle": "Vídeo",
+        "text": "Vídeo"
+      }
+    }
+  },
+
+
+  "menu-item#category-geral-home-promocoes": {
+    "props": {
+      "id": "menu-item-category-geral-promocoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocoes",
+        "noFollow": false,
+        "tagTitle": "Promoções",
+        "text": "Promoções"
+      }
+    }
+  },
+
+
+  "menu-item#category-principal-estudio": {
+    "props": {
+      "id": "menu-item-category-estudio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio",
+        "noFollow": false,
+        "tagTitle": "Estúdio",
+        "text": "Estúdio"
+      }
+    }
+  },
+
+
+
+  "menu-item#audiovertodosmobile": {
+    "props": {
+      "id": "menu-item-category-audio-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-profissional",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+  
+  "menu-item#cordasvertodosmobile": {
+    "props": {
+      "id": "menu-item-category-cordas-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cordas",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+  "menu-item#percussaosvertodosmobile": {
+    "props": {
+      "id": "menu-item-category-percussao-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/percussao",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+  "menu-item#soprosvertodosmobile": {
+    "props": {
+      "id": "menu-item-category-sopro-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sopro",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+  "menu-item#teclasvertodosmobile": {
+    "props": {
+      "id": "menu-item-category-teclas-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/teclas",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+  "menu-item#estudiovertodosmobile": {
+    "props": {
+      "id": "menu-item-category-estudio-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estudio",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+
+
+  "menu-item#nossas-lojas-matriz": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-som-e-instrumentos-rua-santa-efigenia-sp ",
+        "noFollow": false,
+        "tagTitle": "Matriz - SP",
+        "text": "Matriz - SP"
+      }
+    }
+  },
+
+  "menu-item#nossas-lojas-santa-efigenia": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-som-e-instrumentos-rua-santa-efigenia-sp ",
+        "noFollow": false,
+        "tagTitle": "Santa Ifigênia - SP",
+        "text": "Santa Ifigênia - SP"
+      }
+    }
+  },
+
+  "menu-item#nossas-lojas-ninja-pro-audio": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-som-profissional-instrumentos-musicais-sp",
+        "noFollow": false,
+        "tagTitle": "Ninja Pro Áudio",
+        "text": "Ninja Pro Áudio"
+      }
+    }
+  },
+
+  "menu-item#nossas-lojas-pinheiros": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-instrumentos-musicais-teodoro-sampaio-sp",
+        "noFollow": false,
+        "tagTitle": "Pinheiros",
+        "text": "Pinheiros"
+      }
+    }
+  },
+
+
+  "menu-item#nossas-lojas-santo-andre": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-instrumentos-musicais-e-audio-no-abc-sp",
+        "noFollow": false,
+        "tagTitle": "Santo André - ABC",
+        "text": "Santo André - ABC"
+      }
+    }
+  },
+
+
+  "menu-item#nossas-lojas-campinas": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-instrumentos-e-audio-pro-em-campinas-sp",
+        "noFollow": false,
+        "tagTitle": "Campinas",
+        "text": "Campinas"
+      }
+    }
+  },
+
+
+  "menu-item#nossas-lojas-poa": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-instrumentos-musicais-e-som-em-poa",
+        "noFollow": false,
+        "tagTitle": "Porto Alegre",
+        "text": "Porto Alegre"
+      }
+    }
+  },
+
+
+  "menu-item#nossas-lojas-bh": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-instrumentos-musicais-e-som-em-belo-horizonte",
+        "noFollow": false,
+        "tagTitle": "Belo Horizonte",
+        "text": "Belo Horizonte"
+      }
+    }
+  },
+
+
+
+  "menu-item#nossas-lojas-nssom": {
+    "props": {
+      "id": "menu-item-category-audio-nssom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/ns-som",
+        "noFollow": false,
+        "tagTitle": "NS Som",
+        "text": "NS Som"
+      }
+    }
+  },
+
+
+
+  "menu-item#nossas-lojas-santos": {
+    "props": {
+      "id": "menu-item-category-audio-santos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/santos",
+        "noFollow": false,
+        "tagTitle": "Santos",
+        "text": "Santos"
+      }
+    }
+  },
+
+  "menu-item#nossas-lojas-sj": {
+    "props": {
+      "id": "menu-item-category-audio-alto-falantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossas-lojas/loja-de-instrumentos-musicais-e-som-em-sao-jose-dos-campos",
+        "noFollow": false,
+        "tagTitle": "São José dos Campos",
+        "text": "São José dos Campos"
+      }
+    }
+  }
+
+
+}

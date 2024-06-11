@@ -1,0 +1,134 @@
+{
+    "store.custom#quem-somos": {
+      "blocks": ["flex-layout.row#quem-somos-banner","flex-layout.row#quem-somos","flex-layout.row#missao-visao-valores"]
+    },
+
+
+
+    "flex-layout.row#quem-somos-banner":{
+      "children": [ "flex-layout.col#quem-somos-banner-1","flex-layout.col#quem-somos-banner-2"],
+      "props":{
+        "blockClass": "quem-somos-banner"
+      }
+    },
+
+    "flex-layout.col#quem-somos-banner-1":{
+      "children": ["rich-text#quem-somos-banner-title"],
+      "props":{
+        "blockClass": "quem-somos-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#quem-somos-banner-2":{
+      "children": ["rich-text#quem-somos-banner-subtitle"],
+      "props":{
+        "blockClass": "quem-somos-banner-subtitle"
+      }
+
+    },
+
+
+    "rich-text#quem-somos-banner-title": {
+      "props": {
+        "text": "## NINJA SOM"
+      }
+    },
+
+    "rich-text#quem-somos-banner-subtitle": {
+      "props": {
+        "text": "# QUEM SOMOS"
+      }
+    },
+
+    "flex-layout.row#quem-somos": {
+      "children": ["image#quem-somos", "flex-layout.col#text-quem-somos"],
+      "props":{
+        "blockClass": "quem-somos-topo"
+      }
+    },
+    "flex-layout.col#text-quem-somos": {
+      "children": ["rich-text#quem-somos-title", "rich-text#quem-somos-content"],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#quem-somos-title": {
+      "props": {
+        "text": "## INSTITUCIONAL"
+      }
+    },
+    "rich-text#quem-somos-content": {
+      "props": {
+        "text": "A Ninja Som é uma das maiores revendedoras do segmento de áudio profissional e instrumentos musicais do Brasil. A empresa foi fundada no ano de 2003 no bairro da Santa Ifigênia, maior centro comercial de produtos eletrônicos da América Latina. Desde então um planejamento estratégico de longo prazo que busca trabalhar com transparência com o cliente, foi o segredo para a expansão da empresa. \n \n Assim, a empresa posteriormente abriu mais lojas na rua Santa Ifigênia, rua dos Andradas, rua Teodoro Sampaio, mais recentemente na cidade de Campinas interior de São Paulo e no estado de Santa Catarina, totalizando sete filiais. \n \n Inicialmente, a Ninja Som iniciou suas vendas comercializando itens de áudio profissional e áudio automotivo, passando a trabalhar posteriormente com instrumentos musicais. Em 2013, a Ninja Som passou ser uma importadora oficial da marca italiana RCF no Brasil, uma das fabricantes de equipamentos de áudio mais renomadas do mundo. Algum tempo depois, em 2015, a Ninja Som em parceria com uma grande fabricante de equipamentos de áudio, criou a sua própria marca, a SoundCast, que busca atender o alto padrão de qualidade exigido pelo mercado com ótimo custo- benefício."
+      }
+    },
+    "image#quem-somos": {
+      "props": {
+        "src": "/arquivos/quem-somos-pagina.png",
+        "maxHeight": "600px"
+      }
+    },
+    "flex-layout.row#missao-visao-valores":{
+    "children": ["flex-layout.col#missao-visao-valores"],
+    "props":{
+      "blockClass": "missao-visao-valores"
+    }
+  },
+
+  "flex-layout.col#missao-visao-valores":{
+    "children": [
+      "rich-text#missao-title",
+      "rich-text#missao-text",
+      "rich-text#visao-title",
+      "rich-text#visao-text",
+      "rich-text#valores-title",
+      "rich-text#valores-text"
+    ],
+    "props":{
+      "blockClass": "missao-visao-valores"
+    }
+
+  },
+
+
+  "rich-text#missao-title": {
+    "props": {
+      "text": "### MISSÃO"
+    }
+  },
+
+  "rich-text#missao-text": {
+    "props": {
+      "text": "A Ninja Som busca investir para disponibilizar ao consumidor os melhores equipamentos do mercado em termos de performance e confiabilidade. Além disso, nossa meta é oferecer o melhor serviço em termos de atendimento em todos estágios da venda visando a satisfação de todos clientes. A parceria duradoura com os maiores fabricantes e distribuidores do mercado atestam a seriedade e competência da empresa que busca fortalecer o mercado da música prosperando junto com nossos parceiros e clientes."
+    }
+  },
+
+
+  "rich-text#visao-title": {
+    "props": {
+      "text": "### VISÃO"
+    }
+  },
+
+  "rich-text#visao-text": {
+    "props": {
+      "text": "Trabalhamos com as principais marcas de equipamentos de som profissional, sendo nacionais e importados. Buscamos oferecer os melhores produtos com excelência no atendimento visando ser uma referência no mercado de áudio profissional e instrumentos musicais. Todos os produtos são vendidos com Nota Fiscal e garantia oficial do fabricante, distribuidor ou autorizada. A Ninja som, conta com um time especializado em equipamentos técnicos e que estão prontos para atender os clientes da melhor maneira possível."
+    }
+  },
+
+  
+  "rich-text#valores-title": {
+    "props": {
+      "text": "### VALORES"
+    }
+  },
+
+  "rich-text#valores-text": {
+    "props": {
+      "text": "Trabalhamos com normas rígidas de controle fiscais, garantindo a qualidade e origem dos produtos. Além de autorizados e atestados por todas as instituições financeiras, estamos sincronizados com a receita federal para emissão online de notas fiscais eletrônicas. Todos esses procedimentos confirmam a segurança das operações. Trabalhamos de acordo com o Código de Defesa do Consumidor."
+    }
+  }
+
+
+  }

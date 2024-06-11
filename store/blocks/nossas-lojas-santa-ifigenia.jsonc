@@ -1,0 +1,197 @@
+{
+    "store.custom#nossas-lojas-st-ifigenia": {
+      "blocks": [
+        "flex-layout.row#nossas-lojas-st-ifigenia-banner", 
+        "flex-layout.row#nossas-lojas-st-ifigenia-bloco",
+       
+        "flex-layout.row#nossas-lojas-st-ifigenia-bloco6"
+      
+      ]
+    },
+
+    "flex-layout.row#nossas-lojas-st-ifigenia-banner":{
+      "children": [ "flex-layout.col#nossas-lojas-st-ifigenia-banner-1","flex-layout.col#nossas-lojas-st-ifigenia-banner-2"],
+      "props":{
+        "blockClass": "nossas-lojas-banner"
+      }
+    },
+
+    "flex-layout.col#nossas-lojas-st-ifigenia-banner-1":{
+      "children": ["rich-text#nossas-lojas-st-ifigenia-banner-title"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#nossas-lojas-st-ifigenia-banner-2":{
+      "children": ["rich-text#nossas-lojas-banner-st-ifigenia-subtitle"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-subtitle"
+      }
+
+    },
+
+    "rich-text#nossas-lojas-st-ifigenia-banner-title": {
+      "props": {
+        "text": "## SANTA IFIGÊNIA - SP"
+      }
+    },
+
+    "rich-text#nossas-lojas-banner-st-ifigenia-subtitle": {
+      "props": {
+        "text": "# Rua Santa Ifigênia, 226"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-st-ifigenia-bloco": {
+      "children": ["flex-layout.row#nnossas-lojas-st-ifigenia-bloco1", "flex-layout.row#nnossas-lojas-st-ifigenia-bloco2"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-st-ifigenia-bloco1": {
+      "children": ["image#nossas-lojas-st-ifigenia", "flex-layout.col#text-nossas-st-ifigenia-lojas"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-st-ifigenia-lojas": {
+      "children": [
+        "rich-text#nossas-lojas-st-ifigenia-title", 
+        "rich-text#nossas-lojas-st-ifigenia-end",
+        "rich-text#nossas-lojas-st-ifigenia-end-cont",
+        "rich-text#nossas-lojas-st-ifigenia-end-cep",
+       
+        "rich-text#nossas-lojas-st-ifigenia-end-como-chegar",
+       
+
+        "rich-text#nossas-lojas-st-ifigenia-whatsapp",
+        "rich-text#nossas-lojas-st-ifigenia-0-800",
+        "rich-text#nossas-lojas-st-ifigenia-email"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-st-ifigenia-title": {
+      "props": {
+        "text": "#### SANTA IFIGÊNIA - SP",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-st-ifigenia-end": {
+      "props": {
+        "text": "Rua Santa Ifigênia, 226",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-st-ifigenia-end-cont": {
+      "props": {
+        "text": "Santa Efigênia - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-st-ifigenia-end-cep": {
+      "props": {
+        "text": "CEP: 01207-000",
+        "blockClass": "cep"
+      }
+    },
+   
+
+    "rich-text#nossas-lojas-st-ifigenia-end-como-chegar": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com/maps/dir//Ninja%20Som%20Filial-SP%20-%20R.%20Santa%20Ifig%C3%83%C2%AAnia,%20226%20-%20Santa%20Ifig%C3%83%C2%AAnia,%20S%C3%83%C2%A3o%20Paulo%20-%20SP,%2001207-000/@-23.5395763,-46.6421265,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5910fc42c875:0x6d4691912c6b62d!2m2!1d-46.6381478!2d-23.5397539)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+   
+
+    "rich-text#nossas-lojas-st-ifigenia-whatsapp": {
+      "props": {
+        "text": "[(11) 3334-2444](https://whts.co/ninjasom-filial)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-st-ifigenia-0-800": {
+      "props": {
+        "text": "(11) 3334-2444",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-st-ifigenia-email": {
+      "props": {
+        "text": "filialsp@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas-st-ifigenia": {
+      "props": {
+        "src": "/arquivos/loja-sta-ifigenia.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-st-ifigenia-bloco2": {
+      "children": ["rich-text#textost-ifigenia"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+   
+
+    "rich-text#textost-ifigenia": {
+        "props": {
+      
+          "text": "",
+        
+          "blockClass": "fonte-nossas-lojas-internas"
+        }
+      },
+    
+
+
+    
+
+
+
+    
+    "flex-layout.row#nossas-lojas-st-ifigenia-bloco6":{
+
+      "children": [ "flex-layout.col#lojas-bloco6"],
+      "props":{
+        "blockClass": "sobre-nos-nossas-lojas"
+      }
+    },
+
+    "flex-layout.col#lojas-bloco6":{
+
+        "children": [ "rich-text#sobre-nos-nossas-lojas-titulo","rich-text#sobre-nos-nossas-lojas-texto"]
+    },
+
+
+    "rich-text#sobre-nos-nossas-lojas-titulo": {
+        "props": {
+          "text": "## SOBRE NÓS"
+        }
+      },
+
+    "rich-text#sobre-nos-nossas-lojas-texto": {
+        "props": {
+          "text": "Hoje a Ninja Som tem uma posição de destaque no mercado brasileiro de áudio profissional e instrumentos musicais no papel como revendedora das melhores marcas nacionais e importadas, trabalhamos com as melhores marcas do meio musical, como, AKG, AMPHENOL, ÁUDIO-TÉCNICA, BEHRINGER, BOSS, BSA, CASIO, CICLOTRON, CRAFTER, CROWN, CSR, D.A.S ÁUDIO, DBX, FENDER, FOCUSRITE, FRAHM, GIANNINI, GOPE, JBL, KORG, KRK, LABGRUPPEN, LESON, MACKIE, MARSHALL, METEORO, NAGANO, NEUTRIK, NEXT PRO, NOVATION, NXA, RCF, REAN BY NEUTRIK, REFERENCE, RMV, ROLAND, SAMSON, SENNHEISER,SHURE, SOUNDCAST, SOUNDCRAFT, STANER, STAY, SUPERLUX, TAGIMA, TASCAM, TSI, UPSAI, VOX, WHIRLWIND, WLS, YAMAHA, YOGA, ZOOM. Disponibilizamos atendimento especial a Instituições de ensino, Igrejas, Órgãos Governamentais, Militares, Agremiações esportivas e Músicos."
+        }
+      }
+
+
+
+
+  }

@@ -1,0 +1,204 @@
+{
+    "store.custom#nossas-lojas-matriz": {
+      "blocks": [
+        "flex-layout.row#nossas-lojas-matriz-banner", 
+        "flex-layout.row#nossas-lojas-matriz-bloco",   
+        "flex-layout.row#nossas-lojas-matriz-bloco6"
+      ]
+    },
+
+    "flex-layout.row#nossas-lojas-matriz-banner":{
+      "children": [ "flex-layout.col#nossas-lojas-matriz-banner-1","flex-layout.col#nossas-lojas-matriz-banner-2"],
+      "props":{
+        "blockClass": "nossas-lojas-banner"
+      }
+    },
+
+    "flex-layout.col#nossas-lojas-matriz-banner-1":{
+      "children": ["rich-text#nossas-lojas-matriz-banner-title"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-title"
+      }
+
+    },
+
+    "flex-layout.col#nossas-lojas-matriz-banner-2":{
+      "children": ["rich-text#nossas-lojas-banner-matriz-subtitle"],
+      "props":{
+        "blockClass": "nossas-lojas-banner-subtitle"
+      }
+
+    },
+
+    "rich-text#nossas-lojas-matriz-banner-title": {
+      "props": {
+        "text": "## MATRIZ"
+      }
+    },
+
+    "rich-text#nossas-lojas-banner-matriz-subtitle": {
+      "props": {
+        "text": "# RUA SANTA IFIGÊNIA, 562 - SP"
+      }
+    },
+
+    "flex-layout.row#nossas-lojas-matriz-bloco": {
+      "children": ["flex-layout.row#nnossas-lojas-matriz-bloco1", "flex-layout.row#nnossas-lojas-matriz-bloco2"],
+      "props":{
+        "blockClass": "nossas-lojas-bloco"
+      }
+    },
+
+    "flex-layout.row#nnossas-lojas-matriz-bloco1": {
+      "children": ["image#nossas-lojas-matriz", "flex-layout.col#text-nossas-matriz-lojas"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+    "flex-layout.col#text-nossas-matriz-lojas": {
+      "children": [
+        "rich-text#nossas-lojas-matriz-title", 
+        "rich-text#nossas-lojas-matriz-end",
+        "rich-text#nossas-lojas-matriz-end-cont",
+        "rich-text#nossas-lojas-matriz-end-cep",
+        "rich-text#nossas-lojas-matriz-end-telefone-loja",
+        "rich-text#nossas-lojas-matriz-end-como-chegar",
+        "rich-text#nossas-lojas-matriz-televendas-todo-brasil",
+        "rich-text#nossas-lojas-matriz-whatsapp",
+        "rich-text#nossas-lojas-matriz-0-800",
+        "rich-text#nossas-lojas-matriz-email"
+      
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#nossas-lojas-matriz-title": {
+      "props": {
+        "text": "#### MATRIZ - SP",
+        "blockClass": "titulo-loja"
+      }
+    },
+    "rich-text#nossas-lojas-matriz-end": {
+      "props": {
+        "text": "Rua Santa Ifigênia, 562",
+        "blockClass": "end-loja"
+      }
+    },
+    "rich-text#nossas-lojas-matriz-end-cont": {
+      "props": {
+        "text": "Santa Efigênia - São Paulo",
+        "blockClass": "end-bairro-loja"
+      }
+    },
+
+    "rich-text#nossas-lojas-matriz-end-cep": {
+      "props": {
+        "text": "CEP: 01207-000",
+        "blockClass": "cep"
+      }
+    },
+    "rich-text#nossas-lojas-matriz-end-telefone-loja": {
+      "props": {
+        "text": "(11) 3362-8000",
+        "blockClass": "telefone-fixo"
+      }
+    },
+
+    "rich-text#nossas-lojas-matriz-end-como-chegar": {
+      "props": {
+        "text": "[Como Chegar](https://www.google.com.br/maps/dir//Ninja%20Pr%C3%83%C2%B3%20%C3%83%C2%81udio%20-%20R.%20dos%20Andradas,%20n%C3%82%C2%B0%20392%20-%20Santa%20Ifig%C3%83%C2%AAnia,%20S%C3%83%C2%A3o%20Paulo%20-%20SP,%2001208-000/@-23.5369292,-46.64112,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce5972b2b40155:0x29c8abda6c582deb!2m2!1d-46.6389313!2d-23.5369341)",
+        "blockClass": "como-chegar-loja"
+      }
+    },
+   
+    "rich-text#nossas-lojas-matriz-televendas-todo-brasil": {
+      "props": {
+        "text": "TELEVENDAS - (TODO BRASIL)",
+        "blockClass": "titulo-televendas-nossas-lojas"
+      }
+    },
+
+    "rich-text#nossas-lojas-matriz-whatsapp": {
+      "props": {
+        "text": "[(11) 3224-2699](https://whts.co/ninja-tele-0800?)",
+        "blockClass": "nossas-lojas-whats"
+      }
+    },
+
+    "rich-text#nossas-lojas-matriz-0-800": {
+      "props": {
+        "text": "0800 777 2690",
+        "blockClass": "nossas-lojas-0800"
+      }
+    },
+
+    "rich-text#nossas-lojas-matriz-email": {
+      "props": {
+        "text": "vendas@ninjasom.com.br",
+        "blockClass": "nossas-lojas-email"
+      }
+    },
+
+    "image#nossas-lojas-matriz": {
+      "props": {
+        "src": "/arquivos/loja-matriz.png",
+        "maxHeight": "265px"
+      }
+    },
+
+
+    "flex-layout.row#nnossas-lojas-matriz-bloco2": {
+      "children": ["rich-text#textomatriz"],
+      "props":{
+        "blockClass": "nossas-lojas-topo"
+      }
+    },
+   
+
+    "rich-text#textomatriz": {
+        "props": {
+      
+          "text": "Esta unidade é a primeira Ninja Som e também nossa loja matriz. \n \n  Com mais de 350m² de loja, aqui você encontra todas nossas linhas de produtos no centro de São Paulo e vendedores especializados em diversos instrumentos musicais e áudio",
+        
+          "blockClass": "fonte-nossas-lojas-internas"
+        }
+      },
+    
+
+
+    
+
+
+
+    
+    "flex-layout.row#nossas-lojas-matriz-bloco6":{
+
+      "children": [ "flex-layout.col#lojas-bloco6"],
+      "props":{
+        "blockClass": "sobre-nos-nossas-lojas"
+      }
+    },
+
+    "flex-layout.col#lojas-bloco6":{
+
+        "children": [ "rich-text#sobre-nos-nossas-lojas-titulo","rich-text#sobre-nos-nossas-lojas-texto"]
+    },
+
+
+    "rich-text#sobre-nos-nossas-lojas-titulo": {
+        "props": {
+          "text": "## SOBRE NÓS"
+        }
+      },
+
+    "rich-text#sobre-nos-nossas-lojas-texto": {
+        "props": {
+          "text": "Hoje a Ninja Som tem uma posição de destaque no mercado brasileiro de áudio profissional e instrumentos musicais no papel como revendedora das melhores marcas nacionais e importadas, trabalhamos com as melhores marcas do meio musical, como, AKG, AMPHENOL, ÁUDIO-TÉCNICA, BEHRINGER, BOSS, BSA, CASIO, CICLOTRON, CRAFTER, CROWN, CSR, D.A.S ÁUDIO, DBX, FENDER, FOCUSRITE, FRAHM, GIANNINI, GOPE, JBL, KORG, KRK, LABGRUPPEN, LESON, MACKIE, MARSHALL, METEORO, NAGANO, NEUTRIK, NEXT PRO, NOVATION, NXA, RCF, REAN BY NEUTRIK, REFERENCE, RMV, ROLAND, SAMSON, SENNHEISER,SHURE, SOUNDCAST, SOUNDCRAFT, STANER, STAY, SUPERLUX, TAGIMA, TASCAM, TSI, UPSAI, VOX, WHIRLWIND, WLS, YAMAHA, YOGA, ZOOM. Disponibilizamos atendimento especial a Instituições de ensino, Igrejas, Órgãos Governamentais, Militares, Agremiações esportivas e Músicos."
+        }
+      }
+
+
+
+
+  }

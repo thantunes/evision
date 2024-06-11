@@ -1,0 +1,27 @@
+{
+    "store.custom#TemplateNossasLojas":{
+        "blocks":[]
+    },
+    "flex-layout.row#NossasLojasContainer":{
+        "props":{
+            "blockClass":"NossasLojasContainer"
+        },
+        "title":"Nossas Lojas",
+        "children":["flex-layout.col#NossasLojasContainer"]
+    },
+    "flex-layout.col#NossasLojasContainer":{
+        "props":{
+            "blockClass":"NossasLojasContainer"
+        },
+        "children":[
+            "image#NossasLojasBanner"
+        ]
+    },
+    "image#NossasLojasBanner":{
+        "props":{
+            "src":""
+        },
+        "title":"Banner"
+    }
+    
+}

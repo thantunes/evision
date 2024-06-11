@@ -1,0 +1,67 @@
+.Form-wwu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    width: 530px;
+    height: 677px;
+    padding: 40px;
+}
+
+.Form-wwu p {
+    color: #A3A3A3;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Filels input {
+    display: none;
+}
+
+.Filels {
+    display: flex;
+    padding: 8px 0px 232px 8px;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border: 0.5px solid #525252;
+}
+
+.Filels p {
+    color: #A3A3A3;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Form-wwu #Name {
+    display: flex;
+    padding: 0px 0px 16px 8px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid #525252;
+
+}
+
+.Form-wwu input[type="submit"] {
+    display: flex;
+    padding: 10px 26px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #010349;
+    background-color: white;
+    color: #010449;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

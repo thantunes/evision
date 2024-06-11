@@ -1,0 +1,47 @@
+{
+"flex-layout.row#newsletter":{
+    "children": ["flex-layout.col#newslettertext","flex-layout.col#newsletterform"],
+    "props": {
+      "blockClass": "bloco-nova-news"
+    }
+
+  },
+
+
+
+  "flex-layout.col#newslettertext":{
+    "children": ["rich-text#form-title"]
+  },
+
+
+  "rich-text#form-title": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "**NEWSLETTER** \n Cadastre-se e receba ofertas exclusivas:",
+      "blockClass": "texto-newsletter"
+    }
+  },
+
+
+  "newsletter-submit":{
+    "props": {
+      "submitButtonLabel":"CADASTRAR"
+    }
+  },
+
+
+  "flex-layout.col#newsletterform":{
+    "children": ["newsletter-form"]
+  },
+
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-hidden-field",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+  }
+}

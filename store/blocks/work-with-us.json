@@ -1,0 +1,72 @@
+{
+    "store.custom#trabalheconosco": {
+        "blocks": ["flex-layout.row#containerPageWWU"]
+    },
+    "flex-layout.row#containerPageWWU": {
+        "props": {
+            "blockClass": "containerWWU"
+        },
+        "children":["flex-layout.col#containerPageWWU"]
+    },
+    "flex-layout.col#containerPageWWU": {
+        "props": {
+            "blockClass": "containerWWU"
+        },
+        "children": [
+            "image#BannerPage",
+            "flex-layout.row#TrabalheConoscoF",
+            "flex-layout.row#TrabalheConoscoS"
+        ]
+    },
+    "image#BannerPage": {
+        "props": {
+            "src": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/a6f6507f-50a1-4331-919f-245ecf013fd6___50c1b99f7bb5dedaf3d9938e244a4859.png"
+        }
+    },
+    "flex-layout.row#TrabalheConoscoF": {
+        "props": {
+            "blockClass": "TrabalheConoscoF"
+        },
+        "children": [
+            "image#TrabalheConoscoF",
+            "rich-text#TrabalheConoscoF"
+        ]
+    },
+    "image#TrabalheConoscoF": {
+        "props": {
+            "src": "https://ninjasom.vtexassets.com/assets/vtex.file-manager-graphql/images/6a85efcd-bf87-4d43-bf2a-b383f36caa71___1016ed449c6fafd1f8f2739b249ca8e1.png"
+        }
+    },
+    "rich-text#TrabalheConoscoF": {
+        "props": {
+            "text": "PLaceholder",
+            "blockClass":"TrabalheConoscoF"
+        }
+    },
+    "flex-layout.row#TrabalheConoscoS": {
+        "props": {
+            "blockClass": "TrabalheConoscoS"
+        },
+        "children": [
+            "rich-text#TrabalheConoscoS",
+           
+           "iframe#formulariotrabalheconosco"
+
+        ]
+    },
+    "rich-text#TrabalheConoscoS": {
+        "props": {
+            "text": "PLaceholder",
+            "blockClass":"TrabalheConoscoS"
+        }
+    },
+
+    "iframe#formulariotrabalheconosco": {
+        "props": {
+          "src": "https://evision.com.br/trabalhe-conosco-ninja-som/",
+          "width": "450",
+          "height": "455"
+        }
+      }
+
+}

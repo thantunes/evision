@@ -1,0 +1,557 @@
+{
+  "store.custom#faq": {
+    "children": [
+   
+      "flex-layout.row#faq"
+    ],
+    "props": {
+      "blockClass": "perguntas-frequentes-page"
+    }
+  },
+
+  
+
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#faq"
+    ]
+  },
+
+  "flex-layout.col#faq": {
+    "children": [
+      "rich-text#faq",
+      "disclosure-layout-group#group"
+    ]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "## Dúvidas Frequentes"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth",
+      "disclosure-layout#fifth",
+      "disclosure-layout#sixth",
+      "disclosure-layout#seventh",
+      "disclosure-layout#eighth",
+      "disclosure-layout#ninth",
+      "disclosure-layout#tenth",
+      "disclosure-layout#eleventh",
+      "disclosure-layout#Twelfth",
+      "disclosure-layout#Thirteenth",
+      "disclosure-layout#fourteenth"
+    ]
+  },
+
+  "disclosure-layout#first": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "QUANTO TEMPO MEU PEDIDO PODE LEVAR PARA SER AUTORIZADO?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Para evitar que compras feitas sem sua autorização sejam debitadas incorretamente, todos os pedidos passam por um processo de análise antes da aprovação, este processo pode demorar até 48 horas. Após o término deste processo, você receberá um e-mail informando sobre a aprovação do pedido. Caso tenha dúvidas, pedimos que entre em contato com nosso atendimento através do email: atendimento@ninjasom.com.br"
+    }
+  },
+
+  "disclosure-layout#second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question2"]
+  },
+  "disclosure-content#second": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "COMO POSSO ACOMPANHAR O STATUS DO MEU PEDIDO?"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Após a confirmação de pedido aprovado pela instituição financeira, a Ninja Som lhe enviará três e-mails. O primeiro com a confirmação do pedido recebido, o segundo com a confirmação de pagamento, e o terceiro confirmando o envio junto a transportadora."
+    }
+  },
+
+
+  "disclosure-layout#third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question3"]
+  },
+  "disclosure-content#third": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "COMO ACOMPANHO O ENVIO DO MEU PEDIDO?"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "A Ninja Som enviará um e-mail com a confirmação do envio de sua compra e os dados de rastreio. Você poderá acompanhar seu pedido através desse código ou clicando diretamente no link do e-mail."
+    }
+  },
+
+
+
+
+
+
+  "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "QUAIS AS FORMAS DE PAGAMENTO?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Através de nosso site o pagamento pode ser efetuado através de boleto bancário, Pagseguro e cartão de crédito em até 10x sem juros com parcela mínima de R$ 30,00. Mais detalhes estão na sessão FORMAS DE PAGAMENTO."
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "disclosure-layout#fifth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+  },
+  "disclosure-trigger#fifth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question5"]
+  },
+  "disclosure-content#fifth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "QUANDO E COMO RECEBEREI MINHA NOTA FISCAL ELETRÔNICA (NF-E)?"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "A Nota Fiscal Eletrônica será enviada para seu email cadastrado assim que o pedido for faturado para entrega."
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  "disclosure-layout#sixth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#sixth", "disclosure-content#sixth"]
+  },
+  "disclosure-trigger#sixth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question6"]
+  },
+  "disclosure-content#sixth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer6"]
+  },
+  "rich-text#question6": {
+    "props": {
+      "text": "COMO POSSO UTILIZAR UM CUPOM DE DESCONTO?"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "Antes de fechar o seu pedido, insira o código no campo – CUPOM DE DESCONTO – no carrinho de compras. O valor do bônus aparecerá automaticamente no subtotal da compra."
+    }
+  },
+
+
+
+
+
+
+  "disclosure-layout#seventh": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#seventh", "disclosure-content#seventh"]
+  },
+  "disclosure-trigger#seventh": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question7"]
+  },
+  "disclosure-content#seventh": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer7"]
+  },
+  "rich-text#question7": {
+    "props": {
+      "text": "A NINJA SOM ENTREGA EM TODO BRASIL?"
+    }
+  },
+  "rich-text#answer7": {
+    "props": {
+      "text": "A loja online da Ninja Som entrega para todo o Brasil. Verifique o valor do frete e prazo de entrega no ato da compra. Detalhes das entregas estão na sessão PRAZO E ENTREGA."
+    }
+  },
+
+
+ 
+
+
+  "disclosure-layout#eighth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#eighth", "disclosure-content#eighth"]
+  },
+  "disclosure-trigger#eighth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question8"]
+  },
+  "disclosure-content#eighth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer8"]
+  },
+  "rich-text#question8": {
+    "props": {
+      "text": "POSSO RETIRAR MEU PEDIDO NA LOJA FÍSICA?"
+    }
+  },
+  "rich-text#answer8": {
+    "props": {
+      "text": "Sim. A retirada pode ser realizada na Rua Santa Ifigênia, 562 – São Paulo/SP – de forma gratuita."
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  "disclosure-layout#ninth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#ninth", "disclosure-content#ninth"]
+  },
+  "disclosure-trigger#ninth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question9"]
+  },
+  "disclosure-content#ninth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer9"]
+  },
+  "rich-text#question9": {
+    "props": {
+      "text": "POSSO ALTERAR O ENDEREÇO DE ENTREGA?"
+    }
+  },
+  "rich-text#answer9": {
+    "props": {
+      "text": "Caso ainda não tenha finalizado a compra no site: no processo de fechamento do pedido, você pode alterar o seu endereço clicando em “editar”, logo abaixo ao endereço já cadastrado. Caso já tenha fechado sua compra no site: Entre em contato conosco clicando aqui, para que possamos te ajudar."
+    }
+  },
+
+
+
+
+
+
+
+
+  "disclosure-layout#tenth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#tenth", "disclosure-content#tenth"]
+  },
+  "disclosure-trigger#tenth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question10"]
+  },
+  "disclosure-content#tenth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer10"]
+  },
+  "rich-text#question10": {
+    "props": {
+      "text": "MEU PEDIDO ESTÁ ATRASADO. COMO PROCEDER?"
+    }
+  },
+  "rich-text#answer10": {
+    "props": {
+      "text": "Caso o período informado realmente esteja expirado, lembrando que o prazo de entrega se inicia após a data de confirmação do pagamento, favor entrar em contato conosco através do email: atendimento@ninjasom.com.br"
+    }
+  },
+
+
+
+
+ 
+
+  "disclosure-layout#eleventh": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#eleventh", "disclosure-content#eleventh"]
+  },
+  "disclosure-trigger#eleventh": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question11"]
+  },
+  "disclosure-content#eleventh": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer11"]
+  },
+  "rich-text#question11": {
+    "props": {
+      "text": "DESEJO REALIZAR UMA TROCA. COMO PROCEDER?"
+    }
+  },
+  "rich-text#answer11": {
+    "props": {
+      "text": "Abaixo estão as orientações em casos de trocas ou devoluções de produtos, sempre amparado pelo Código de Defesa do Consumidor. - O cliente deverá entrar em contato com nosso Serviço de Atendimento ao Cliente através do email: atendimento@ninjasom.com.br, para que o processo transcorra de maneira ágil e adequada; - O retorno do produto deverá ser feito por uma das empresas contratadas pela Ninja Som no mesmo endereço da entrega do pedido, ocasionalmente podemos solicitar que o produto seja enviado via Correios, em todos os casos os valores de postagens são de responsabilidade da Ninja Som; - O prazo para desistência da compra do produto é de até sete dias corridos, a contar da data do recebimento. O produto deverá ser encaminhado, com prévia autorização da Ninja Som, acompanhado de nota fiscal, embalagem original, sem violação do lacre original do fabricante, com o manual e todos os seus acessórios. Caso seja verificado indícios de mau uso ou a ausência de algum dos itens citados o produto será devolvido ao endereço de coleta, sem a restituição do valor. - Restituímos os valores pagos utilizando a mesma forma de pagamento escolhida no processo de compras; - Produtos adquiridos pelo site, não poderão ser trocados na loja física;"
+    }
+  },
+
+
+
+
+
+  "disclosure-layout#Twelfth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#Twelfth", "disclosure-content#Twelfth"]
+  },
+  "disclosure-trigger#Twelfth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question12"]
+  },
+  "disclosure-content#Twelfth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer12"]
+  },
+  "rich-text#question12": {
+    "props": {
+      "text": "O QUE FAZER SE SELECIONEI O ENDEREÇO DE ENTREGA ERRADO?"
+    }
+  },
+  "rich-text#answer12": {
+    "props": {
+      "text": "Caso o cliente selecione o endereço de entrega de forma equivocada, favor entrar em contato com o nosso Serviço de Atendimento ao Cliente imediatamente através do email: atendimento@ninjasom.com.br Nesse caso o valor do frete ficará por conta do cliente."
+  }
+},
+
+
+
+
+  "disclosure-layout#Thirteenth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#Thirteenth", "disclosure-content#Thirteenth"]
+  },
+  "disclosure-trigger#Thirteenth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question13"]
+  },
+  "disclosure-content#Thirteenth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer13"]
+  },
+  "rich-text#question13": {
+    "props": {
+      "text": "OBSERVEI QUE MEU PEDIDO CHEGOU COM A EMBALAGEM AVARIADA. COMO PROCEDER?"
+    }
+  },
+  "rich-text#answer13": {
+    "props": {
+      "text": "Recuse o recebimento e entre em contato com o nosso Serviço de Atendimento ao Cliente imediatamente através do email: atendimento@ninjasom.com.br"
+    }
+    },
+
+
+
+
+
+  "disclosure-layout#fourteenth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourteenth", "disclosure-content#fourteenth"]
+  },
+  "disclosure-trigger#fourteenth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question14"]
+  },
+  "disclosure-content#fourteenth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer14"]
+  },
+  "rich-text#question14": {
+    "props": {
+      "text": "O QUE FAZER SE O PRODUTO RECEBIDO ESTÁ EM DESACORDO COM O PEDIDO?"
+    }
+  },
+  "rich-text#answer14": {
+    "props": {
+      "text": "Recuse o recebimento e entre em contato com o nosso Serviço de Atendimento ao Cliente imediatamente através do email: atendimento@ninjasom.com.br"
+  }
+
+},
+
+
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}

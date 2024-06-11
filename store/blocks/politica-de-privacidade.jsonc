@@ -1,0 +1,39 @@
+{
+    "store.custom#politica-de-privacidade": {
+      "blocks": ["flex-layout.row#politica-de-privacidade"],
+      "props":{
+        "blockClass": "politica-de-privacidade"
+      }
+    },
+
+    "flex-layout.row#politica-de-privacidade":{
+
+      "children": [ "flex-layout.col#politica-de-privacidade"],
+      "props":{
+        "blockClass": "politica-de-privacidade-conteudo"
+      }
+    },
+
+    "flex-layout.col#politica-de-privacidade":{
+
+        "children": [ "rich-text#politica-de-privacidade-titulo","rich-text#politica-de-privacidade-texto"]
+    },
+
+ 
+
+    "rich-text#politica-de-privacidade-titulo": {
+        "props": {
+          "text": "## POLÍTICA DE PRIVACIDADE"
+        }
+      },
+
+
+ 
+
+    "rich-text#politica-de-privacidade-texto": {
+        "props": {
+          "text": "Durante o processo de compra você informará (em área restrita) somente os dados cadastrais de cobrança e entrega, são informações básicas para a nota fiscal, contato e envio da encomenda. Essas informações serão utilizadas apenas para o processamento de suas compras. E os seus dados cadastrais só poderão ser acessados e alterados por você mesmo, na área do cliente, mediante a informação de sua identificação. Com prévia autorização dos clientes, enviamos e-mails informando as promoções vigentes em nossa loja, porém você pode solicitar o não recebimento das ofertas. \n \n Ressaltamos que o lojista não terá acesso a dados sigilosos tais como números de cartões, frases secretas ou senhas. Esses dados, se necessários, conforme a opção de pagamento, serão solicitados e informados uma única vez e somente nos sites da administradora do cartão ou banco, em ambiente 100% seguro, e no exato momento do pagamento, e os mesmos não ficarão armazenados. \n \n A nossa loja é munida com o Certificado de Segurança Thawte, um dos certificados digitais mais modernos. Através dele, todas as informações transitadas pela internet são criptografadas. \n \n **Cookies** \n \n Esta é uma loja 100% segura e utiliza a tecnologia de Cookies apenas para proporcionar mais facilidade no momento de sua compra. O objetivo dos Cookies é customizar ao máximo sua navegação no site, permitindo maior facilidade e agilidade no processo de compras."
+        }
+      }
+
+}

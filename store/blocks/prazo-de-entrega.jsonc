@@ -1,0 +1,35 @@
+{
+    "store.custom#prazo-de-entrega": {
+      "blocks": ["flex-layout.row#prazo-de-entrega"],
+      "props":{
+        "blockClass": "prazo-de-entrega"
+      }
+    },
+
+    "flex-layout.row#prazo-de-entrega":{
+
+      "children": [ "flex-layout.col#prazo-de-entrega"],
+      "props":{
+        "blockClass": "prazo-de-entrega-conteudo"
+      }
+    },
+
+    "flex-layout.col#prazo-de-entrega":{
+
+        "children": [ "rich-text#prazo-de-entrega-titulo","rich-text#prazo-de-entrega-texto"]
+    },
+
+
+    "rich-text#prazo-de-entrega-titulo": {
+        "props": {
+          "text": "## PRAZO E ENTREGA"
+        }
+      },
+
+    "rich-text#prazo-de-entrega-texto": {
+        "props": {
+          "text": "O prazo de entrega informado em cada produto passa a valer a partir da confirmação do pagamento pela instituição financeira. Caso haja diferença entre os prazos de entrega de dois ou mais produtos do mesmo pedido, considerar o de maior prazo. Nossas entregas são realizadas por empresas contratadas: Correios, Fedex e Jamef Transportes, não havendo possibilidade de agendar horário para entrega, sempre serão feitas três tentativas de entrega, após isso o pedido voltará a Ninja Som e será cobrado um novo frete para a uma nova entrega. \n \n As entregas são realizadas de segunda à sexta-feira em horário comercial, e ocasionalmente aos sábados caso a entrega seja feita pelos Correios. A decisão da empresa do transporte será feita pela Ninja Som, com base nas dimensões e localidade. O recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que assinem o comprovante de recebimento da mercadoria."
+        }
+      }
+
+}

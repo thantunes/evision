@@ -1,0 +1,71 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/duvidas-frequentes"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+  "store.custom#formas-de-pagamento": {
+    "path": "/formas-de-pagamento"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#trocas-e-devolucoes": {
+    "path": "/trocas-e-devolucoes"
+  },
+  "store.custom#prazo-de-entrega": {
+    "path": "/prazo-de-entrega"
+  },
+  "store.custom#nossas-lojas": {
+    "path": "/nossas-lojas-old"
+  },
+  "store.custom#promocoes": {
+    "path": "/promocoes"
+  },
+  "store.custom#nossas-lojas-matriz": {
+    "path": "/nossas-lojas/loja-de-som-e-instrumentos-rua-santa-efigenia-sp"
+  },
+  "store.custom#nossas-lojas-st-ifigenia": {
+    "path": "/nossas-lojas/loja-de-som-e-instrumentos-filial-5-santa-ifigenia"
+  },
+  "store.custom#nossas-lojas-pro-audio": {
+    "path": "/nossas-lojas/loja-de-som-profissional-instrumentos-musicais-sp"
+  },
+  "store.custom#nossas-lojas-pinheiros": {
+    "path": "/nossas-lojas/loja-de-instrumentos-musicais-teodoro-sampaio-sp"
+  },
+  "store.custom#nossas-lojas-abc": {
+    "path": "/nossas-lojas/loja-de-instrumentos-musicais-e-audio-no-abc-sp"
+  },
+  "store.custom#nossas-lojas-campinas": {
+    "path": "/nossas-lojas/loja-de-instrumentos-e-audio-pro-em-campinas-sp"
+  },
+  "store.custom#nossas-lojas-poa": {
+    "path": "/nossas-lojas/loja-de-instrumentos-musicais-e-som-em-poa"
+  },
+  "store.custom#nossas-lojas-sjc": {
+    "path": "/nossas-lojas/loja-de-instrumentos-musicais-e-som-em-sao-jose-dos-campos"
+  },
+  "store.custom#nossas-lojas-bh": {
+    "path": "/nossas-lojas/loja-de-instrumentos-musicais-e-som-em-belo-horizonte"
+  },
+  "store.custom#Nossas-Lojas-New-Layout": {
+    "path": "/template/nossasLojas"
+  },
+  "store.custom#TemplateCadaLoja": {
+    "path": "/template/CadaLoja"
+  },
+  "store.custom#trabalheconosco": {
+    "path": "/trabalhe-conosco"
+  },
+  "store.custom#TemplateNossasLojas":{
+    "path":"/template/trabalhe-conosco"
+  }
+}
